@@ -1,0 +1,4416 @@
+{
+    "recettes": [
+        {
+            "id": 1,
+            "title": "Bruschetta",
+            "description": "Entrée italienne classique avec tomates fraîches.",
+            "image": "https://tse1.mm.bing.net/th?id=OIP.kB6MjNgFuSo2Sp0HvBAFAwHaHa&pid=Api",
+            "preparation_time": 10,
+            "category": "entree",
+            "type": "italienne",
+            "ingredients": [
+                {
+                    "ingredient": "Pain ciabatta",
+                    "quantity": "1 baguette"
+                },
+                {
+                    "ingredient": "Tomates",
+                    "quantity": "4"
+                },
+                {
+                    "ingredient": "Basilic",
+                    "quantity": "10 feuilles"
+                },
+                {
+                    "ingredient": "Ail",
+                    "quantity": "2 gousses"
+                },
+                {
+                    "ingredient": "Huile d'olive",
+                    "quantity": "50 ml"
+                },
+                {
+                    "ingredient": "Sel",
+                    "quantity": "1 pincée"
+                },
+                {
+                    "ingredient": "Poivre",
+                    "quantity": "1 pincée"
+                }
+            ],
+            "steps": ["Couper les tomates en dés, ajouter du basilic et de l'ail haché.", "Mélanger avec de l'huile d'olive, du sel et du poivre.", "Garnir les tranches de pain grillé."],
+            "portions": "4 personnes",
+            "advice": "Utilisez des tomates bien mûres pour plus de saveur.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 2,
+            "title": "Caprese Salad",
+            "description": "Salade fraîche à base de mozzarella et tomates.",
+            "image": "https://tse2.mm.bing.net/th?id=OIP.o0jyhkYUXYYu5fxS8cmfpgHaHa&pid=Api",
+            "preparation_time": 5,
+            "category": "entree",
+            "type": "italienne",
+            "ingredients": [
+                {
+                    "ingredient": "Tomates",
+                    "quantity": "4"
+                },
+                {
+                    "ingredient": "Mozzarella",
+                    "quantity": "200 g"
+                },
+                {
+                    "ingredient": "Basilic",
+                    "quantity": "20 feuilles"
+                },
+                {
+                    "ingredient": "Huile d'olive",
+                    "quantity": "50 ml"
+                },
+                {
+                    "ingredient": "Vinaigre balsamique",
+                    "quantity": "20 ml"
+                },
+                {
+                    "ingredient": "Sel",
+                    "quantity": "1 pincée"
+                },
+                {
+                    "ingredient": "Poivre",
+                    "quantity": "1 pincée"
+                }
+            ],
+            "steps": ["Trancher les tomates et la mozzarella.", "Alterner les tranches sur une assiette.", "Ajouter des feuilles de basilic.", "Arroser d'huile d'olive et de vinaigre balsamique.", "Assaisonner."],
+            "portions": "4 personnes",
+            "advice": "Servir immédiatement pour éviter que la mozzarella ne se dessèche.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 3,
+            "title": "Minestrone",
+            "description": "Soupe italienne aux légumes et pâtes.",
+            "image": "https://tse4.mm.bing.net/th?id=OIP.uMyXjINiIawpxd-_DMujnQHaHa&pid=Api",
+            "preparation_time": 45,
+            "category": "entree",
+            "type": "italienne",
+            "ingredients": [
+                {
+                    "ingredient": "Carottes",
+                    "quantity": "200 g"
+                },
+                {
+                    "ingredient": "Céleri",
+                    "quantity": "150 g"
+                },
+                {
+                    "ingredient": "Courgettes",
+                    "quantity": "200 g"
+                },
+                {
+                    "ingredient": "Tomates",
+                    "quantity": "400 g"
+                },
+                {
+                    "ingredient": "Haricots",
+                    "quantity": "200 g"
+                },
+                {
+                    "ingredient": "Pâtes",
+                    "quantity": "150 g"
+                },
+                {
+                    "ingredient": "Bouillon de légumes",
+                    "quantity": "1 litre"
+                },
+                {
+                    "ingredient": "Sel",
+                    "quantity": "1 pincée"
+                },
+                {
+                    "ingredient": "Poivre",
+                    "quantity": "1 pincée"
+                }
+            ],
+            "steps": ["Couper les légumes en dés.", "Les faire revenir dans une grande casserole.", "Ajouter le bouillon et laisser mijoter. ", "Ajouter les pâtes et cuire jusqu'à ce qu'elles soient tendres."],
+            "portions": "6 personnes",
+            "advice": "Ajouter du parmesan râpé avant de servir pour plus de saveur.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 4,
+            "title": "Spaghetti Carbonara",
+            "description": "Pâtes crémeuses avec pancetta et parmesan.",
+            "image": "https://tse3.mm.bing.net/th?id=OIP.7wZSNWqm61o1t1YFNSjitwHaHa&pid=Api",
+            "preparation_time": 20,
+            "category": "plat",
+            "type": "italienne",
+            "ingredients": [
+                {
+                    "ingredient": "Spaghetti",
+                    "quantity": "400 g"
+                },
+                {
+                    "ingredient": "Pancetta",
+                    "quantity": "150 g"
+                },
+                {
+                    "ingredient": "Œufs",
+                    "quantity": "4"
+                },
+                {
+                    "ingredient": "Parmesan",
+                    "quantity": "100 g"
+                },
+                {
+                    "ingredient": "Crème",
+                    "quantity": "100 ml"
+                },
+                {
+                    "ingredient": "Poivre noir",
+                    "quantity": "1 pincée"
+                }
+            ],
+            "steps": ["Cuire les pâtes. ", "Faire revenir la pancetta. ", "Mélanger les œufs, la crème et le parmesan. ", "Ajouter la pancetta aux pâtes et verser le mélange crémeux. ", "Assaisonner de poivre."],
+            "portions": "4 personnes",
+            "advice": "Servir immédiatement pour éviter que la sauce ne se sépare.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 5,
+            "title": "Lasagna",
+            "description": "Lasagnes classiques à la bolognaise et béchamel.",
+            "image": "https://tse4.mm.bing.net/th?id=OIP.5TUDbE81ql0o3JlJZNbaFwHaHa&pid=Api",
+            "preparation_time": 90,
+            "category": "plat",
+            "type": "italienne",
+            "ingredients": [
+                {
+                    "ingredient": "Pâtes à lasagne",
+                    "quantity": "250 g"
+                },
+                {
+                    "ingredient": "Bœuf haché",
+                    "quantity": "500 g"
+                },
+                {
+                    "ingredient": "Tomates concassées",
+                    "quantity": "400 g"
+                },
+                {
+                    "ingredient": "Oignons",
+                    "quantity": "2"
+                },
+                {
+                    "ingredient": "Ail",
+                    "quantity": "2 gousses"
+                },
+                {
+                    "ingredient": "Béchamel",
+                    "quantity": "500 ml"
+                },
+                {
+                    "ingredient": "Parmesan",
+                    "quantity": "100 g"
+                },
+                {
+                    "ingredient": "Huile d'olive",
+                    "quantity": "50 ml"
+                },
+                {
+                    "ingredient": "Sel",
+                    "quantity": "1 pincée"
+                },
+                {
+                    "ingredient": "Poivre",
+                    "quantity": "1 pincée"
+                }
+            ],
+            "steps": ["Faire revenir les oignons et l'ail hachés dans l'huile d'olive. ", "Ajouter le bœuf haché et cuire jusqu'à brunissement. ", "Ajouter les tomates concassées, le sel et le poivre. ", "Laisser mijoter. ", "Monter les lasagnes en alternant les couches de pâtes, de sauce à la viande et de béchamel. ", "Saupoudrer de parmesan et cuire au four."],
+            "portions": "6 personnes",
+            "advice": "Laisser reposer quelques minutes avant de servir pour faciliter la découpe.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 6,
+            "title": "Tiramisu",
+            "description": "Dessert italien classique à base de café et de mascarpone.",
+            "image": "https://tse1.mm.bing.net/th?id=OIP.wL0Egg6ON1PSBhkwN3rkXwHaHa&pid=Api",
+            "preparation_time": 30,
+            "category": "dessert",
+            "type": "italienne",
+            "ingredients": [
+                {
+                    "ingredient": "Mascarpone",
+                    "quantity": "250 g"
+                },
+                {
+                    "ingredient": "Œufs",
+                    "quantity": "3"
+                },
+                {
+                    "ingredient": "Sucre",
+                    "quantity": "100 g"
+                },
+                {
+                    "ingredient": "Café",
+                    "quantity": "200 ml"
+                },
+                {
+                    "ingredient": "Biscuits à la cuillère",
+                    "quantity": "200 g"
+                },
+                {
+                    "ingredient": "Cacao en poudre",
+                    "quantity": "20 g"
+                }
+            ],
+            "steps": ["Séparer les blancs des jaunes d'œufs. ", "Battre les jaunes avec le sucre jusqu'à blanchiment. ", "Ajouter le mascarpone. ", "Battre les blancs en neige et les incorporer délicatement au mélange. ", "Tremper les biscuits dans le café. ", "Monter le tiramisu en alternant les couches de biscuits et de crème. ", "Saupoudrer de cacao. ", "Réfrigérer."],
+            "portions": "6 personnes",
+            "advice": "Préparer le tiramisu la veille pour qu'il soit bien frais et savoureux.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 7,
+            "title": "Panna Cotta",
+            "description": "Dessert italien crémeux à la vanille.",
+            "image": "https://tse1.explicit.bing.net/th?id=OIP.NiMPMTyGTLFIzx_S1gcWBwHaHa&pid=Api",
+            "preparation_time": 20,
+            "category": "dessert",
+            "type": "italienne",
+            "ingredients": [
+                {
+                    "ingredient": "Crème liquide",
+                    "quantity": "500 ml"
+                },
+                {
+                    "ingredient": "Sucre",
+                    "quantity": "100 g"
+                },
+                {
+                    "ingredient": "Gélatine",
+                    "quantity": "3 feuilles"
+                },
+                {
+                    "ingredient": "Extrait de vanille",
+                    "quantity": "1 cuillère à café"
+                }
+            ],
+            "steps": ["Faire chauffer la crème avec le sucre et la vanille. ", "Ajouter la gélatine préalablement trempée et essorée. ", "Bien mélanger. ", "Verser dans des moules et réfrigérer pendant au moins 4 heures."],
+            "portions": "4 personnes",
+            "advice": "Servir avec un coulis de fruits rouges pour plus de fraîcheur.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 8,
+            "title": "Cannoli",
+            "description": "Petits rouleaux italiens croustillants fourrés à la ricotta.",
+            "image": "https://tse4.mm.bing.net/th?id=OIP.rEAbcPKuyebynX-aVNu6UQHaHa&pid=Api",
+            "preparation_time": 40,
+            "category": "dessert",
+            "type": "italienne",
+            "ingredients": [
+                {
+                    "ingredient": "Ricotta",
+                    "quantity": "300 g"
+                },
+                {
+                    "ingredient": "Sucre glace",
+                    "quantity": "100 g"
+                },
+                {
+                    "ingredient": "Pépites de chocolat",
+                    "quantity": "50 g"
+                },
+                {
+                    "ingredient": "Cannoli shells",
+                    "quantity": "12"
+                },
+                {
+                    "ingredient": "Zeste d'orange",
+                    "quantity": "1 orange"
+                }
+            ],
+            "steps": ["Mélanger la ricotta avec le sucre glace, les pépites de chocolat et le zeste d'orange. ", "Remplir les cannoli shells avec ce mélange. ", "Saupoudrer de sucre glace avant de servir."],
+            "portions": "12 cannolis",
+            "advice": "Conserver les cannolis au frais jusqu'au moment de servir pour éviter que la garniture ne ramollisse les shells.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 9,
+            "title": "Spring Rolls",
+            "description": "Entrée asiatique avec légumes frais et crevettes.",
+            "image": "https://tse3.mm.bing.net/th?id=OIP.vhG_Y-EFpVDdekZ2ica8uwHaHa&pid=Api",
+            "preparation_time": 30,
+            "category": "entree",
+            "type": "asiatique",
+            "ingredients": [
+                {
+                    "ingredient": "Feuilles de riz",
+                    "quantity": "12"
+                },
+                {
+                    "ingredient": "Crevettes",
+                    "quantity": "200 g"
+                },
+                {
+                    "ingredient": "Carottes",
+                    "quantity": "2"
+                },
+                {
+                    "ingredient": "Concombre",
+                    "quantity": "1"
+                },
+                {
+                    "ingredient": "Vermicelles de riz",
+                    "quantity": "100 g"
+                },
+                {
+                    "ingredient": "Menthe",
+                    "quantity": "20 feuilles"
+                },
+                {
+                    "ingredient": "Coriandre",
+                    "quantity": "20 feuilles"
+                },
+                {
+                    "ingredient": "Laitue",
+                    "quantity": "6 feuilles"
+                }
+            ],
+            "steps": ["Cuire les vermicelles de riz. ", "Couper les carottes et le concombre en fines lamelles. ", "Tremper les feuilles de riz dans l'eau tiède. ", "Placer les légumes, les herbes et les crevettes sur les feuilles de riz. ", "Rouler pour former des rouleaux."],
+            "portions": "12 rouleaux",
+            "advice": "Servir avec une sauce nuoc-mâm pour plus de saveur.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 10,
+            "title": "Gyoza",
+            "description": "Raviolis japonais frits et croustillants.",
+            "image": "https://tse1.mm.bing.net/th?id=OIP.pfwlBrTq8I2r4P96UGXpWgHaHa&pid=Api",
+            "preparation_time": 50,
+            "category": "entree",
+            "type": "asiatique",
+            "ingredients": [
+                {
+                    "ingredient": "Farce de porc",
+                    "quantity": "200 g"
+                },
+                {
+                    "ingredient": "Chou",
+                    "quantity": "100 g"
+                },
+                {
+                    "ingredient": "Ail",
+                    "quantity": "2 gousses"
+                },
+                {
+                    "ingredient": "Gingembre",
+                    "quantity": "1 morceau"
+                },
+                {
+                    "ingredient": "Pâte à gyoza",
+                    "quantity": "20 feuilles"
+                },
+                {
+                    "ingredient": "Sauce soja",
+                    "quantity": "50 ml"
+                },
+                {
+                    "ingredient": "Huile de sésame",
+                    "quantity": "20 ml"
+                },
+                {
+                    "ingredient": "Ciboulette",
+                    "quantity": "10 brins"
+                }
+            ],
+            "steps": ["Hacher le chou, l'ail et le gingembre. ", "Mélanger avec la farce de porc, la sauce soja, l'huile de sésame et la ciboulette. ", "Placer une cuillerée de farce au centre de chaque feuille de pâte. ", "Plier et sceller les bords. ", "Faire frire les gyozas jusqu'à ce qu'ils soient dorés."],
+            "portions": "20 gyozas",
+            "advice": "Servir avec une sauce à base de soja et vinaigre de riz.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 11,
+            "title": "Sushi",
+            "description": "Assortiment de sushis variés.",
+            "image": "https://tse2.mm.bing.net/th?id=OIP.7k-lEjcF_TWWdYnp4OUxoQHaHa&pid=Api",
+            "preparation_time": 60,
+            "category": "entree",
+            "type": "asiatique",
+            "ingredients": [
+                {
+                    "ingredient": "Riz à sushi",
+                    "quantity": "300 g"
+                },
+                {
+                    "ingredient": "Vinaigre de riz",
+                    "quantity": "50 ml"
+                },
+                {
+                    "ingredient": "Nori",
+                    "quantity": "5 feuilles"
+                },
+                {
+                    "ingredient": "Saumon",
+                    "quantity": "200 g"
+                },
+                {
+                    "ingredient": "Avocat",
+                    "quantity": "1"
+                },
+                {
+                    "ingredient": "Concombre",
+                    "quantity": "1"
+                },
+                {
+                    "ingredient": "Wasabi",
+                    "quantity": "20 g"
+                },
+                {
+                    "ingredient": "Gingembre mariné",
+                    "quantity": "50 g"
+                },
+                {
+                    "ingredient": "Sauce soja",
+                    "quantity": "50 ml"
+                }
+            ],
+            "steps": ["Cuire le riz à sushi et ajouter le vinaigre de riz. ", "Couper le saumon, l'avocat et le concombre en fines lamelles. ", "Placer le riz sur les feuilles de nori, ajouter les garnitures et rouler fermement. ", "Couper les rouleaux en morceaux."],
+            "portions": "4 personnes",
+            "advice": "Utiliser un couteau bien aiguisé pour couper les sushis sans les écraser.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 12,
+            "title": "Pad Thai",
+            "description": "Plat de nouilles thaïlandaises sautées.",
+            "image": "https://tse3.mm.bing.net/th?id=OIP.8kNnhw3u7Dg02NAGjvIBVAHaHa&pid=Api",
+            "preparation_time": 30,
+            "category": "plat",
+            "type": "asiatique",
+            "ingredients": [
+                {
+                    "ingredient": "Nouilles de riz",
+                    "quantity": "200 g"
+                },
+                {
+                    "ingredient": "Poulet",
+                    "quantity": "200 g"
+                },
+                {
+                    "ingredient": "Œufs",
+                    "quantity": "2"
+                },
+                {
+                    "ingredient": "Germes de soja",
+                    "quantity": "100 g"
+                },
+                {
+                    "ingredient": "Cacahuètes",
+                    "quantity": "50 g"
+                },
+                {
+                    "ingredient": "Sauce tamarin",
+                    "quantity": "50 ml"
+                },
+                {
+                    "ingredient": "Sauce poisson",
+                    "quantity": "20 ml"
+                },
+                {
+                    "ingredient": "Citron vert",
+                    "quantity": "1"
+                },
+                {
+                    "ingredient": "Ciboulette",
+                    "quantity": "10 brins"
+                }
+            ],
+            "steps": ["Cuire les nouilles de riz. ", "Faire revenir le poulet coupé en morceaux. ", "Ajouter les œufs et brouiller. ", "Incorporer les nouilles, les germes de soja, la sauce tamarin et la sauce poisson. ", "Garnir de cacahuètes concassées et de ciboulette. ", "Servir avec des quartiers de citron."],
+            "portions": "4 personnes",
+            "advice": "Ajouter du piment frais pour un Pad Thai plus épicé.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 13,
+            "title": "Chicken Curry",
+            "description": "Curry de poulet épicé.",
+            "image": "https://tse3.mm.bing.net/th?id=OIP.GHxNF2dHItAORxy2wDY5sgHaHa&pid=Api",
+            "preparation_time": 45,
+            "category": "plat",
+            "type": "asiatique",
+            "ingredients": [
+                {
+                    "ingredient": "Poulet",
+                    "quantity": "500 g"
+                },
+                {
+                    "ingredient": "Oignons",
+                    "quantity": "2"
+                },
+                {
+                    "ingredient": "Tomates",
+                    "quantity": "400 g"
+                },
+                {
+                    "ingredient": "Lait de coco",
+                    "quantity": "400 ml"
+                },
+                {
+                    "ingredient": "Curry en poudre",
+                    "quantity": "2 cuillères à soupe"
+                },
+                {
+                    "ingredient": "Gingembre",
+                    "quantity": "1 morceau"
+                },
+                {
+                    "ingredient": "Ail",
+                    "quantity": "2 gousses"
+                },
+                {
+                    "ingredient": "Huile",
+                    "quantity": "30 ml"
+                },
+                {
+                    "ingredient": "Sel",
+                    "quantity": "1 pincée"
+                }
+            ],
+            "steps": ["Faire revenir les oignons, l'ail et le gingembre hachés dans l'huile. ", "Ajouter les morceaux de poulet et cuire jusqu'à brunissement. ", "Incorporer les tomates et le curry. ", "Ajouter le lait de coco et laisser mijoter jusqu'à ce que le poulet soit cuit."],
+            "portions": "4 personnes",
+            "advice": "Servir avec du riz basmati pour un repas complet.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 14,
+            "title": "Fried Rice",
+            "description": "Riz sauté aux légumes et œufs.",
+            "image": "https://tse3.mm.bing.net/th?id=OIP.f-OlAJ_dFjFiOClvym0lHQHaHa&pid=Api",
+            "preparation_time": 25,
+            "category": "plat",
+            "type": "asiatique",
+            "ingredients": [
+                {
+                    "ingredient": "Riz cuit",
+                    "quantity": "400 g"
+                },
+                {
+                    "ingredient": "Carottes",
+                    "quantity": "2"
+                },
+                {
+                    "ingredient": "Petits pois",
+                    "quantity": "100 g"
+                },
+                {
+                    "ingredient": "Œufs",
+                    "quantity": "2"
+                },
+                {
+                    "ingredient": "Oignons verts",
+                    "quantity": "4"
+                },
+                {
+                    "ingredient": "Sauce soja",
+                    "quantity": "50 ml"
+                },
+                {
+                    "ingredient": "Huile de sésame",
+                    "quantity": "20 ml"
+                }
+            ],
+            "steps": ["Faire revenir les carottes et les petits pois dans l'huile de sésame. ", "Ajouter le riz cuit et bien mélanger. ", "Faire un puits au centre et y casser les œufs. ", "Brouiller les œufs et les incorporer au riz. ", "Ajouter les oignons verts et la sauce soja. ", "Bien mélanger."],
+            "portions": "4 personnes",
+            "advice": "Utiliser du riz froid pour obtenir une meilleure texture.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 15,
+            "title": "Green Tea Mochi",
+            "description": "Dessert japonais à base de pâte de riz et de thé vert.",
+            "image": "https://tse3.mm.bing.net/th?id=OIP.xFvLgkytHkaB2ZfyIRlgQwHaHa&pid=Api",
+            "preparation_time": 60,
+            "category": "dessert",
+            "type": "asiatique",
+            "ingredients": [
+                {
+                    "ingredient": "Farine de riz gluant",
+                    "quantity": "200 g"
+                },
+                {
+                    "ingredient": "Sucre",
+                    "quantity": "100 g"
+                },
+                {
+                    "ingredient": "Poudre de thé vert matcha",
+                    "quantity": "10 g"
+                },
+                {
+                    "ingredient": "Eau",
+                    "quantity": "250 ml"
+                },
+                {
+                    "ingredient": "Fécule de maïs",
+                    "quantity": "50 g"
+                }
+            ],
+            "steps": ["Mélanger la farine de riz gluant, le sucre et la poudre de thé vert. ", "Ajouter l'eau et bien mélanger. ", "Cuire à la vapeur pendant 30 minutes. ", "Saupoudrer de fécule de maïs et pétrir jusqu'à ce que la pâte soit lisse. ", "Former des petites boules."],
+            "portions": "12 mochis",
+            "advice": "Conserver au frais et consommer rapidement pour éviter que les mochis ne durcissent.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 16,
+            "title": "Mango Sticky Rice",
+            "description": "Dessert thaïlandais à base de riz gluant et de mangue.",
+            "image": "https://tse1.mm.bing.net/th?id=OIP.NV4CYBg7pjXAmuVqwkZCLAHaHa&pid=Api",
+            "preparation_time": 40,
+            "category": "dessert",
+            "type": "asiatique",
+            "ingredients": [
+                {
+                    "ingredient": "Riz gluant",
+                    "quantity": "200 g"
+                },
+                {
+                    "ingredient": "Lait de coco",
+                    "quantity": "200 ml"
+                },
+                {
+                    "ingredient": "Sucre",
+                    "quantity": "50 g"
+                },
+                {
+                    "ingredient": "Sel",
+                    "quantity": "1 pincée"
+                },
+                {
+                    "ingredient": "Mangue",
+                    "quantity": "2"
+                }
+            ],
+            "steps": ["Cuire le riz gluant. ", "Chauffer le lait de coco avec le sucre et le sel jusqu'à dissolution. ", "Mélanger avec le riz cuit. ", "Laisser reposer pour que le riz absorbe le lait de coco. ", "Servir avec des tranches de mangue."],
+            "portions": "4 personnes",
+            "advice": "Utiliser des mangues bien mûres pour plus de douceur.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 17,
+            "title": "Banana Fritters",
+            "description": "Beignets de banane croustillants.",
+            "image": "https://tse3.mm.bing.net/th?id=OIP.LIeO00P4Ntn4Ooj-tHkM3gHaHa&pid=Api",
+            "preparation_time": 20,
+            "category": "dessert",
+            "type": "asiatique",
+            "ingredients": [
+                {
+                    "ingredient": "Bananes",
+                    "quantity": "4"
+                },
+                {
+                    "ingredient": "Farine",
+                    "quantity": "100 g"
+                },
+                {
+                    "ingredient": "Sucre",
+                    "quantity": "50 g"
+                },
+                {
+                    "ingredient": "Levure chimique",
+                    "quantity": "1 cuillère à café"
+                },
+                {
+                    "ingredient": "Eau",
+                    "quantity": "100 ml"
+                },
+                {
+                    "ingredient": "Huile",
+                    "quantity": "500 ml"
+                }
+            ],
+            "steps": ["Mélanger la farine, le sucre et la levure chimique. ", "Ajouter l'eau pour former une pâte. ", "Tremper les bananes coupées en morceaux dans la pâte. ", "Faire frire jusqu'à ce qu'elles soient dorées."],
+            "portions": "4 personnes",
+            "advice": "Servir chaud avec du miel ou du sirop d'érable.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 18,
+            "title": "Salade Niçoise",
+            "description": "Salade fraîche aux légumes, thon et olives.",
+            "image": "https://tse2.mm.bing.net/th?id=OIP.Ffc5XjSxCKj7KKk6OEy35wHaHa&pid=Api",
+            "preparation_time": 20,
+            "category": "entree",
+            "type": "francaise",
+            "ingredients": [
+                {
+                    "ingredient": "Tomates",
+                    "quantity": "4"
+                },
+                {
+                    "ingredient": "Haricots verts",
+                    "quantity": "200 g"
+                },
+                {
+                    "ingredient": "Pommes de terre",
+                    "quantity": "3"
+                },
+                {
+                    "ingredient": "Oeufs",
+                    "quantity": "3"
+                },
+                {
+                    "ingredient": "Thon en conserve",
+                    "quantity": "200 g"
+                },
+                {
+                    "ingredient": "Olives noires",
+                    "quantity": "100 g"
+                },
+                {
+                    "ingredient": "Laitue",
+                    "quantity": "1 tête"
+                },
+                {
+                    "ingredient": "Vinaigrette",
+                    "quantity": "100 ml"
+                }
+            ],
+            "steps": ["Cuire les pommes de terre et les haricots verts. ", "Cuire les œufs durs. ", "Couper les tomates et les pommes de terre en morceaux. ", "Disposer la laitue dans un plat, ajouter les légumes, le thon émietté, les œufs coupés en quartiers et les olives. ", "Arroser de vinaigrette."],
+            "portions": "4 personnes",
+            "advice": "Servir bien frais avec une baguette croustillante.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 19,
+            "title": "Soupe à l'Oignon",
+            "description": "Soupe traditionnelle aux oignons gratinée au fromage.",
+            "image": "https://tse3.mm.bing.net/th?id=OIP.4Osi8zfj8ylLb34O1RwMRwHaHa&pid=Api",
+            "preparation_time": 60,
+            "category": "entree",
+            "type": "francaise",
+            "ingredients": [
+                {
+                    "ingredient": "Oignons",
+                    "quantity": "600 g"
+                },
+                {
+                    "ingredient": "Bouillon de bœuf",
+                    "quantity": "1 litre"
+                },
+                {
+                    "ingredient": "Beurre",
+                    "quantity": "50 g"
+                },
+                {
+                    "ingredient": "Farine",
+                    "quantity": "2 cuillères à soupe"
+                },
+                {
+                    "ingredient": "Vin blanc",
+                    "quantity": "100 ml"
+                },
+                {
+                    "ingredient": "Baguette",
+                    "quantity": "1"
+                },
+                {
+                    "ingredient": "Gruyère râpé",
+                    "quantity": "100 g"
+                }
+            ],
+            "steps": ["Émincer les oignons et les faire revenir dans le beurre jusqu'à ce qu'ils soient dorés. ", "Saupoudrer de farine et cuire quelques minutes. ", "Ajouter le vin blanc et le bouillon. ", "Laisser mijoter 30 minutes. ", "Verser la soupe dans des bols, ajouter des tranches de baguette grillée et du gruyère râpé. ", "Gratiner au four."],
+            "portions": "4 personnes",
+            "advice": "Ajouter un peu de thym frais pour parfumer la soupe.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 20,
+            "title": "Quiche Lorraine",
+            "description": "Tarte salée à la crème, aux lardons et au fromage.",
+            "image": "https://tse4.mm.bing.net/th?id=OIP.-gUWuZdLFmV32Hp0PaM47QHaHa&pid=Api",
+            "preparation_time": 45,
+            "category": "entree",
+            "type": "francaise",
+            "ingredients": [
+                {
+                    "ingredient": "Pâte brisée",
+                    "quantity": "1"
+                },
+                {
+                    "ingredient": "Lardons",
+                    "quantity": "200 g"
+                },
+                {
+                    "ingredient": "Crème fraîche",
+                    "quantity": "200 ml"
+                },
+                {
+                    "ingredient": "Œufs",
+                    "quantity": "3"
+                },
+                {
+                    "ingredient": "Gruyère râpé",
+                    "quantity": "100 g"
+                },
+                {
+                    "ingredient": "Noix de muscade",
+                    "quantity": "1 pincée"
+                },
+                {
+                    "ingredient": "Sel",
+                    "quantity": "1 pincée"
+                },
+                {
+                    "ingredient": "Poivre",
+                    "quantity": "1 pincée"
+                }
+            ],
+            "steps": ["Préchauffer le four à 180°C. ", "Étaler la pâte brisée dans un moule à tarte. ", "Faire revenir les lardons et les répartir sur la pâte. ", "Mélanger la crème, les œufs, le gruyère, la muscade, le sel et le poivre. ", "Verser ce mélange sur les lardons. ", "Cuire au four pendant 30 à 35 minutes."],
+            "portions": "4 personnes",
+            "advice": "Servir avec une salade verte pour un repas équilibré.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 21,
+            "title": "Bœuf Bourguignon",
+            "description": "Ragoût de bœuf mijoté au vin rouge avec des légumes.",
+            "image": "https://tse4.mm.bing.net/th?id=OIP.mOU-jBWjkCWwKcMH7LkZdAHaHa&pid=Api",
+            "preparation_time": 180,
+            "category": "plat",
+            "type": "francaise",
+            "ingredients": [
+                {
+                    "ingredient": "Bœuf",
+                    "quantity": "1 kg"
+                },
+                {
+                    "ingredient": "Vin rouge",
+                    "quantity": "750 ml"
+                },
+                {
+                    "ingredient": "Carottes",
+                    "quantity": "4"
+                },
+                {
+                    "ingredient": "Oignons",
+                    "quantity": "2"
+                },
+                {
+                    "ingredient": "Champignons",
+                    "quantity": "250 g"
+                },
+                {
+                    "ingredient": "Lardons",
+                    "quantity": "150 g"
+                },
+                {
+                    "ingredient": "Farine",
+                    "quantity": "2 cuillères à soupe"
+                },
+                {
+                    "ingredient": "Bouquet garni",
+                    "quantity": "1"
+                },
+                {
+                    "ingredient": "Sel",
+                    "quantity": "1 pincée"
+                },
+                {
+                    "ingredient": "Poivre",
+                    "quantity": "1 pincée"
+                },
+                {
+                    "ingredient": "Huile",
+                    "quantity": "30 ml"
+                }
+            ],
+            "steps": ["Couper le bœuf en morceaux. ", "Faire revenir les lardons et les réserver. ", "Faire dorer le bœuf dans la même casserole, saupoudrer de farine et bien mélanger. ", "Ajouter le vin rouge, les oignons et les carottes coupés en morceaux, le bouquet garni, le sel et le poivre. ", "Laisser mijoter 2 heures. ", "Ajouter les champignons et les lardons, poursuivre la cuisson 30 minutes."],
+            "portions": "6 personnes",
+            "advice": "Servir avec des pommes de terre vapeur ou des pâtes fraîches.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 22,
+            "title": "Coq au Vin",
+            "description": "Poulet mijoté au vin rouge avec des légumes.",
+            "image": "https://tse3.mm.bing.net/th?id=OIP.E68DZBZFDtn_JA9EdOsoUQHaHa&pid=Api",
+            "preparation_time": 150,
+            "category": "plat",
+            "type": "francaise",
+            "ingredients": [
+                {
+                    "ingredient": "Poulet",
+                    "quantity": "1.5 kg"
+                },
+                {
+                    "ingredient": "Vin rouge",
+                    "quantity": "750 ml"
+                },
+                {
+                    "ingredient": "Carottes",
+                    "quantity": "4"
+                },
+                {
+                    "ingredient": "Oignons",
+                    "quantity": "2"
+                },
+                {
+                    "ingredient": "Champignons",
+                    "quantity": "250 g"
+                },
+                {
+                    "ingredient": "Lardons",
+                    "quantity": "150 g"
+                },
+                {
+                    "ingredient": "Farine",
+                    "quantity": "2 cuillères à soupe"
+                },
+                {
+                    "ingredient": "Bouquet garni",
+                    "quantity": "1"
+                },
+                {
+                    "ingredient": "Sel",
+                    "quantity": "1 pincée"
+                },
+                {
+                    "ingredient": "Poivre",
+                    "quantity": "1 pincée"
+                },
+                {
+                    "ingredient": "Huile",
+                    "quantity": "30 ml"
+                }
+            ],
+            "steps": ["Couper le poulet en morceaux. ", "Faire revenir les lardons et les réserver. ", "Faire dorer le poulet dans la même casserole, saupoudrer de farine et bien mélanger. ", "Ajouter le vin rouge, les oignons et les carottes coupés en morceaux, le bouquet garni, le sel et le poivre. ", "Laisser mijoter 1h30. ", "Ajouter les champignons et les lardons, poursuivre la cuisson 30 minutes."],
+            "portions": "6 personnes",
+            "advice": "Accompagner de riz ou de pommes de terre pour un repas complet.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 23,
+            "title": "Ratatouille",
+            "description": "Plat provençal de légumes mijotés.",
+            "image": "https://tse3.mm.bing.net/th?id=OIP.U4lTPzgkl08V2TeGrmzBowHaHa&pid=Api",
+            "preparation_time": 60,
+            "category": "plat",
+            "type": "francaise",
+            "ingredients": [
+                {
+                    "ingredient": "Aubergines",
+                    "quantity": "2"
+                },
+                {
+                    "ingredient": "Courgettes",
+                    "quantity": "2"
+                },
+                {
+                    "ingredient": "Poivrons",
+                    "quantity": "2"
+                },
+                {
+                    "ingredient": "Tomates",
+                    "quantity": "4"
+                },
+                {
+                    "ingredient": "Oignons",
+                    "quantity": "2"
+                },
+                {
+                    "ingredient": "Ail",
+                    "quantity": "3 gousses"
+                },
+                {
+                    "ingredient": "Herbes de Provence",
+                    "quantity": "1 cuillère à soupe"
+                },
+                {
+                    "ingredient": "Huile d'olive",
+                    "quantity": "50 ml"
+                },
+                {
+                    "ingredient": "Sel",
+                    "quantity": "1 pincée"
+                },
+                {
+                    "ingredient": "Poivre",
+                    "quantity": "1 pincée"
+                }
+            ],
+            "steps": ["Couper tous les légumes en morceaux. ", "Faire revenir les oignons et l'ail dans l'huile d'olive. ", "Ajouter les aubergines et les poivrons, cuire 10 minutes. ", "Ajouter les courgettes et les tomates, assaisonner avec les herbes de Provence, le sel et le poivre. ", "Laisser mijoter à feu doux pendant 40 minutes."],
+            "portions": "4 personnes",
+            "advice": "Servir chaud ou froid, accompagné de pain ou de riz.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 24,
+            "title": "Crêpes Suzette",
+            "description": "Crêpes fines avec une sauce au beurre, sucre et orange.",
+            "image": "https://tse3.mm.bing.net/th?id=OIP.BEcZxeghLgbE3TNT3GEbwwHaHa&pid=Api",
+            "preparation_time": 30,
+            "category": "dessert",
+            "type": "francaise",
+            "ingredients": [
+                {
+                    "ingredient": "Farine",
+                    "quantity": "200 g"
+                },
+                {
+                    "ingredient": "Lait",
+                    "quantity": "500 ml"
+                },
+                {
+                    "ingredient": "Œufs",
+                    "quantity": "3"
+                },
+                {
+                    "ingredient": "Beurre",
+                    "quantity": "100 g"
+                },
+                {
+                    "ingredient": "Sucre",
+                    "quantity": "50 g"
+                },
+                {
+                    "ingredient": "Oranges",
+                    "quantity": "2"
+                },
+                {
+                    "ingredient": "Grand Marnier",
+                    "quantity": "50 ml"
+                }
+            ],
+            "steps": ["Préparer la pâte à crêpes en mélangeant la farine, le lait et les œufs. ", "Faire cuire les crêpes dans une poêle. ", "Préparer la sauce en faisant fondre le beurre avec le sucre et le jus des oranges. ", "Ajouter le Grand Marnier. ", "Tremper chaque crêpe dans la sauce avant de servir."],
+            "portions": "4 personnes",
+            "advice": "Flamber les crêpes avec le Grand Marnier pour un effet spectaculaire.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 25,
+            "title": "Tarte Tatin",
+            "description": "Tarte renversée aux pommes caramélisées.",
+            "image": "https://tse2.mm.bing.net/th?id=OIP.hrJiFshIIno74FOeFGN1NAHaHa&pid=Api",
+            "preparation_time": 60,
+            "category": "dessert",
+            "type": "francaise",
+            "ingredients": [
+                {
+                    "ingredient": "Pommes",
+                    "quantity": "6"
+                },
+                {
+                    "ingredient": "Sucre",
+                    "quantity": "200 g"
+                },
+                {
+                    "ingredient": "Beurre",
+                    "quantity": "100 g"
+                },
+                {
+                    "ingredient": "Pâte feuilletée",
+                    "quantity": "1"
+                }
+            ],
+            "steps": ["Préchauffer le four à 180°C. ", "Peler et couper les pommes en quartiers. ", "Faire fondre le sucre et le beurre dans une poêle pour obtenir un caramel. ", "Ajouter les pommes et cuire jusqu'à ce qu'elles soient tendres. ", "Disposer les pommes dans un moule et couvrir de pâte feuilletée. ", "Cuire au four pendant 30 minutes. ", "Renverser la tarte avant de servir."],
+            "portions": "6 personnes",
+            "advice": "Servir tiède avec une boule de glace à la vanille.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 26,
+            "title": "Mousse au Chocolat",
+            "description": "Dessert aérien au chocolat noir.",
+            "image": "https://tse1.explicit.bing.net/th?id=OIP.g3u9TafFwnRL4n5jx_wY2wHaHa&pid=Api",
+            "preparation_time": 20,
+            "category": "dessert",
+            "type": "francaise",
+            "ingredients": [
+                {
+                    "ingredient": "Chocolat noir",
+                    "quantity": "200 g"
+                },
+                {
+                    "ingredient": "Œufs",
+                    "quantity": "6"
+                },
+                {
+                    "ingredient": "Sucre",
+                    "quantity": "50 g"
+                },
+                {
+                    "ingredient": "Beurre",
+                    "quantity": "30 g"
+                },
+                {
+                    "ingredient": "Sel",
+                    "quantity": "1 pincée"
+                }
+            ],
+            "steps": ["Faire fondre le chocolat et le beurre au bain-marie. ", "Séparer les blancs des jaunes d'œufs. ", "Mélanger les jaunes avec le sucre. ", "Incorporer le mélange chocolat/beurre. ", "Monter les blancs en neige avec une pincée de sel. ", "Incorporer délicatement les blancs au mélange chocolaté. ", "Réfrigérer pendant au moins 3 heures."],
+            "portions": "6 personnes",
+            "advice": "Servir avec des fruits rouges pour une touche de fraîcheur.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 27,
+            "title": "Guacamole",
+            "description": "Délicieux dip à base d'avocats et d'épices.",
+            "image": "https://tse4.mm.bing.net/th?id=OIP.p8zLXM7TALgmo0R-M6X_ewHaHa&pid=Api",
+            "preparation_time": 10,
+            "category": "entree",
+            "type": "mexicaine",
+            "ingredients": [
+                {
+                    "ingredient": "Avocats",
+                    "quantity": "3"
+                },
+                {
+                    "ingredient": "Tomate",
+                    "quantity": "1"
+                },
+                {
+                    "ingredient": "Oignon rouge",
+                    "quantity": "1"
+                },
+                {
+                    "ingredient": "Coriandre",
+                    "quantity": "10 g"
+                },
+                {
+                    "ingredient": "Jus de citron vert",
+                    "quantity": "30 ml"
+                },
+                {
+                    "ingredient": "Sel",
+                    "quantity": "1 pincée"
+                },
+                {
+                    "ingredient": "Poivre",
+                    "quantity": "1 pincée"
+                }
+            ],
+            "steps": ["Écraser les avocats à la fourchette. ", "Ajouter la tomate et l'oignon finement hachés. ", "Ajouter le jus de citron vert, la coriandre, le sel et le poivre. ", "Bien mélanger et servir frais."],
+            "portions": "4 personnes",
+            "advice": "Utiliser des avocats bien mûrs pour un guacamole crémeux.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 28,
+            "title": "Ceviche",
+            "description": "Entrée rafraîchissante de poisson mariné au citron vert.",
+            "image": "https://tse4.mm.bing.net/th?id=OIP.5scYPLD5-B16MFZRK0lWhgHaHa&pid=Api",
+            "preparation_time": 30,
+            "category": "entree",
+            "type": "mexicaine",
+            "ingredients": [
+                {
+                    "ingredient": "Poisson blanc (tilapia, cabillaud)",
+                    "quantity": "400 g"
+                },
+                {
+                    "ingredient": "Tomates",
+                    "quantity": "2"
+                },
+                {
+                    "ingredient": "Oignon rouge",
+                    "quantity": "1"
+                },
+                {
+                    "ingredient": "Coriandre",
+                    "quantity": "10 g"
+                },
+                {
+                    "ingredient": "Jus de citron vert",
+                    "quantity": "100 ml"
+                },
+                {
+                    "ingredient": "Piment jalapeño",
+                    "quantity": "1"
+                },
+                {
+                    "ingredient": "Sel",
+                    "quantity": "1 pincée"
+                },
+                {
+                    "ingredient": "Poivre",
+                    "quantity": "1 pincée"
+                }
+            ],
+            "steps": ["Couper le poisson en petits dés et le mettre dans un bol. ", "Ajouter le jus de citron vert pour couvrir le poisson. ", "Laisser mariner au réfrigérateur pendant 15 minutes. ", "Ajouter les tomates, l'oignon, la coriandre et le piment finement hachés. ", "Assaisonner avec du sel et du poivre."],
+            "portions": "4 personnes",
+            "advice": "Servir avec des chips de tortilla pour un croquant supplémentaire.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 29,
+            "title": "Quesadillas",
+            "description": "Tortillas de maïs garnies de fromage fondu.",
+            "image": "https://tse2.mm.bing.net/th?id=OIP.PYyBXZnkCRjE8oS8iOPHcAHaHa&pid=Api",
+            "preparation_time": 15,
+            "category": "entree",
+            "type": "mexicaine",
+            "ingredients": [
+                {
+                    "ingredient": "Tortillas de maïs",
+                    "quantity": "4"
+                },
+                {
+                    "ingredient": "Fromage râpé (cheddar, mozzarella)",
+                    "quantity": "200 g"
+                },
+                {
+                    "ingredient": "Poulet cuit",
+                    "quantity": "200 g"
+                },
+                {
+                    "ingredient": "Poivrons",
+                    "quantity": "1"
+                },
+                {
+                    "ingredient": "Oignon",
+                    "quantity": "1"
+                },
+                {
+                    "ingredient": "Huile d'olive",
+                    "quantity": "20 ml"
+                }
+            ],
+            "steps": ["Chauffer une poêle avec un peu d'huile d'olive. ", "Ajouter une tortilla et garnir de fromage râpé, de poulet, de poivrons et d'oignons finement tranchés. ", "Couvrir avec une autre tortilla et cuire jusqu'à ce que le fromage soit fondu et les tortillas dorées. ", "Répéter avec les autres tortillas."],
+            "portions": "4 personnes",
+            "advice": "Servir avec de la crème aigre et de la salsa pour plus de saveur.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 30,
+            "title": "Tacos al Pastor",
+            "description": "Tacos traditionnels mexicains au porc mariné.",
+            "image": "https://tse3.mm.bing.net/th?id=OIP.lCp0R88Vt1JhFIN3YoDQJwHaHa&pid=Api",
+            "preparation_time": 120,
+            "category": "plat",
+            "type": "mexicaine",
+            "ingredients": [
+                {
+                    "ingredient": "Porc (épaule ou longe)",
+                    "quantity": "800 g"
+                },
+                {
+                    "ingredient": "Ananas",
+                    "quantity": "200 g"
+                },
+                {
+                    "ingredient": "Achiote (épice mexicaine)",
+                    "quantity": "30 g"
+                },
+                {
+                    "ingredient": "Jus d'orange",
+                    "quantity": "100 ml"
+                },
+                {
+                    "ingredient": "Vinaigre de cidre",
+                    "quantity": "50 ml"
+                },
+                {
+                    "ingredient": "Oignon",
+                    "quantity": "1"
+                },
+                {
+                    "ingredient": "Tortillas de maïs",
+                    "quantity": "12"
+                },
+                {
+                    "ingredient": "Coriandre",
+                    "quantity": "10 g"
+                },
+                {
+                    "ingredient": "Jus de citron vert",
+                    "quantity": "30 ml"
+                },
+                {
+                    "ingredient": "Sel",
+                    "quantity": "1 pincée"
+                },
+                {
+                    "ingredient": "Poivre",
+                    "quantity": "1 pincée"
+                }
+            ],
+            "steps": ["Préparer la marinade en mélangeant l'achiote, le jus d'orange, le vinaigre de cidre, le sel et le poivre. ", "Couper le porc en fines tranches et mariner pendant au moins 1 heure. ", "Cuire le porc mariné dans une poêle jusqu'à ce qu'il soit bien doré. ", "Griller les tranches d'ananas. ", "Servir le porc dans les tortillas avec de l'oignon, de la coriandre, de l'ananas grillé et un filet de jus de citron vert."],
+            "portions": "4 personnes",
+            "advice": "Ajouter de la sauce piquante pour une touche de chaleur supplémentaire.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 31,
+            "title": "Chiles Rellenos",
+            "description": "Piments farcis au fromage, panés et frits.",
+            "image": "https://tse2.mm.bing.net/th?id=OIP.HKX8Mtjyc8rlj1DHRjiS-AHaHa&pid=Api",
+            "preparation_time": 90,
+            "category": "plat",
+            "type": "mexicaine",
+            "ingredients": [
+                {
+                    "ingredient": "Piments poblano",
+                    "quantity": "6"
+                },
+                {
+                    "ingredient": "Fromage (Oaxaca, mozzarella)",
+                    "quantity": "300 g"
+                },
+                {
+                    "ingredient": "Œufs",
+                    "quantity": "3"
+                },
+                {
+                    "ingredient": "Farine",
+                    "quantity": "100 g"
+                },
+                {
+                    "ingredient": "Huile",
+                    "quantity": "500 ml"
+                },
+                {
+                    "ingredient": "Sel",
+                    "quantity": "1 pincée"
+                },
+                {
+                    "ingredient": "Poivre",
+                    "quantity": "1 pincée"
+                }
+            ],
+            "steps": ["Rôtir les piments sur un gril jusqu'à ce que la peau noircisse. ", "Les placer dans un sac en plastique pour les laisser suer, puis retirer la peau. ", "Faire une incision pour enlever les graines. ", "Farcir les piments avec du fromage. ", "Séparer les blancs des jaunes d'œufs. ", "Battre les blancs en neige et ajouter les jaunes. ", "Enrober les piments farcis de farine, puis les tremper dans les œufs battus. ", "Faire frire dans l'huile chaude jusqu'à ce qu'ils soient dorés."],
+            "portions": "4 personnes",
+            "advice": "Servir avec une sauce tomate maison pour un plat complet.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 32,
+            "title": "Enchiladas",
+            "description": "Tortillas roulées, garnies de poulet et nappées de sauce.",
+            "image": "https://tse4.mm.bing.net/th?id=OIP._VzlxKgEUtOOkfPBF8Lw_wAAAA&pid=Api",
+            "preparation_time": 60,
+            "category": "plat",
+            "type": "mexicaine",
+            "ingredients": [
+                {
+                    "ingredient": "Poulet cuit",
+                    "quantity": "500 g"
+                },
+                {
+                    "ingredient": "Tortillas de maïs",
+                    "quantity": "12"
+                },
+                {
+                    "ingredient": "Sauce enchilada",
+                    "quantity": "500 ml"
+                },
+                {
+                    "ingredient": "Fromage râpé",
+                    "quantity": "200 g"
+                },
+                {
+                    "ingredient": "Oignon",
+                    "quantity": "1"
+                },
+                {
+                    "ingredient": "Crème aigre",
+                    "quantity": "100 ml"
+                },
+                {
+                    "ingredient": "Huile",
+                    "quantity": "20 ml"
+                },
+                {
+                    "ingredient": "Sel",
+                    "quantity": "1 pincée"
+                },
+                {
+                    "ingredient": "Poivre",
+                    "quantity": "1 pincée"
+                }
+            ],
+            "steps": ["Préchauffer le four à 180°C. ", "Émietter le poulet cuit. ", "Chauffer l'huile dans une poêle et faire revenir l'oignon finement haché. ", "Ajouter le poulet et assaisonner. ", "Tremper chaque tortilla dans la sauce enchilada, puis les remplir de poulet et les rouler. ", "Placer les tortillas roulées dans un plat à gratin, napper de sauce enchilada et saupoudrer de fromage râpé. ", "Cuire au four pendant 20 minutes. ", "Garnir de crème aigre avant de servir."],
+            "portions": "4 personnes",
+            "advice": "Ajouter des jalapeños pour plus de piquant.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 33,
+            "title": "Churros",
+            "description": "Pâtisserie frite en forme de bâtonnets, saupoudrée de sucre.",
+            "image": "https://tse4.mm.bing.net/th?id=OIP.JmU1UBIAx9-8cyynjsExiwHaHa&pid=Api",
+            "preparation_time": 30,
+            "category": "dessert",
+            "type": "mexicaine",
+            "ingredients": [
+                {
+                    "ingredient": "Farine",
+                    "quantity": "250 g"
+                },
+                {
+                    "ingredient": "Eau",
+                    "quantity": "250 ml"
+                },
+                {
+                    "ingredient": "Beurre",
+                    "quantity": "50 g"
+                },
+                {
+                    "ingredient": "Sucre",
+                    "quantity": "100 g"
+                },
+                {
+                    "ingredient": "Cannelle",
+                    "quantity": "1 cuillère à café"
+                },
+                {
+                    "ingredient": "Sel",
+                    "quantity": "1 pincée"
+                },
+                {
+                    "ingredient": "Huile",
+                    "quantity": "1 litre"
+                }
+            ],
+            "steps": ["Faire bouillir l'eau avec le beurre et le sel. ", "Ajouter la farine et remuer jusqu'à ce que la pâte se détache des parois de la casserole. ", "Chauffer l'huile dans une friteuse. ", "Mettre la pâte dans une poche à douille et former des bâtonnets. ", "Faire frire jusqu'à ce qu'ils soient dorés. ", "Mélanger le sucre et la cannelle, et enrober les churros chauds."],
+            "portions": "4 personnes",
+            "advice": "Servir avec une sauce au chocolat pour tremper les churros.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 34,
+            "title": "Flan Mexicain",
+            "description": "Flan caramelisé crémeux au lait concentré.",
+            "image": "https://tse3.mm.bing.net/th?id=OIP.oAQb2v4ZaKy-ThnZtfFXXgHaHa&pid=Api",
+            "preparation_time": 90,
+            "category": "dessert",
+            "type": "mexicaine",
+            "ingredients": [
+                {
+                    "ingredient": "Lait concentré sucré",
+                    "quantity": "400 ml"
+                },
+                {
+                    "ingredient": "Lait",
+                    "quantity": "400 ml"
+                },
+                {
+                    "ingredient": "Œufs",
+                    "quantity": "6"
+                },
+                {
+                    "ingredient": "Sucre",
+                    "quantity": "150 g"
+                },
+                {
+                    "ingredient": "Vanille",
+                    "quantity": "1 cuillère à café"
+                }
+            ],
+            "steps": ["Préchauffer le four à 180°C. ", "Faire un caramel avec le sucre et le verser dans un moule à flan. ", "Mélanger les œufs, le lait concentré sucré, le lait et la vanille. ", "Verser le mélange dans le moule sur le caramel. ", "Cuire au bain-marie pendant 60 minutes. ", "Laisser refroidir avant de démouler."],
+            "portions": "6 personnes",
+            "advice": "Réfrigérer plusieurs heures pour une meilleure texture.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 35,
+            "title": "Tres Leches",
+            "description": "Gâteau moelleux imbibé de trois types de lait.",
+            "image": "https://tse4.mm.bing.net/th?id=OIP.zm8vGajcDk0-K-7zx5IbAQHaHa&pid=Api",
+            "preparation_time": 60,
+            "category": "dessert",
+            "type": "mexicaine",
+            "ingredients": [
+                {
+                    "ingredient": "Farine",
+                    "quantity": "200 g"
+                },
+                {
+                    "ingredient": "Œufs",
+                    "quantity": "4"
+                },
+                {
+                    "ingredient": "Sucre",
+                    "quantity": "200 g"
+                },
+                {
+                    "ingredient": "Lait",
+                    "quantity": "200 ml"
+                },
+                {
+                    "ingredient": "Lait concentré sucré",
+                    "quantity": "200 ml"
+                },
+                {
+                    "ingredient": "Lait évaporé",
+                    "quantity": "200 ml"
+                },
+                {
+                    "ingredient": "Crème liquide",
+                    "quantity": "200 ml"
+                }
+            ],
+            "steps": ["Préchauffer le four à 180°C. ", "Battre les jaunes d'œufs avec le sucre jusqu'à ce que le mélange blanchisse. ", "Ajouter la farine tamisée. ", "Monter les blancs en neige et les incorporer délicatement. ", "Verser la pâte dans un moule et cuire pendant 30 minutes. ", "Mélanger les trois laits et verser sur le gâteau encore chaud. ", "Laisser imbiber pendant plusieurs heures. ", "Fouetter la crème liquide et en recouvrir le gâteau."],
+            "portions": "8 personnes",
+            "advice": "Garnir de fruits frais pour une touche de couleur et de fraîcheur.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 36,
+            "title": "Samosas",
+            "description": "Triangles de pâte frits farcis de légumes épicés.",
+            "image": "https://tse3.mm.bing.net/th?id=OIP.XJKPv4lyFnNpFkjNC87PjgHaHa&pid=Api",
+            "preparation_time": 60,
+            "category": "entree",
+            "type": "indienne",
+            "ingredients": [
+                {
+                    "ingredient": "Pâte filo",
+                    "quantity": "10 feuilles"
+                },
+                {
+                    "ingredient": "Pommes de terre",
+                    "quantity": "300 g"
+                },
+                {
+                    "ingredient": "Petits pois",
+                    "quantity": "100 g"
+                },
+                {
+                    "ingredient": "Oignon",
+                    "quantity": "1"
+                },
+                {
+                    "ingredient": "Coriandre",
+                    "quantity": "10 g"
+                },
+                {
+                    "ingredient": "Cumin",
+                    "quantity": "1 cuillère à café"
+                },
+                {
+                    "ingredient": "Garam masala",
+                    "quantity": "1 cuillère à café"
+                },
+                {
+                    "ingredient": "Curcuma",
+                    "quantity": "1 cuillère à café"
+                },
+                {
+                    "ingredient": "Piment",
+                    "quantity": "1"
+                },
+                {
+                    "ingredient": "Huile",
+                    "quantity": "1 litre"
+                },
+                {
+                    "ingredient": "Sel",
+                    "quantity": "1 pincée"
+                }
+            ],
+            "steps": ["Faire cuire les pommes de terre et les écraser grossièrement. ", "Dans une poêle, faire revenir l'oignon avec les épices, ajouter les petits pois et les pommes de terre écrasées. ", "Assaisonner avec du sel. ", "Découper la pâte filo en bandes et garnir de farce. ", "Plier en triangles et faire frire jusqu'à ce qu'ils soient dorés."],
+            "portions": "4 personnes",
+            "advice": "Servir avec une sauce chutney à la menthe ou au tamarin.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 37,
+            "title": "Pakoras",
+            "description": "Beignets de légumes épicés.",
+            "image": "https://tse4.mm.bing.net/th?id=OIP.dbn3NVbSaVfq0VcmpkIYoQHaHa&pid=Api",
+            "preparation_time": 45,
+            "category": "entree",
+            "type": "indienne",
+            "ingredients": [
+                {
+                    "ingredient": "Farine de pois chiche",
+                    "quantity": "200 g"
+                },
+                {
+                    "ingredient": "Oignon",
+                    "quantity": "1"
+                },
+                {
+                    "ingredient": "Épinards",
+                    "quantity": "100 g"
+                },
+                {
+                    "ingredient": "Pommes de terre",
+                    "quantity": "200 g"
+                },
+                {
+                    "ingredient": "Cumin",
+                    "quantity": "1 cuillère à café"
+                },
+                {
+                    "ingredient": "Curcuma",
+                    "quantity": "1 cuillère à café"
+                },
+                {
+                    "ingredient": "Piment",
+                    "quantity": "1"
+                },
+                {
+                    "ingredient": "Coriandre",
+                    "quantity": "10 g"
+                },
+                {
+                    "ingredient": "Sel",
+                    "quantity": "1 pincée"
+                },
+                {
+                    "ingredient": "Eau",
+                    "quantity": "200 ml"
+                },
+                {
+                    "ingredient": "Huile",
+                    "quantity": "1 litre"
+                }
+            ],
+            "steps": ["Mélanger la farine de pois chiche avec l'eau pour obtenir une pâte lisse. ", "Ajouter les légumes coupés en petits morceaux, les épices et le sel. ", "Faire chauffer l'huile dans une poêle. ", "Former des boules avec la pâte et les faire frire jusqu'à ce qu'elles soient dorées."],
+            "portions": "4 personnes",
+            "advice": "Déguster avec une sauce raita au yaourt.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 38,
+            "title": "Aloo Tikki",
+            "description": "Galettes de pommes de terre épicées.",
+            "image": "https://tse4.mm.bing.net/th?id=OIP.3w9bIJ0aHydMmJYF9gwX4AHaHa&pid=Api",
+            "preparation_time": 40,
+            "category": "entree",
+            "type": "indienne",
+            "ingredients": [
+                {
+                    "ingredient": "Pommes de terre",
+                    "quantity": "500 g"
+                },
+                {
+                    "ingredient": "Petits pois",
+                    "quantity": "100 g"
+                },
+                {
+                    "ingredient": "Cumin",
+                    "quantity": "1 cuillère à café"
+                },
+                {
+                    "ingredient": "Garam masala",
+                    "quantity": "1 cuillère à café"
+                },
+                {
+                    "ingredient": "Coriandre",
+                    "quantity": "10 g"
+                },
+                {
+                    "ingredient": "Piment",
+                    "quantity": "1"
+                },
+                {
+                    "ingredient": "Farine",
+                    "quantity": "50 g"
+                },
+                {
+                    "ingredient": "Sel",
+                    "quantity": "1 pincée"
+                },
+                {
+                    "ingredient": "Huile",
+                    "quantity": "100 ml"
+                }
+            ],
+            "steps": ["Faire cuire les pommes de terre et les écraser. ", "Mélanger avec les petits pois, les épices et le sel. ", "Former des galettes et les enrober de farine. ", "Chauffer l'huile dans une poêle et faire frire les galettes jusqu'à ce qu'elles soient dorées."],
+            "portions": "4 personnes",
+            "advice": "Servir avec une sauce chutney à la coriandre et à la menthe.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 39,
+            "title": "Butter Chicken",
+            "description": "Poulet tendre dans une sauce crémeuse épicée.",
+            "image": "https://tse3.mm.bing.net/th?id=OIP.RODwdSRPCcWJG7adBaorrgHaHa&pid=Api",
+            "preparation_time": 90,
+            "category": "plat",
+            "type": "indienne",
+            "ingredients": [
+                {
+                    "ingredient": "Poulet",
+                    "quantity": "800 g"
+                },
+                {
+                    "ingredient": "Yaourt",
+                    "quantity": "200 ml"
+                },
+                {
+                    "ingredient": "Tomates",
+                    "quantity": "400 g"
+                },
+                {
+                    "ingredient": "Crème fraîche",
+                    "quantity": "200 ml"
+                },
+                {
+                    "ingredient": "Beurre",
+                    "quantity": "100 g"
+                },
+                {
+                    "ingredient": "Ail",
+                    "quantity": "4 gousses"
+                },
+                {
+                    "ingredient": "Gingembre",
+                    "quantity": "20 g"
+                },
+                {
+                    "ingredient": "Garam masala",
+                    "quantity": "1 cuillère à café"
+                },
+                {
+                    "ingredient": "Curcuma",
+                    "quantity": "1 cuillère à café"
+                },
+                {
+                    "ingredient": "Cumin",
+                    "quantity": "1 cuillère à café"
+                },
+                {
+                    "ingredient": "Piment",
+                    "quantity": "1"
+                },
+                {
+                    "ingredient": "Sel",
+                    "quantity": "1 pincée"
+                }
+            ],
+            "steps": ["Mariner le poulet dans le yaourt, l'ail, le gingembre et les épices pendant au moins 1 heure. ", "Faire cuire le poulet dans une poêle jusqu'à ce qu'il soit doré. ", "Dans une autre casserole, faire fondre le beurre, ajouter les tomates et cuire jusqu'à obtention d'une sauce épaisse. ", "Ajouter la crème et le poulet. ", "Laisser mijoter 20 minutes."],
+            "portions": "4 personnes",
+            "advice": "Servir avec du riz basmati ou des naans.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 40,
+            "title": "Lentilles Dal",
+            "description": "Soupe épicée de lentilles avec des épices indiennes.",
+            "image": "https://tse2.mm.bing.net/th?id=OIP.5aalzX5dPQlDjACEdvkJAgHaHa&pid=Api",
+            "preparation_time": 60,
+            "category": "plat",
+            "type": "indienne",
+            "ingredients": [
+                {
+                    "ingredient": "Lentilles rouges",
+                    "quantity": "200 g"
+                },
+                {
+                    "ingredient": "Tomates",
+                    "quantity": "200 g"
+                },
+                {
+                    "ingredient": "Oignon",
+                    "quantity": "1"
+                },
+                {
+                    "ingredient": "Ail",
+                    "quantity": "2 gousses"
+                },
+                {
+                    "ingredient": "Gingembre",
+                    "quantity": "10 g"
+                },
+                {
+                    "ingredient": "Curcuma",
+                    "quantity": "1 cuillère à café"
+                },
+                {
+                    "ingredient": "Cumin",
+                    "quantity": "1 cuillère à café"
+                },
+                {
+                    "ingredient": "Garam masala",
+                    "quantity": "1 cuillère à café"
+                },
+                {
+                    "ingredient": "Coriandre",
+                    "quantity": "10 g"
+                },
+                {
+                    "ingredient": "Huile",
+                    "quantity": "20 ml"
+                },
+                {
+                    "ingredient": "Sel",
+                    "quantity": "1 pincée"
+                }
+            ],
+            "steps": ["Faire revenir l'oignon, l'ail et le gingembre dans l'huile. ", "Ajouter les tomates et les épices. ", "Ajouter les lentilles et de l'eau pour couvrir. ", "Laisser mijoter jusqu'à ce que les lentilles soient tendres. ", "Assaisonner avec du sel et garnir de coriandre fraîche."],
+            "portions": "4 personnes",
+            "advice": "Servir avec du riz ou des chapatis.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 41,
+            "title": "Biryani",
+            "description": "Riz basmati épicé avec des morceaux de poulet et des légumes.",
+            "image": "https://tse1.mm.bing.net/th?id=OIP.rzTTdOV-WVeWFyR18YBIlAHaHa&pid=Api",
+            "preparation_time": 120,
+            "category": "plat",
+            "type": "indienne",
+            "ingredients": [
+                {
+                    "ingredient": "Poulet",
+                    "quantity": "500 g"
+                },
+                {
+                    "ingredient": "Riz basmati",
+                    "quantity": "300 g"
+                },
+                {
+                    "ingredient": "Oignon",
+                    "quantity": "2"
+                },
+                {
+                    "ingredient": "Tomates",
+                    "quantity": "200 g"
+                },
+                {
+                    "ingredient": "Yaourt",
+                    "quantity": "200 ml"
+                },
+                {
+                    "ingredient": "Ail",
+                    "quantity": "4 gousses"
+                },
+                {
+                    "ingredient": "Gingembre",
+                    "quantity": "20 g"
+                },
+                {
+                    "ingredient": "Garam masala",
+                    "quantity": "1 cuillère à café"
+                },
+                {
+                    "ingredient": "Curcuma",
+                    "quantity": "1 cuillère à café"
+                },
+                {
+                    "ingredient": "Cumin",
+                    "quantity": "1 cuillère à café"
+                },
+                {
+                    "ingredient": "Huile",
+                    "quantity": "50 ml"
+                },
+                {
+                    "ingredient": "Sel",
+                    "quantity": "1 pincée"
+                },
+                {
+                    "ingredient": "Coriandre",
+                    "quantity": "10 g"
+                }
+            ],
+            "steps": ["Faire revenir l'oignon, l'ail et le gingembre dans l'huile. ", "Ajouter les tomates et les épices, puis le poulet et le yaourt. ", "Cuire jusqu'à ce que le poulet soit tendre. ", "Cuire le riz basmati à part. ", "Dans un grand plat, disposer des couches de riz et de poulet en alternant. ", "Couvrir et cuire à feu doux pendant 30 minutes."],
+            "portions": "4 personnes",
+            "advice": "Garnir de coriandre fraîche avant de servir.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 42,
+            "title": "Gulab Jamun",
+            "description": "Boules de lait frites trempées dans du sirop de sucre.",
+            "image": "https://tse2.mm.bing.net/th?id=OIP.D7o7uSQS6ffQAnRyeF7E7gHaHa&pid=Api",
+            "preparation_time": 60,
+            "category": "dessert",
+            "type": "indienne",
+            "ingredients": [
+                {
+                    "ingredient": "Lait en poudre",
+                    "quantity": "200 g"
+                },
+                {
+                    "ingredient": "Farine",
+                    "quantity": "50 g"
+                },
+                {
+                    "ingredient": "Bicarbonate de soude",
+                    "quantity": "1/2 cuillère à café"
+                },
+                {
+                    "ingredient": "Beurre",
+                    "quantity": "50 g"
+                },
+                {
+                    "ingredient": "Lait",
+                    "quantity": "50 ml"
+                },
+                {
+                    "ingredient": "Sucre",
+                    "quantity": "300 g"
+                },
+                {
+                    "ingredient": "Eau",
+                    "quantity": "300 ml"
+                },
+                {
+                    "ingredient": "Cardamome",
+                    "quantity": "1 cuillère à café"
+                },
+                {
+                    "ingredient": "Huile",
+                    "quantity": "500 ml"
+                }
+            ],
+            "steps": ["Mélanger le lait en poudre, la farine, le bicarbonate de soude et le beurre fondu. ", "Ajouter le lait pour obtenir une pâte lisse. ", "Former des petites boules. ", "Faire frire dans l'huile chaude jusqu'à ce qu'elles soient dorées. ", "Préparer un sirop en chauffant l'eau avec le sucre et la cardamome. ", "Tremper les boules dans le sirop chaud."],
+            "portions": "4 personnes",
+            "advice": "Servir chaud ou froid.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 43,
+            "title": "Kheer",
+            "description": "Riz au lait indien aromatisé à la cardamome.",
+            "image": "https://tse3.mm.bing.net/th?id=OIP.FVhbwSGVJbb_WsqwzXIKKQHaHa&pid=Api",
+            "preparation_time": 60,
+            "category": "dessert",
+            "type": "indienne",
+            "ingredients": [
+                {
+                    "ingredient": "Riz basmati",
+                    "quantity": "100 g"
+                },
+                {
+                    "ingredient": "Lait",
+                    "quantity": "1 litre"
+                },
+                {
+                    "ingredient": "Sucre",
+                    "quantity": "100 g"
+                },
+                {
+                    "ingredient": "Cardamome",
+                    "quantity": "1 cuillère à café"
+                },
+                {
+                    "ingredient": "Amandes",
+                    "quantity": "50 g"
+                },
+                {
+                    "ingredient": "Pistaches",
+                    "quantity": "50 g"
+                },
+                {
+                    "ingredient": "Safran",
+                    "quantity": "1 pincée"
+                }
+            ],
+            "steps": ["Faire cuire le riz dans le lait jusqu'à ce qu'il soit tendre. ", "Ajouter le sucre, la cardamome et le safran. ", "Laisser mijoter jusqu'à ce que le mélange épaississe. ", "Ajouter les amandes et les pistaches concassées."],
+            "portions": "4 personnes",
+            "advice": "Servir chaud ou froid avec une pincée de cannelle.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 44,
+            "title": "Jalebi",
+            "description": "Friandises croustillantes en spirale trempées dans du sirop de sucre.",
+            "image": "https://tse1.mm.bing.net/th?id=OIP.oUEipJV6kS6Z9zSfKC8c4QHaHa&pid=Api",
+            "preparation_time": 120,
+            "category": "dessert",
+            "type": "indienne",
+            "ingredients": [
+                {
+                    "ingredient": "Farine",
+                    "quantity": "200 g"
+                },
+                {
+                    "ingredient": "Yaourt",
+                    "quantity": "100 ml"
+                },
+                {
+                    "ingredient": "Curcuma",
+                    "quantity": "1 pincée"
+                },
+                {
+                    "ingredient": "Sucre",
+                    "quantity": "300 g"
+                },
+                {
+                    "ingredient": "Eau",
+                    "quantity": "300 ml"
+                },
+                {
+                    "ingredient": "Cardamome",
+                    "quantity": "1 cuillère à café"
+                },
+                {
+                    "ingredient": "Citron",
+                    "quantity": "1 cuillère à soupe"
+                },
+                {
+                    "ingredient": "Huile",
+                    "quantity": "500 ml"
+                }
+            ],
+            "steps": ["Mélanger la farine, le yaourt, le curcuma et un peu d'eau pour obtenir une pâte lisse. ", "Laisser fermenter pendant 1 heure. ", "Chauffer l'huile dans une poêle. ", "Mettre la pâte dans une poche à douille et former des spirales dans l'huile chaude. ", "Faire frire jusqu'à ce qu'elles soient dorées. ", "Préparer un sirop en chauffant l'eau avec le sucre, la cardamome et le citron. ", "Tremper les jalebis dans le sirop chaud."],
+            "portions": "4 personnes",
+            "advice": "Servir chaud pour un maximum de croustillant.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 45,
+            "title": "Accras de Morue",
+            "description": "Beignets de morue épicés.",
+            "image": "https://tse3.mm.bing.net/th?id=OIP.0H9shNUwEBWxZzUqNWnLhAHaHa&pid=Api",
+            "preparation_time": 60,
+            "category": "entree",
+            "type": "caribeenne",
+            "ingredients": [
+                {
+                    "ingredient": "Morue salée",
+                    "quantity": "300 g"
+                },
+                {
+                    "ingredient": "Farine de pois chiche",
+                    "quantity": "150 g"
+                },
+                {
+                    "ingredient": "Oignon",
+                    "quantity": "1"
+                },
+                {
+                    "ingredient": "Piment antillais",
+                    "quantity": "1"
+                },
+                {
+                    "ingredient": "Persil",
+                    "quantity": "10 g"
+                },
+                {
+                    "ingredient": "Cumin",
+                    "quantity": "1 cuillère à café"
+                },
+                {
+                    "ingredient": "Levure chimique",
+                    "quantity": "1 cuillère à café"
+                },
+                {
+                    "ingredient": "Eau",
+                    "quantity": "200 ml"
+                },
+                {
+                    "ingredient": "Huile",
+                    "quantity": "1 litre"
+                },
+                {
+                    "ingredient": "Sel",
+                    "quantity": "1 pincée"
+                }
+            ],
+            "steps": ["Faire dessaler la morue dans de l'eau froide pendant 24 heures, changer l'eau plusieurs fois. ", "Égoutter et émietter la morue. ", "Mélanger la farine de pois chiche avec la levure, le cumin et le sel. ", "Ajouter l'eau pour obtenir une pâte lisse. ", "Incorporer la morue émiettée, l'oignon haché, le piment et le persil. ", "Faire chauffer l'huile dans une poêle. ", "Former des boules avec la pâte et les faire frire jusqu'à ce qu'elles soient dorées."],
+            "portions": "4 personnes",
+            "advice": "Servir chaud avec une sauce chien ou une sauce pimentée.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 46,
+            "title": "Colombo de Poulet",
+            "description": "Ragoût épicé de poulet aux légumes.",
+            "image": "https://tse1.mm.bing.net/th?id=OIP.IYHoGR3hjxdzDcWQDwfekAHaHa&pid=Api",
+            "preparation_time": 90,
+            "category": "plat",
+            "type": "caribeenne",
+            "ingredients": [
+                {
+                    "ingredient": "Poulet",
+                    "quantity": "800 g"
+                },
+                {
+                    "ingredient": "Oignon",
+                    "quantity": "2"
+                },
+                {
+                    "ingredient": "Ail",
+                    "quantity": "4 gousses"
+                },
+                {
+                    "ingredient": "Thym",
+                    "quantity": "1 branche"
+                },
+                {
+                    "ingredient": "Piment antillais",
+                    "quantity": "1"
+                },
+                {
+                    "ingredient": "Curcuma",
+                    "quantity": "1 cuillère à café"
+                },
+                {
+                    "ingredient": "Cumin",
+                    "quantity": "1 cuillère à café"
+                },
+                {
+                    "ingredient": "Pommes de terre",
+                    "quantity": "400 g"
+                },
+                {
+                    "ingredient": "Carottes",
+                    "quantity": "200 g"
+                },
+                {
+                    "ingredient": "Patate douce",
+                    "quantity": "200 g"
+                },
+                {
+                    "ingredient": "Lait de coco",
+                    "quantity": "400 ml"
+                },
+                {
+                    "ingredient": "Huile",
+                    "quantity": "50 ml"
+                },
+                {
+                    "ingredient": "Sel",
+                    "quantity": "1 pincée"
+                }
+            ],
+            "steps": ["Faire dorer le poulet dans l'huile. ", "Réserver. ", "Dans la même poêle, faire revenir l'oignon, l'ail, les épices et le piment. ", "Ajouter les légumes coupés en morceaux et faire revenir quelques minutes. ", "Remettre le poulet, ajouter le lait de coco et laisser mijoter à feu doux jusqu'à ce que les légumes soient tendres."],
+            "portions": "4 personnes",
+            "advice": "Servir avec du riz blanc ou du riz créole.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 47,
+            "title": "Poulet Colombo",
+            "description": "Poulet mariné et grillé avec une sauce épicée.",
+            "image": "https://tse4.mm.bing.net/th?id=OIP.a_rJAXi8nAgvcxNhgW_KoAHaHa&pid=Api",
+            "preparation_time": 60,
+            "category": "plat",
+            "type": "caribeenne",
+            "ingredients": [
+                {
+                    "ingredient": "Poulet",
+                    "quantity": "800 g"
+                },
+                {
+                    "ingredient": "Citron vert",
+                    "quantity": "2"
+                },
+                {
+                    "ingredient": "Ail",
+                    "quantity": "4 gousses"
+                },
+                {
+                    "ingredient": "Thym",
+                    "quantity": "1 branche"
+                },
+                {
+                    "ingredient": "Piment antillais",
+                    "quantity": "2"
+                },
+                {
+                    "ingredient": "Curcuma",
+                    "quantity": "1 cuillère à café"
+                },
+                {
+                    "ingredient": "Cumin",
+                    "quantity": "1 cuillère à café"
+                },
+                {
+                    "ingredient": "Huile d'olive",
+                    "quantity": "50 ml"
+                },
+                {
+                    "ingredient": "Sel",
+                    "quantity": "1 pincée"
+                }
+            ],
+            "steps": ["Mariner le poulet avec le jus des citrons verts, l'ail écrasé, le thym, les piments, le curcuma, le cumin et le sel pendant au moins 2 heures. ", "Faire griller le poulet mariné jusqu'à ce qu'il soit doré et cuit à cœur."],
+            "portions": "4 personnes",
+            "advice": "Accompagner de bananes plantain frites et de sauce chien.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 48,
+            "title": "Pain au Coco",
+            "description": "Pain sucré à la noix de coco.",
+            "image": "https://tse4.mm.bing.net/th?id=OIP.nVfl5ueyXxvr48Dmx21ECwHaHa&pid=Api",
+            "preparation_time": 120,
+            "category": "dessert",
+            "type": "caribeenne",
+            "ingredients": [
+                {
+                    "ingredient": "Farine",
+                    "quantity": "300 g"
+                },
+                {
+                    "ingredient": "Noix de coco râpée",
+                    "quantity": "200 g"
+                },
+                {
+                    "ingredient": "Sucre",
+                    "quantity": "150 g"
+                },
+                {
+                    "ingredient": "Beurre",
+                    "quantity": "100 g"
+                },
+                {
+                    "ingredient": "Œufs",
+                    "quantity": "2"
+                },
+                {
+                    "ingredient": "Levure chimique",
+                    "quantity": "1 sachet"
+                },
+                {
+                    "ingredient": "Lait",
+                    "quantity": "200 ml"
+                },
+                {
+                    "ingredient": "Vanille",
+                    "quantity": "1 cuillère à café"
+                }
+            ],
+            "steps": ["Préchauffer le four à 180°C. ", "Battre le beurre mou avec le sucre. ", "Ajouter les œufs un par un, puis la vanille. ", "Incorporer la farine tamisée avec la levure et la noix de coco râpée. ", "Ajouter progressivement le lait pour obtenir une pâte lisse. ", "Verser dans un moule à cake beurré et fariné. ", "Cuire au four pendant environ 45 minutes."],
+            "portions": "6 personnes",
+            "advice": "Saupoudrer de sucre glace avant de servir.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 49,
+            "title": "Flan Coco",
+            "description": "Flan crémeux à la noix de coco.",
+            "image": "https://tse4.mm.bing.net/th?id=OIP.2UDvTLu7hf4iY1TAYd4HVgHaHa&pid=Api",
+            "preparation_time": 90,
+            "category": "dessert",
+            "type": "caribeenne",
+            "ingredients": [
+                {
+                    "ingredient": "Lait de coco",
+                    "quantity": "400 ml"
+                },
+                {
+                    "ingredient": "Lait",
+                    "quantity": "300 ml"
+                },
+                {
+                    "ingredient": "Œufs",
+                    "quantity": "4"
+                },
+                {
+                    "ingredient": "Sucre",
+                    "quantity": "150 g"
+                },
+                {
+                    "ingredient": "Vanille",
+                    "quantity": "1 cuillère à café"
+                }
+            ],
+            "steps": ["Préchauffer le four à 180°C. ", "Faire chauffer le lait de coco et le lait avec la vanille jusqu'à ce que ça frémisse. ", "Battre les œufs avec le sucre jusqu'à ce que le mélange blanchisse. ", "Verser doucement le lait chaud sur les œufs en fouettant. ", "Verser dans un moule à flan et cuire au bain-marie pendant 60 minutes."],
+            "portions": "6 personnes",
+            "advice": "Réfrigérer plusieurs heures avant de démouler et de servir.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 50,
+            "title": "Tarte à la Banane",
+            "description": "Tarte sucrée à la banane et à la noix de coco.",
+            "image": "https://tse4.mm.bing.net/th?id=OIP.HlZ78tk0x8TciJcAMEo5rAHaHa&pid=Api",
+            "preparation_time": 75,
+            "category": "dessert",
+            "type": "caribeenne",
+            "ingredients": [
+                {
+                    "ingredient": "Pâte brisée",
+                    "quantity": "1"
+                },
+                {
+                    "ingredient": "Bananes",
+                    "quantity": "4"
+                },
+                {
+                    "ingredient": "Noix de coco râpée",
+                    "quantity": "100 g"
+                },
+                {
+                    "ingredient": "Sucre",
+                    "quantity": "100 g"
+                },
+                {
+                    "ingredient": "Œufs",
+                    "quantity": "2"
+                },
+                {
+                    "ingredient": "Crème fraîche",
+                    "quantity": "100 ml"
+                },
+                {
+                    "ingredient": "Vanille",
+                    "quantity": "1 cuillère à café"
+                }
+            ],
+            "steps": ["Préchauffer le four à 180°C. ", "Foncer la pâte brisée dans un moule à tarte. ", "Battre les œufs avec le sucre et la vanille. ", "Ajouter la crème fraîche et la noix de coco râpée. ", "Verser cette préparation sur le fond de tarte. ", "Disposer les rondelles de banane sur le dessus. ", "Cuire au four pendant environ 30 minutes, jusqu'à ce que la tarte soit dorée."],
+            "portions": "6 personnes",
+            "advice": "Saupoudrer de noix de coco râpée avant de servir.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 51,
+            "title": "Chiquetaille de Morue",
+            "description": "Salade de morue marinée avec des épices et des légumes.",
+            "image": "https://tse2.mm.bing.net/th?id=OIP.nefwa8SF_dD_ctK91LwIpwHaHa&pid=Apihttps://tse3.mm.bing.net/th?id=OIP.tH4zOkcNfgtUO_AfYTlY7QHaHa&pid=Api",
+            "preparation_time": 45,
+            "category": "entree",
+            "type": "caribeenne",
+            "ingredients": [
+                {
+                    "ingredient": "Morue salée",
+                    "quantity": "300 g"
+                },
+                {
+                    "ingredient": "Poivron rouge",
+                    "quantity": "1"
+                },
+                {
+                    "ingredient": "Oignon rouge",
+                    "quantity": "1"
+                },
+                {
+                    "ingredient": "Piment végétarien",
+                    "quantity": "1"
+                },
+                {
+                    "ingredient": "Citron vert",
+                    "quantity": "2"
+                },
+                {
+                    "ingredient": "Huile d'olive",
+                    "quantity": "50 ml"
+                },
+                {
+                    "ingredient": "Persil",
+                    "quantity": "10 g"
+                },
+                {
+                    "ingredient": "Sel",
+                    "quantity": "1 pincée"
+                }
+            ],
+            "steps": ["Faire dessaler la morue dans de l'eau froide pendant 24 heures, changer l'eau plusieurs fois. ", "Égoutter et émietter la morue. ", "Hacher finement le poivron, l'oignon et le piment. ", "Mélanger la morue émiettée avec les légumes hachés, le jus des citrons verts, l'huile d'olive et le persil. ", "Laisser mariner au frais pendant au moins 2 heures avant de servir."],
+            "portions": "4 personnes",
+            "advice": "Accompagner de pain toasté ou de bananes frites.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 52,
+            "title": "Colombo de Cabri",
+            "description": "Ragoût épicé de cabri aux légumes.",
+            "image": "https://tse1.mm.bing.net/th?id=OIP.vojRWluP1JITIwRoy49fiQHaHa&pid=Api",
+            "preparation_time": 120,
+            "category": "plat",
+            "type": "caribeenne",
+            "ingredients": [
+                {
+                    "ingredient": "Cabri",
+                    "quantity": "800 g"
+                },
+                {
+                    "ingredient": "Oignon",
+                    "quantity": "2"
+                },
+                {
+                    "ingredient": "Ail",
+                    "quantity": "4 gousses"
+                },
+                {
+                    "ingredient": "Thym",
+                    "quantity": "1 branche"
+                },
+                {
+                    "ingredient": "Piment antillais",
+                    "quantity": "2"
+                },
+                {
+                    "ingredient": "Curcuma",
+                    "quantity": "1 cuillère à café"
+                },
+                {
+                    "ingredient": "Cumin",
+                    "quantity": "1 cuillère à café"
+                },
+                {
+                    "ingredient": "Pommes de terre",
+                    "quantity": "400 g"
+                },
+                {
+                    "ingredient": "Carottes",
+                    "quantity": "200 g"
+                },
+                {
+                    "ingredient": "Patate douce",
+                    "quantity": "200 g"
+                },
+                {
+                    "ingredient": "Lait de coco",
+                    "quantity": "400 ml"
+                },
+                {
+                    "ingredient": "Huile",
+                    "quantity": "50 ml"
+                },
+                {
+                    "ingredient": "Sel",
+                    "quantity": "1 pincée"
+                }
+            ],
+            "steps": ["Faire dorer le cabri dans l'huile. ", "Réserver. ", "Dans la même poêle, faire revenir l'oignon, l'ail, les épices et le piment. ", "Ajouter les légumes coupés en morceaux et faire revenir quelques minutes. ", "Remettre le cabri, ajouter le lait de coco et laisser mijoter à feu doux jusqu'à ce que les légumes soient tendres."],
+            "portions": "4 personnes",
+            "advice": "Servir avec du riz blanc ou du pain à l'ail.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 53,
+            "title": "Flan à la Noix de Coco et à la Vanille",
+            "description": "Flan crémeux à la noix de coco et parfumé à la vanille.",
+            "image": "https://tse1.explicit.bing.net/th?id=OIP.vojsb7fjZ6M2yXINtjfsPwHaHa&pid=Api",
+            "preparation_time": 90,
+            "category": "dessert",
+            "type": "caribeenne",
+            "ingredients": [
+                {
+                    "ingredient": "Lait de coco",
+                    "quantity": "400 ml"
+                },
+                {
+                    "ingredient": "Lait",
+                    "quantity": "300 ml"
+                },
+                {
+                    "ingredient": "Œufs",
+                    "quantity": "4"
+                },
+                {
+                    "ingredient": "Sucre",
+                    "quantity": "150 g"
+                },
+                {
+                    "ingredient": "Vanille",
+                    "quantity": "1 cuillère à café"
+                }
+            ],
+            "steps": ["Préchauffer le four à 180°C. ", "Faire chauffer le lait de coco et le lait avec la vanille jusqu'à ce que ça frémisse. ", "Battre les œufs avec le sucre jusqu'à ce que le mélange blanchisse. ", "Verser doucement le lait chaud sur les œufs en fouettant. ", "Verser dans un moule à flan et cuire au bain-marie pendant 60 minutes."],
+            "portions": "6 personnes",
+            "advice": "Réfrigérer plusieurs heures avant de démouler et de servir.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 54,
+            "title": "Chicken Wings Buffalo",
+            "description": "Ailes de poulet épicées et croustillantes.",
+            "image": "https://tse2.mm.bing.net/th?id=OIP.zCUmmT2wKCm083Azk9LlBgHaHa&pid=Api",
+            "preparation_time": 60,
+            "category": "entree",
+            "type": "americaine",
+            "ingredients": [
+                {
+                    "ingredient": "Ailes de poulet",
+                    "quantity": "800 g"
+                },
+                {
+                    "ingredient": "Beurre",
+                    "quantity": "100 g"
+                },
+                {
+                    "ingredient": "Sauce piquante",
+                    "quantity": "150 ml"
+                },
+                {
+                    "ingredient": "Vinaigre de cidre",
+                    "quantity": "50 ml"
+                },
+                {
+                    "ingredient": "Ail en poudre",
+                    "quantity": "1 cuillère à café"
+                },
+                {
+                    "ingredient": "Paprika",
+                    "quantity": "1 cuillère à café"
+                },
+                {
+                    "ingredient": "Sel",
+                    "quantity": "1 pincée"
+                },
+                {
+                    "ingredient": "Huile",
+                    "quantity": "50 ml"
+                },
+                {
+                    "ingredient": "Céleri",
+                    "quantity": "4 branches"
+                }
+            ],
+            "steps": ["Préchauffer le four à 200°C. ", "Faire fondre le beurre dans une casserole et ajouter la sauce piquante, le vinaigre de cidre, l'ail en poudre, le paprika et le sel. ", "Bien mélanger. ", "Enrober les ailes de poulet avec ce mélange et disposer sur une plaque de cuisson. ", "Cuire au four pendant environ 45 minutes, en retournant à mi-cuisson. ", "Servir avec des branches de céleri."],
+            "portions": "4 personnes",
+            "advice": "Accompagner de sauce ranch ou de bleu cheese.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 55,
+            "title": "Clam Chowder",
+            "description": "Soupe épaisse aux palourdes et aux pommes de terre.",
+            "image": "https://tse1.mm.bing.net/th?id=OIP.GWGBPdtTYvosePaWCLqC1gHaHa&pid=Api",
+            "preparation_time": 75,
+            "category": "entree",
+            "type": "americaine",
+            "ingredients": [
+                {
+                    "ingredient": "Palourdes en conserve",
+                    "quantity": "500 g"
+                },
+                {
+                    "ingredient": "Pommes de terre",
+                    "quantity": "400 g"
+                },
+                {
+                    "ingredient": "Oignon",
+                    "quantity": "1"
+                },
+                {
+                    "ingredient": "Céleri",
+                    "quantity": "2 branches"
+                },
+                {
+                    "ingredient": "Beurre",
+                    "quantity": "50 g"
+                },
+                {
+                    "ingredient": "Farine",
+                    "quantity": "50 g"
+                },
+                {
+                    "ingredient": "Lait",
+                    "quantity": "400 ml"
+                },
+                {
+                    "ingredient": "Bouillon de poulet",
+                    "quantity": "500 ml"
+                },
+                {
+                    "ingredient": "Thym",
+                    "quantity": "1 branche"
+                },
+                {
+                    "ingredient": "Poivre noir",
+                    "quantity": "1 pincée"
+                },
+                {
+                    "ingredient": "Persil frais",
+                    "quantity": "10 g"
+                }
+            ],
+            "steps": ["Faire fondre le beurre dans une casserole. ", "Faire revenir l'oignon et le céleri hachés jusqu'à ce qu'ils soient tendres. ", "Ajouter la farine et cuire quelques minutes. ", "Incorporer le lait et le bouillon de poulet, porter à ébullition en remuant. ", "Ajouter les pommes de terre coupées en dés et les palourdes égouttées. ", "Assaisonner avec le thym et le poivre. ", "Laisser mijoter jusqu'à ce que les pommes de terre soient tendres. ", "Servir chaud garni de persil frais."],
+            "portions": "4 personnes",
+            "advice": "Accompagner de pain de maïs ou de biscuits salés.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 56,
+            "title": "Cobb Salad",
+            "description": "Salade composée avec poulet grillé, avocat, bacon et fromage bleu.",
+            "image": "https://tse4.mm.bing.net/th?id=OIP.KNHHXRzGs-pTOLOZPs6fgAHaHa&pid=Api",
+            "preparation_time": 30,
+            "category": "entree",
+            "type": "americaine",
+            "ingredients": [
+                {
+                    "ingredient": "Blancs de poulet",
+                    "quantity": "400 g"
+                },
+                {
+                    "ingredient": "Laitue romaine",
+                    "quantity": "1 tête"
+                },
+                {
+                    "ingredient": "Avocat",
+                    "quantity": "2"
+                },
+                {
+                    "ingredient": "Tomates",
+                    "quantity": "2"
+                },
+                {
+                    "ingredient": "Œufs",
+                    "quantity": "4"
+                },
+                {
+                    "ingredient": "Bacon",
+                    "quantity": "150 g"
+                },
+                {
+                    "ingredient": "Fromage bleu",
+                    "quantity": "100 g"
+                },
+                {
+                    "ingredient": "Vinaigrette",
+                    "quantity": "100 ml"
+                },
+                {
+                    "ingredient": "Sel",
+                    "quantity": "1 pincée"
+                },
+                {
+                    "ingredient": "Poivre noir",
+                    "quantity": "1 pincée"
+                }
+            ],
+            "steps": ["Cuire les œufs dans de l'eau bouillante, les écaler et les couper en quartiers. ", "Faire griller le poulet et le couper en morceaux. ", "Cuire le bacon croustillant et l'émietter. ", "Couper les avocats en tranches et les tomates en quartiers. ", "Disposer la laitue romaine dans un grand saladier. ", "Ajouter les ingrédients préparés sur le dessus en lignes distinctes. ", "Assaisonner avec la vinaigrette, le sel et le poivre."],
+            "portions": "4 personnes",
+            "advice": "Servir frais avec des croûtons ou du pain grillé.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 57,
+            "title": "Burger Classique",
+            "description": "Burger américain avec steak haché, cheddar, salade et tomate.",
+            "image": "https://tse3.mm.bing.net/th?id=OIP.nKBoMtmWJ0ZcyXj0hyFstgHaHa&pid=Api",
+            "preparation_time": 30,
+            "category": "plat",
+            "type": "americaine",
+            "ingredients": [
+                {
+                    "ingredient": "Steak haché",
+                    "quantity": "800 g"
+                },
+                {
+                    "ingredient": "Pain à burger",
+                    "quantity": "4"
+                },
+                {
+                    "ingredient": "Cheddar",
+                    "quantity": "100 g"
+                },
+                {
+                    "ingredient": "Salade verte",
+                    "quantity": "1 feuille par burger"
+                },
+                {
+                    "ingredient": "Tomate",
+                    "quantity": "1 tranche par burger"
+                },
+                {
+                    "ingredient": "Oignon rouge",
+                    "quantity": "1"
+                },
+                {
+                    "ingredient": "Cornichons",
+                    "quantity": "4"
+                },
+                {
+                    "ingredient": "Ketchup",
+                    "quantity": "50 ml"
+                },
+                {
+                    "ingredient": "Moutarde",
+                    "quantity": "50 ml"
+                },
+                {
+                    "ingredient": "Sel",
+                    "quantity": "1 pincée"
+                },
+                {
+                    "ingredient": "Poivre noir",
+                    "quantity": "1 pincée"
+                },
+                {
+                    "ingredient": "Huile",
+                    "quantity": "50 ml"
+                }
+            ],
+            "steps": ["Former des steaks hachés avec la viande, assaisonner avec du sel et du poivre. ", "Faire chauffer l'huile dans une poêle et cuire les steaks à feu moyen jusqu'à ce qu'ils soient bien dorés des deux côtés et cuits à point. ", "Griller les pains à burger coupés en deux. ", "Assembler les burgers avec le steak, le cheddar fondu, la salade, la tomate, l'oignon rouge, les cornichons et les sauces ketchup et moutarde."],
+            "portions": "4 personnes",
+            "advice": "Accompagner de frites ou de chips.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 58,
+            "title": "Macaroni and Cheese",
+            "description": "Pâtes au fromage crémeux gratinées.",
+            "image": "https://tse1.mm.bing.net/th?id=OIP.ggdabW8wbzk7bvJ2q3Ed7QHaHa&pid=Api",
+            "preparation_time": 45,
+            "category": "plat",
+            "type": "americaine",
+            "ingredients": [
+                {
+                    "ingredient": "Macaroni",
+                    "quantity": "400 g"
+                },
+                {
+                    "ingredient": "Cheddar",
+                    "quantity": "300 g"
+                },
+                {
+                    "ingredient": "Beurre",
+                    "quantity": "100 g"
+                },
+                {
+                    "ingredient": "Farine",
+                    "quantity": "50 g"
+                },
+                {
+                    "ingredient": "Lait",
+                    "quantity": "500 ml"
+                },
+                {
+                    "ingredient": "Moutarde de Dijon",
+                    "quantity": "1 cuillère à café"
+                },
+                {
+                    "ingredient": "Sel",
+                    "quantity": "1 pincée"
+                },
+                {
+                    "ingredient": "Poivre noir",
+                    "quantity": "1 pincée"
+                },
+                {
+                    "ingredient": "Chapelure",
+                    "quantity": "50 g"
+                }
+            ],
+            "steps": ["Cuire les macaroni dans de l'eau bouillante salée jusqu'à ce qu'ils soient al dente. ", "Préchauffer le four à 180°C. ", "Faire fondre le beurre dans une casserole, ajouter la farine et cuire quelques minutes. ", "Incorporer progressivement le lait en fouettant jusqu'à épaississement. ", "Ajouter la moutarde, le sel, le poivre et le cheddar râpé. ", "Mélanger les macaroni cuits avec la sauce au fromage. ", "Verser dans un plat à gratin beurré, saupoudrer de chapelure et cuire au four pendant 20-25 minutes jusqu'à ce que le dessus soit doré."],
+            "portions": "4 personnes",
+            "advice": "Servir chaud avec une salade verte.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 59,
+            "title": "Pulled Pork Sandwich",
+            "description": "Sandwich au porc effiloché avec sauce barbecue.",
+            "image": "https://tse3.mm.bing.net/th?id=OIP.h5Dzye1fu_6kg7uTuNGeXgHaHa&pid=Api",
+            "preparation_time": 300,
+            "category": "plat",
+            "type": "americaine",
+            "ingredients": [
+                {
+                    "ingredient": "Épaule de porc",
+                    "quantity": "1 kg"
+                },
+                {
+                    "ingredient": "Pain burger",
+                    "quantity": "4"
+                },
+                {
+                    "ingredient": "Sauce barbecue",
+                    "quantity": "200 ml"
+                },
+                {
+                    "ingredient": "Oignon",
+                    "quantity": "1"
+                },
+                {
+                    "ingredient": "Ail",
+                    "quantity": "2 gousses"
+                },
+                {
+                    "ingredient": "Bouillon de poulet",
+                    "quantity": "500 ml"
+                },
+                {
+                    "ingredient": "Vinaigre de cidre",
+                    "quantity": "50 ml"
+                },
+                {
+                    "ingredient": "Paprika",
+                    "quantity": "1 cuillère à café"
+                },
+                {
+                    "ingredient": "Sel",
+                    "quantity": "1 pincée"
+                },
+                {
+                    "ingredient": "Poivre noir",
+                    "quantity": "1 pincée"
+                },
+                {
+                    "ingredient": "Huile",
+                    "quantity": "50 ml"
+                }
+            ],
+            "steps": ["Frotter la viande avec du sel, du poivre et du paprika. ", "Faire chauffer l'huile dans une cocotte et saisir la viande sur tous les côtés. ", "Retirer la viande et faire revenir l'oignon et l'ail hachés dans la même cocotte. ", "Ajouter la viande, la sauce barbecue, le bouillon de poulet et le vinaigre de cidre. ", "Cuire à feu doux pendant environ 4 heures jusqu'à ce que la viande soit tendre et puisse être effilochée facilement avec une fourchette. ", "Effilocher la viande et servir sur des pains à burger."],
+            "portions": "4 personnes",
+            "advice": "Servir avec des cornichons et des frites.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 60,
+            "title": "Apple Pie",
+            "description": "Tarte aux pommes classique avec une croûte dorée.",
+            "image": "https://tse2.mm.bing.net/th?id=OIP.570Jr6y-DX_83GwFFrLPvAHaHa&pid=Api",
+            "preparation_time": 120,
+            "category": "dessert",
+            "type": "americaine",
+            "ingredients": [
+                {
+                    "ingredient": "Pommes Granny Smith",
+                    "quantity": "6"
+                },
+                {
+                    "ingredient": "Sucre",
+                    "quantity": "150 g"
+                },
+                {
+                    "ingredient": "Beurre",
+                    "quantity": "100 g"
+                },
+                {
+                    "ingredient": "Cannelle",
+                    "quantity": "1 cuillère à café"
+                },
+                {
+                    "ingredient": "Jus de citron",
+                    "quantity": "30 ml"
+                },
+                {
+                    "ingredient": "Pâte brisée",
+                    "quantity": "1"
+                },
+                {
+                    "ingredient": "Œuf",
+                    "quantity": "1"
+                },
+                {
+                    "ingredient": "Sucre glace",
+                    "quantity": "pour saupoudrer"
+                }
+            ],
+            "steps": ["Préchauffer le four à 180°C. ", "Éplucher, épépiner et couper les pommes en tranches fines. ", "Mélanger les pommes avec le sucre, la cannelle et le jus de citron. ", "Foncer un moule à tarte avec la pâte brisée. ", "Remplir avec le mélange de pommes. ", "Couper le beurre en petits morceaux et répartir sur les pommes. ", "Recouvrir avec une autre abaisse de pâte. ", "Sceller les bords et décorer selon votre préférence. ", "Dorer avec l'œuf battu. ", "Cuire au four pendant environ 45-50 minutes, jusqu'à ce que la croûte soit dorée. ", "Saupoudrer de sucre glace avant de servir."],
+            "portions": "6 personnes",
+            "advice": "Servir tiède avec de la crème glacée à la vanille.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 61,
+            "title": "Cheesecake New-Yorkais",
+            "description": "Cheesecake crémeux avec base de biscuits Graham.",
+            "image": "https://tse3.mm.bing.net/th?id=OIP.-H-ApEhJyL_7VTzeTS11HAHaHa&pid=Api",
+            "preparation_time": 180,
+            "category": "dessert",
+            "type": "americaine",
+            "ingredients": [
+                {
+                    "ingredient": "Biscuits Graham",
+                    "quantity": "200 g"
+                },
+                {
+                    "ingredient": "Beurre",
+                    "quantity": "100 g"
+                },
+                {
+                    "ingredient": "Fromage à la crème",
+                    "quantity": "600 g"
+                },
+                {
+                    "ingredient": "Sucre",
+                    "quantity": "150 g"
+                },
+                {
+                    "ingredient": "Œufs",
+                    "quantity": "3"
+                },
+                {
+                    "ingredient": "Crème fraîche",
+                    "quantity": "200 ml"
+                },
+                {
+                    "ingredient": "Extrait de vanille",
+                    "quantity": "1 cuillère à café"
+                },
+                {
+                    "ingredient": "Zeste de citron",
+                    "quantity": "1"
+                },
+                {
+                    "ingredient": "Farine",
+                    "quantity": "30 g"
+                }
+            ],
+            "steps": ["Préchauffer le four à 160°C. ", "Mixer les biscuits Graham en fine poudre. ", "Faire fondre le beurre et mélanger avec les biscuits. ", "Presser ce mélange dans le fond d'un moule à cheesecake. ", "Battre le fromage à la crème avec le sucre jusqu'à consistance lisse. ", "Ajouter les œufs un à un, en mélangeant bien entre chaque ajout. ", "Incorporer la crème fraîche, la vanille, le zeste de citron et la farine. ", "Verser sur la croûte de biscuits. ", "Cuire au four pendant environ 1h15. ", "Laisser refroidir dans le four éteint avec la porte entrouverte, puis réfrigérer pendant au moins 4 heures avant de démouler et de servir."],
+            "portions": "8 personnes",
+            "advice": "Décorer avec des fruits frais ou un coulis de fruits rouges.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 62,
+            "title": "Key Lime Pie",
+            "description": "Tarte aux citrons verts avec une garniture crémeuse.",
+            "image": "https://tse2.mm.bing.net/th?id=OIP.2LRNz9i57emVBoQFaGHB2gHaHa&pid=Api",
+            "preparation_time": 90,
+            "category": "dessert",
+            "type": "americaine",
+            "ingredients": [
+                {
+                    "ingredient": "Biscuits Graham",
+                    "quantity": "200 g"
+                },
+                {
+                    "ingredient": "Beurre",
+                    "quantity": "100 g"
+                },
+                {
+                    "ingredient": "Œufs",
+                    "quantity": "4"
+                },
+                {
+                    "ingredient": "Lait concentré sucré",
+                    "quantity": "400 g"
+                },
+                {
+                    "ingredient": "Jus de citron vert",
+                    "quantity": "150 ml"
+                },
+                {
+                    "ingredient": "Zeste de citron vert",
+                    "quantity": "1"
+                },
+                {
+                    "ingredient": "Crème fouettée",
+                    "quantity": "200 ml"
+                },
+                {
+                    "ingredient": "Sucre",
+                    "quantity": "50 g"
+                }
+            ],
+            "steps": ["Préchauffer le four à 180°C. ", "Mixer les biscuits Graham en fine poudre. ", "Faire fondre le beurre et mélanger avec les biscuits. ", "Presser ce mélange dans le fond d'un moule à tarte. ", "Battre les jaunes d'œufs avec le lait concentré sucré, le jus et le zeste de citron vert jusqu'à consistance lisse. ", "Verser sur la croûte de biscuits. ", "Cuire au four pendant environ 15 minutes. ", "Laisser refroidir complètement. ", "Décorer avec de la crème fouettée sucrée et des zestes de citron vert. ", "Réfrigérer avant de servir."],
+            "portions": "6 personnes",
+            "advice": "Utiliser des citrons verts frais pour un meilleur goût.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 63,
+            "title": "Fataya au Poulet",
+            "description": "Chaussons farcis au poulet épicé, spécialité sénégalaise.",
+            "image": "https://tse4.mm.bing.net/th?id=OIP.iHgzJkC-KE83gMuxWJI7fwHaHa&pid=Api",
+            "preparation_time": 90,
+            "category": "entree",
+            "type": "africaine",
+            "ingredients": [
+                {
+                    "ingredient": "Pâte à pain",
+                    "quantity": "400 g"
+                },
+                {
+                    "ingredient": "Blancs de poulet",
+                    "quantity": "300 g"
+                },
+                {
+                    "ingredient": "Oignon",
+                    "quantity": "1"
+                },
+                {
+                    "ingredient": "Ail",
+                    "quantity": "2 gousses"
+                },
+                {
+                    "ingredient": "Piment",
+                    "quantity": "1"
+                },
+                {
+                    "ingredient": "Curcuma",
+                    "quantity": "1 cuillère à café"
+                },
+                {
+                    "ingredient": "Persil frais",
+                    "quantity": "10 g"
+                },
+                {
+                    "ingredient": "Huile",
+                    "quantity": "50 ml"
+                },
+                {
+                    "ingredient": "Sel",
+                    "quantity": "1 pincée"
+                },
+                {
+                    "ingredient": "Poivre noir",
+                    "quantity": "1 pincée"
+                }
+            ],
+            "steps": ["Faire revenir l'oignon, l'ail, le piment et le poulet haché dans l'huile jusqu'à ce que le poulet soit cuit. ", "Ajouter le curcuma, le persil haché, le sel et le poivre. ", "Laisser refroidir. ", "Étaler la pâte à pain en disques, garnir avec la préparation au poulet, plier en chaussons et sceller les bords. ", "Faire frire dans de l'huile chaude jusqu'à ce qu'ils soient dorés et croustillants."],
+            "portions": "4 personnes",
+            "advice": "Servir chaud avec une sauce pimentée.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 64,
+            "title": "Jollof Rice",
+            "description": "Riz parfumé à la tomate et aux épices, plat nigérian traditionnel.",
+            "image": "https://tse3.mm.bing.net/th?id=OIP.dCDzajKDFE4m3_akV1-O3QHaHa&pid=Api",
+            "preparation_time": 60,
+            "category": "plat",
+            "type": "africaine",
+            "ingredients": [
+                {
+                    "ingredient": "Riz basmati",
+                    "quantity": "300 g"
+                },
+                {
+                    "ingredient": "Poulet",
+                    "quantity": "400 g"
+                },
+                {
+                    "ingredient": "Tomates",
+                    "quantity": "4"
+                },
+                {
+                    "ingredient": "Poivron rouge",
+                    "quantity": "1"
+                },
+                {
+                    "ingredient": "Oignon",
+                    "quantity": "1"
+                },
+                {
+                    "ingredient": "Ail",
+                    "quantity": "3 gousses"
+                },
+                {
+                    "ingredient": "Huile de palme",
+                    "quantity": "50 ml"
+                },
+                {
+                    "ingredient": "Curcuma",
+                    "quantity": "1 cuillère à café"
+                },
+                {
+                    "ingredient": "Paprika",
+                    "quantity": "1 cuillère à café"
+                },
+                {
+                    "ingredient": "Thym",
+                    "quantity": "1 branche"
+                },
+                {
+                    "ingredient": "Sel",
+                    "quantity": "1 pincée"
+                },
+                {
+                    "ingredient": "Poivre noir",
+                    "quantity": "1 pincée"
+                }
+            ],
+            "steps": ["Faire chauffer l'huile de palme dans une grande casserole. ", "Faire revenir l'oignon, l'ail, le poivron et les tomates hachés jusqu'à ce qu'ils soient tendres. ", "Ajouter le poulet coupé en morceaux et faire dorer. ", "Incorporer le riz, le curcuma, le paprika, le thym, le sel et le poivre. ", "Verser assez d'eau pour couvrir le riz et cuire à feu doux jusqu'à ce que le riz soit cuit et absorbé toute l'eau."],
+            "portions": "4 personnes",
+            "advice": "Servir chaud avec des tranches de plantain frit.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 65,
+            "title": "Thiakry",
+            "description": "Semoule sucrée au lait fermenté, dessert sénégalais traditionnel.",
+            "image": "https://tse1.explicit.bing.net/th?id=OIP.mO8dIlPAL63DJwUQbYeHywHaHa&pid=Api",
+            "preparation_time": 45,
+            "category": "dessert",
+            "type": "africaine",
+            "ingredients": [
+                {
+                    "ingredient": "Semoule de mil",
+                    "quantity": "200 g"
+                },
+                {
+                    "ingredient": "Lait fermenté",
+                    "quantity": "500 ml"
+                },
+                {
+                    "ingredient": "Sucre",
+                    "quantity": "100 g"
+                },
+                {
+                    "ingredient": "Raisins secs",
+                    "quantity": "50 g"
+                },
+                {
+                    "ingredient": "Noix de coco râpée",
+                    "quantity": "50 g"
+                },
+                {
+                    "ingredient": "Vanille",
+                    "quantity": "1 cuillère à café"
+                }
+            ],
+            "steps": ["Faire chauffer le lait fermenté dans une casserole avec la vanille et le sucre. ", "Ajouter la semoule de mil en pluie tout en remuant vigoureusement pour éviter les grumeaux. ", "Laisser cuire à feu doux en remuant régulièrement jusqu'à ce que la semoule absorbe tout le liquide et devienne crémeuse. ", "Retirer du feu et laisser refroidir légèrement. ", "Incorporer les raisins secs et la noix de coco râpée. ", "Servir tiède ou froid."],
+            "portions": "6 personnes",
+            "advice": "Saupoudrer de cannelle avant de servir.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 66,
+            "title": "Bunny Chow",
+            "description": "Pain farci au curry de viande, spécialité sud-africaine.",
+            "image": "https://tse2.mm.bing.net/th?id=OIP.pulmPDp13onrpJccTFD1dQHaHa&pid=Api",
+            "preparation_time": 120,
+            "category": "plat",
+            "type": "africaine",
+            "ingredients": [
+                {
+                    "ingredient": "Pain blanc",
+                    "quantity": "4 petits pains"
+                },
+                {
+                    "ingredient": "Viande de bœuf",
+                    "quantity": "500 g"
+                },
+                {
+                    "ingredient": "Oignon",
+                    "quantity": "2"
+                },
+                {
+                    "ingredient": "Tomates",
+                    "quantity": "3"
+                },
+                {
+                    "ingredient": "Ail",
+                    "quantity": "3 gousses"
+                },
+                {
+                    "ingredient": "Curry en poudre",
+                    "quantity": "2 cuillères à soupe"
+                },
+                {
+                    "ingredient": "Pommes de terre",
+                    "quantity": "400 g"
+                },
+                {
+                    "ingredient": "Huile végétale",
+                    "quantity": "50 ml"
+                },
+                {
+                    "ingredient": "Sel",
+                    "quantity": "1 pincée"
+                },
+                {
+                    "ingredient": "Coriandre fraîche",
+                    "quantity": "10 g"
+                }
+            ],
+            "steps": ["Faire chauffer l'huile dans une grande casserole et faire revenir l'oignon haché jusqu'à ce qu'il soit doré. ", "Ajouter l'ail émincé et les tomates hachées. ", "Faire cuire jusqu'à ce que les tomates soient tendres. ", "Ajouter la viande coupée en dés et faire dorer. ", "Incorporer le curry en poudre et cuire quelques minutes. ", "Ajouter les pommes de terre coupées en cubes, couvrir d'eau et laisser mijoter jusqu'à ce que les pommes de terre soient tendres. ", "Farcir les pains avec le mélange de viande et de pommes de terre. ", "Servir chaud garni de coriandre fraîche."],
+            "portions": "4 personnes",
+            "advice": "Accompagner de chutney de mangue.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 67,
+            "title": "Samoussa à la Viande",
+            "description": "Petits triangles croustillants farcis à la viande épicée, spécialité mauricienne.",
+            "image": "https://tse1.mm.bing.net/th?id=OIP.ryTAWymlSTJnGfqRyjgLmAHaHa&pid=Api",
+            "preparation_time": 90,
+            "category": "entree",
+            "type": "africaine",
+            "ingredients": [
+                {
+                    "ingredient": "Feuilles de brick",
+                    "quantity": "10"
+                },
+                {
+                    "ingredient": "Viande hachée",
+                    "quantity": "300 g"
+                },
+                {
+                    "ingredient": "Oignon",
+                    "quantity": "1"
+                },
+                {
+                    "ingredient": "Pommes de terre",
+                    "quantity": "2"
+                },
+                {
+                    "ingredient": "Curry en poudre",
+                    "quantity": "1 cuillère à café"
+                },
+                {
+                    "ingredient": "Cumin en poudre",
+                    "quantity": "1 cuillère à café"
+                },
+                {
+                    "ingredient": "Coriandre fraîche",
+                    "quantity": "10 g"
+                },
+                {
+                    "ingredient": "Huile végétale",
+                    "quantity": "50 ml"
+                },
+                {
+                    "ingredient": "Sel",
+                    "quantity": "1 pincée"
+                },
+                {
+                    "ingredient": "Poivre noir",
+                    "quantity": "1 pincée"
+                }
+            ],
+            "steps": ["Faire revenir l'oignon haché dans l'huile jusqu'à ce qu'il soit doré. ", "Ajouter la viande hachée, les épices, les pommes de terre coupées en petits dés et la coriandre hachée. ", "Assaisonner avec du sel et du poivre. ", "Laisser cuire jusqu'à ce que la viande soit cuite et que les pommes de terre soient tendres. ", "Couper les feuilles de brick en bandes, replier en triangles et farcir avec la préparation à la viande. ", "Faire frire dans de l'huile chaude jusqu'à ce qu'ils soient dorés et croustillants."],
+            "portions": "4 personnes",
+            "advice": "Servir avec une sauce au yaourt et à la menthe.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 68,
+            "title": "Mafe de Poulet",
+            "description": "Ragoût de poulet en sauce arachide, plat sénégalais traditionnel.",
+            "image": "https://tse1.mm.bing.net/th?id=OIP.1AJHx1X1dr3PKl3Fy_k9JgHaHa&pid=Api",
+            "preparation_time": 120,
+            "category": "plat",
+            "type": "africaine",
+            "ingredients": [
+                {
+                    "ingredient": "Poulet",
+                    "quantity": "800 g"
+                },
+                {
+                    "ingredient": "Beurre de cacahuète",
+                    "quantity": "200 g"
+                },
+                {
+                    "ingredient": "Tomates",
+                    "quantity": "3"
+                },
+                {
+                    "ingredient": "Oignon",
+                    "quantity": "2"
+                },
+                {
+                    "ingredient": "Ail",
+                    "quantity": "4 gousses"
+                },
+                {
+                    "ingredient": "Carottes",
+                    "quantity": "2"
+                },
+                {
+                    "ingredient": "Pommes de terre",
+                    "quantity": "3"
+                },
+                {
+                    "ingredient": "Piment",
+                    "quantity": "1"
+                },
+                {
+                    "ingredient": "Huile d'arachide",
+                    "quantity": "50 ml"
+                },
+                {
+                    "ingredient": "Sel",
+                    "quantity": "1 pincée"
+                },
+                {
+                    "ingredient": "Poivre noir",
+                    "quantity": "1 pincée"
+                }
+            ],
+            "steps": ["Faire chauffer l'huile dans une grande casserole et faire revenir l'oignon haché jusqu'à ce qu'il soit doré. ", "Ajouter l'ail émincé, le piment, les tomates coupées en dés, le beurre de cacahuète et environ 1 litre d'eau. ", "Laisser mijoter à feu moyen. ", "Ajouter le poulet coupé en morceaux, les carottes et les pommes de terre coupées en cubes. ", "Assaisonner avec du sel et du poivre. ", "Laisser cuire à feu doux jusqu'à ce que le poulet soit tendre et la sauce épaissie."],
+            "portions": "4 personnes",
+            "advice": "Servir chaud avec du riz blanc.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 69,
+            "title": "Beignets de Banane Plantain",
+            "description": "Beignets sucrés à la banane plantain, dessert traditionnel d'Afrique de l'Ouest.",
+            "image": "https://tse1.explicit.bing.net/th?id=OIP.vlOarEf4vsWonvg_ZTEZcQHaHa&pid=Api",
+            "preparation_time": 60,
+            "category": "dessert",
+            "type": "africaine",
+            "ingredients": [
+                {
+                    "ingredient": "Bananes plantain",
+                    "quantity": "2"
+                },
+                {
+                    "ingredient": "Farine",
+                    "quantity": "100 g"
+                },
+                {
+                    "ingredient": "Sucre",
+                    "quantity": "50 g"
+                },
+                {
+                    "ingredient": "Levure chimique",
+                    "quantity": "1 cuillère à café"
+                },
+                {
+                    "ingredient": "Lait",
+                    "quantity": "100 ml"
+                },
+                {
+                    "ingredient": "Œuf",
+                    "quantity": "1"
+                },
+                {
+                    "ingredient": "Huile végétale",
+                    "quantity": "500 ml"
+                },
+                {
+                    "ingredient": "Sel",
+                    "quantity": "1 pincée"
+                }
+            ],
+            "steps": ["Peler les bananes et les couper en rondelles. ", "Dans un bol, mélanger la farine, le sucre, la levure, le lait, l'œuf et le sel jusqu'à obtenir une pâte lisse. ", "Tremper les rondelles de banane dans la pâte à beignet. ", "Faire chauffer l'huile dans une poêle profonde. ", "Faire frire les beignets de banane plantain jusqu'à ce qu'ils soient dorés et croustillants. ", "Égoutter sur du papier absorbant."],
+            "portions": "4 personnes",
+            "advice": "Saupoudrer de sucre glace avant de servir.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 70,
+            "title": "Couscous aux Légumes",
+            "description": "Semoule aux légumes et aux épices, plat maghrébin revisité.",
+            "image": "https://tse4.mm.bing.net/th?id=OIP.X6Ez6k1_8wWnv9VB1H8OGwHaHa&pid=Api",
+            "preparation_time": 90,
+            "category": "plat",
+            "type": "africaine",
+            "ingredients": [
+                {
+                    "ingredient": "Semoule de couscous",
+                    "quantity": "300 g"
+                },
+                {
+                    "ingredient": "Courgette",
+                    "quantity": "1"
+                },
+                {
+                    "ingredient": "Carottes",
+                    "quantity": "2"
+                },
+                {
+                    "ingredient": "Poivron rouge",
+                    "quantity": "1"
+                },
+                {
+                    "ingredient": "Oignon",
+                    "quantity": "1"
+                },
+                {
+                    "ingredient": "Ail",
+                    "quantity": "2 gousses"
+                },
+                {
+                    "ingredient": "Haricots verts",
+                    "quantity": "100 g"
+                },
+                {
+                    "ingredient": "Tomates concassées",
+                    "quantity": "400 g"
+                },
+                {
+                    "ingredient": "Huile d'olive",
+                    "quantity": "50 ml"
+                },
+                {
+                    "ingredient": "Ras el hanout",
+                    "quantity": "2 cuillères à café"
+                },
+                {
+                    "ingredient": "Coriandre fraîche",
+                    "quantity": "10 g"
+                },
+                {
+                    "ingredient": "Sel",
+                    "quantity": "1 pincée"
+                },
+                {
+                    "ingredient": "Poivre noir",
+                    "quantity": "1 pincée"
+                }
+            ],
+            "steps": ["Faire chauffer l'huile d'olive dans une grande casserole et faire revenir l'oignon haché jusqu'à ce qu'il soit doré. ", "Ajouter l'ail émincé, les légumes coupés en dés et les tomates concassées. ", "Assaisonner avec le ras el hanout, le sel et le poivre. ", "Laisser mijoter jusqu'à ce que les légumes soient tendres. ", "Préparer la semoule de couscous selon les instructions sur l'emballage. ", "Servir les légumes mijotés sur un lit de semoule, garni de coriandre fraîche."],
+            "portions": "4 personnes",
+            "advice": "Accompagner de sauce harissa.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 71,
+            "title": "Chapati",
+            "description": "Pain plat moelleux d'origine indienne, populaire en Afrique de l'Est.",
+            "image": "https://tse4.mm.bing.net/th?id=OIP.UV0Z9gvprDYobMDM7SoK_AHaHa&pid=Api",
+            "preparation_time": 60,
+            "category": "entree",
+            "type": "africaine",
+            "ingredients": [
+                {
+                    "ingredient": "Farine de blé",
+                    "quantity": "300 g"
+                },
+                {
+                    "ingredient": "Eau tiède",
+                    "quantity": "150 ml"
+                },
+                {
+                    "ingredient": "Sel",
+                    "quantity": "1 cuillère à café"
+                },
+                {
+                    "ingredient": "Huile végétale",
+                    "quantity": "30 ml"
+                }
+            ],
+            "steps": ["Dans un grand bol, mélanger la farine de blé et le sel. ", "Ajouter lentement l'eau tiède tout en mélangeant avec les mains jusqu'à ce que la pâte soit lisse et élastique. ", "Diviser la pâte en boules de la taille d'une balle de golf. ", "Rouler chaque boule de pâte en un cercle mince sur une surface légèrement farinée. ", "Chauffer une poêle à feu moyen et cuire chaque chapati pendant environ 1 à 2 minutes de chaque côté, en les badigeonnant légèrement d'huile végétale. ", "Les chapatis doivent gonfler et dorer légèrement. ", "Servir chaud."],
+            "portions": "4 personnes",
+            "advice": "Accompagner de curry de légumes ou de chutney.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 72,
+            "title": "Beignets de Maïs",
+            "description": "Petits beignets sucrés au maïs, spécialité africaine.",
+            "image": "https://tse2.mm.bing.net/th?id=OIP.VJzfdkia61KRpXO_fmp0PgHaHa&pid=Api",
+            "preparation_time": 60,
+            "category": "dessert",
+            "type": "africaine",
+            "ingredients": [
+                {
+                    "ingredient": "Maïs frais",
+                    "quantity": "200 g"
+                },
+                {
+                    "ingredient": "Farine de maïs",
+                    "quantity": "100 g"
+                },
+                {
+                    "ingredient": "Sucre",
+                    "quantity": "50 g"
+                },
+                {
+                    "ingredient": "Œuf",
+                    "quantity": "1"
+                },
+                {
+                    "ingredient": "Lait",
+                    "quantity": "100 ml"
+                },
+                {
+                    "ingredient": "Levure chimique",
+                    "quantity": "1 cuillère à café"
+                },
+                {
+                    "ingredient": "Huile végétale",
+                    "quantity": "500 ml"
+                },
+                {
+                    "ingredient": "Sel",
+                    "quantity": "1 pincée"
+                }
+            ],
+            "steps": ["Dans un bol, mélanger la farine de maïs, le sucre, la levure, l'œuf, le lait et le sel jusqu'à obtenir une pâte lisse. ", "Ajouter le maïs frais et bien mélanger. ", "Faire chauffer l'huile dans une poêle profonde. ", "Faire frire les beignets de maïs jusqu'à ce qu'ils soient dorés et croustillants. ", "Égoutter sur du papier absorbant."],
+            "portions": "4 personnes",
+            "advice": "Saupoudrer de cannelle et de sucre glace avant de servir.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 73,
+            "title": "Gazpacho Andaluz",
+            "description": "Soupe froide de tomates, concombre et poivron, spécialité andalouse rafraîchissante.",
+            "image": "https://tse2.mm.bing.net/th?id=OIP.h8AHj7eJMm56kWm0lygorwHaHa&pid=Api",
+            "preparation_time": 30,
+            "category": "entree",
+            "type": "espagnol",
+            "ingredients": [
+                {
+                    "ingredient": "Tomates mûres",
+                    "quantity": "1 kg"
+                },
+                {
+                    "ingredient": "Concombre",
+                    "quantity": "1"
+                },
+                {
+                    "ingredient": "Poivron vert",
+                    "quantity": "1"
+                },
+                {
+                    "ingredient": "Oignon",
+                    "quantity": "1"
+                },
+                {
+                    "ingredient": "Ail",
+                    "quantity": "2 gousses"
+                },
+                {
+                    "ingredient": "Pain rassis",
+                    "quantity": "100 g"
+                },
+                {
+                    "ingredient": "Huile d'olive extra vierge",
+                    "quantity": "100 ml"
+                },
+                {
+                    "ingredient": "Vinaigre de vin rouge",
+                    "quantity": "50 ml"
+                },
+                {
+                    "ingredient": "Sel",
+                    "quantity": "1 cuillère à café"
+                },
+                {
+                    "ingredient": "Poivre noir",
+                    "quantity": "1 pincée"
+                }
+            ],
+            "steps": ["Couper tous les légumes en gros morceaux. ", "Tremper le pain dans de l'eau et l'essorer. ", "Mixer ensemble tous les ingrédients (légumes, pain, huile d'olive, vinaigre, sel et poivre) jusqu'à obtenir une texture lisse. ", "Passer au chinois pour retirer les morceaux. ", "Réfrigérer pendant au moins 2 heures avant de servir."],
+            "portions": "4 personnes",
+            "advice": "Servir bien frais, garni de dés de concombre, de poivron et de croûtons.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 74,
+            "title": "Paella Valenciana",
+            "description": "Plat de riz aux fruits de mer et au poulet, célèbre spécialité valencienne.",
+            "image": "https://tse3.mm.bing.net/th?id=OIP.msYPfAQhTM0lRJ8w9u7dqwHaHa&pid=Api",
+            "preparation_time": 60,
+            "category": "plat",
+            "type": "espagnol",
+            "ingredients": [
+                {
+                    "ingredient": "Riz à paella",
+                    "quantity": "300 g"
+                },
+                {
+                    "ingredient": "Poulet",
+                    "quantity": "300 g"
+                },
+                {
+                    "ingredient": "Crevettes",
+                    "quantity": "200 g"
+                },
+                {
+                    "ingredient": "Moules",
+                    "quantity": "500 g"
+                },
+                {
+                    "ingredient": "Petits pois",
+                    "quantity": "100 g"
+                },
+                {
+                    "ingredient": "Poivron rouge",
+                    "quantity": "1"
+                },
+                {
+                    "ingredient": "Oignon",
+                    "quantity": "1"
+                },
+                {
+                    "ingredient": "Ail",
+                    "quantity": "3 gousses"
+                },
+                {
+                    "ingredient": "Safran en filaments",
+                    "quantity": "1 dose"
+                },
+                {
+                    "ingredient": "Huile d'olive",
+                    "quantity": "50 ml"
+                },
+                {
+                    "ingredient": "Bouillon de poisson",
+                    "quantity": "500 ml"
+                },
+                {
+                    "ingredient": "Sel",
+                    "quantity": "1 pincée"
+                },
+                {
+                    "ingredient": "Poivre noir",
+                    "quantity": "1 pincée"
+                }
+            ],
+            "steps": ["Faire chauffer l'huile d'olive dans une grande poêle à paella. ", "Faire revenir l'oignon haché, l'ail émincé et le poivron coupé en dés jusqu'à ce qu'ils soient tendres. ", "Ajouter le poulet coupé en morceaux et faire dorer. ", "Incorporer les fruits de mer et les petits pois. ", "Ajouter le riz et mélanger pour enrober chaque grain d'huile. ", "Ajouter le safran et le bouillon de poisson chaud. ", "Assaisonner avec du sel et du poivre. ", "Laisser mijoter à feu moyen jusqu'à ce que le riz absorbe tout le liquide et soit cuit."],
+            "portions": "4 personnes",
+            "advice": "Décorer avec des quartiers de citron et servir chaud.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 75,
+            "title": "Crema Catalana",
+            "description": "Crème dessert parfumée à la cannelle et au zeste d'orange, similaire à la crème brûlée.",
+            "image": "https://tse1.mm.bing.net/th?id=OIP.ZZReL3sVq_DivRBEis8W9QHaHa&pid=Api",
+            "preparation_time": 45,
+            "category": "dessert",
+            "type": "espagnol",
+            "ingredients": [
+                {
+                    "ingredient": "Lait entier",
+                    "quantity": "500 ml"
+                },
+                {
+                    "ingredient": "Œufs",
+                    "quantity": "4"
+                },
+                {
+                    "ingredient": "Sucre",
+                    "quantity": "150 g"
+                },
+                {
+                    "ingredient": "Maïzena",
+                    "quantity": "20 g"
+                },
+                {
+                    "ingredient": "Zeste d'orange",
+                    "quantity": "1"
+                },
+                {
+                    "ingredient": "Cannelle en bâton",
+                    "quantity": "1"
+                },
+                {
+                    "ingredient": "Sucre roux",
+                    "quantity": "50 g"
+                }
+            ],
+            "steps": ["Faire chauffer le lait avec le zeste d'orange et la cannelle en bâton jusqu'à ébullition. ", "Retirer du feu et laisser infuser pendant 15 minutes. ", "Retirer le zeste d'orange et la cannelle. ", "Dans un bol, fouetter les œufs avec le sucre et la Maïzena jusqu'à ce que le mélange soit homogène. ", "Verser lentement le lait chaud tout en fouettant. ", "Remettre le mélange dans la casserole et cuire à feu doux en remuant constamment jusqu'à ce que la crème épaississe. ", "Verser la crème dans des ramequins individuels et laisser refroidir. ", "Saupoudrer de sucre roux et caraméliser au chalumeau ou sous le gril du four."],
+            "portions": "6 personnes",
+            "advice": "Laisser refroidir avant de servir pour que le caramel durcisse.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 76,
+            "title": "Tortilla Española",
+            "description": "Omelette espagnole aux pommes de terre et oignons, plat traditionnel.",
+            "image": "https://tse3.mm.bing.net/th?id=OIP.La8ZSGIwa8kydfdk7D1YMAHaHa&pid=Api",
+            "preparation_time": 45,
+            "category": "plat",
+            "type": "espagnol",
+            "ingredients": [
+                {
+                    "ingredient": "Pommes de terre",
+                    "quantity": "4"
+                },
+                {
+                    "ingredient": "Oignon",
+                    "quantity": "1"
+                },
+                {
+                    "ingredient": "Œufs",
+                    "quantity": "6"
+                },
+                {
+                    "ingredient": "Huile d'olive",
+                    "quantity": "50 ml"
+                },
+                {
+                    "ingredient": "Sel",
+                    "quantity": "1 pincée"
+                },
+                {
+                    "ingredient": "Poivre noir",
+                    "quantity": "1 pincée"
+                }
+            ],
+            "steps": ["Éplucher les pommes de terre et les couper en fines rondelles. ", "Faire chauffer l'huile d'olive dans une poêle à feu moyen. ", "Ajouter les pommes de terre et l'oignon coupés en rondelles. ", "Faire cuire doucement jusqu'à ce que les pommes de terre soient tendres et légèrement dorées, en remuant occasionnellement. ", "Battre les œufs dans un bol et assaisonner avec du sel et du poivre. ", "Verser les œufs battus sur les pommes de terre et l'oignon dans la poêle. ", "Cuire à feu doux jusqu'à ce que les bords commencent à se solidifier. ", "Retourner la tortilla à l'aide d'une assiette et cuire l'autre côté jusqu'à ce qu'elle soit dorée."],
+            "portions": "4 personnes",
+            "advice": "Servir chaud ou à température ambiante, coupé en triangles.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 77,
+            "title": "Croquetas de Jamón",
+            "description": "Croquettes crémeuses au jambon ibérique, tapas espagnole populaire.",
+            "image": "https://tse1.explicit.bing.net/th?id=OIP.gHktKh58ZWnYP6V-u2IuiQHaHa&pid=Api",
+            "preparation_time": 60,
+            "category": "entree",
+            "type": "espagnol",
+            "ingredients": [
+                {
+                    "ingredient": "Jambon ibérique",
+                    "quantity": "100 g"
+                },
+                {
+                    "ingredient": "Lait entier",
+                    "quantity": "500 ml"
+                },
+                {
+                    "ingredient": "Beurre",
+                    "quantity": "50 g"
+                },
+                {
+                    "ingredient": "Farine",
+                    "quantity": "50 g"
+                },
+                {
+                    "ingredient": "Œufs",
+                    "quantity": "2"
+                },
+                {
+                    "ingredient": "Chapelure",
+                    "quantity": "100 g"
+                },
+                {
+                    "ingredient": "Huile d'olive",
+                    "quantity": "500 ml"
+                },
+                {
+                    "ingredient": "Sel",
+                    "quantity": "1 pincée"
+                },
+                {
+                    "ingredient": "Poivre noir",
+                    "quantity": "1 pincée"
+                }
+            ],
+            "steps": ["Faire fondre le beurre dans une casserole à feu doux. ", "Ajouter la farine et cuire pendant 1 minute en remuant constamment. ", "Verser lentement le lait chaud tout en fouettant jusqu'à ce que le mélange épaississe et devienne lisse. ", "Retirer du feu. ", "Ajouter le jambon ibérique haché finement et assaisonner avec du sel et du poivre. ", "Étaler la préparation sur une assiette et laisser refroidir. ", "Former des croquettes avec la préparation refroidie. ", "Passer les croquettes dans les œufs battus puis dans la chapelure. ", "Faire chauffer l'huile d'olive dans une poêle profonde et faire frire les croquettes jusqu'à ce qu'elles soient dorées et croustillantes. ", "Égoutter sur du papier absorbant."],
+            "portions": "4 personnes",
+            "advice": "Servir chaud comme tapas avec une sauce alioli.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 78,
+            "title": "Tarta de Santiago",
+            "description": "Tarte d'amandes traditionnelle de Galice, Espagne.",
+            "image": "https://tse3.mm.bing.net/th?id=OIP.gPLfKHRpRRuZU79Qv75LpwHaHa&pid=Api",
+            "preparation_time": 60,
+            "category": "dessert",
+            "type": "espagnol",
+            "ingredients": [
+                {
+                    "ingredient": "Amandes moulues",
+                    "quantity": "250 g"
+                },
+                {
+                    "ingredient": "Sucre",
+                    "quantity": "200 g"
+                },
+                {
+                    "ingredient": "Œufs",
+                    "quantity": "4"
+                },
+                {
+                    "ingredient": "Zeste de citron",
+                    "quantity": "1"
+                },
+                {
+                    "ingredient": "Beurre",
+                    "quantity": "100 g"
+                },
+                {
+                    "ingredient": "Farine",
+                    "quantity": "50 g"
+                },
+                {
+                    "ingredient": "Sucre glace",
+                    "quantity": "pour saupoudrer"
+                }
+            ],
+            "steps": ["Préchauffer le four à 180°C (thermostat 6). ", "Battre les œufs avec le sucre jusqu'à ce que le mélange blanchisse et double de volume. ", "Ajouter le zeste de citron, les amandes moulues, la farine et le beurre fondu. ", "Mélanger jusqu'à obtenir une pâte homogène. ", "Beurrer et fariner un moule à tarte. ", "Verser la pâte dans le moule et lisser la surface. ", "Cuire au four pendant environ 30 minutes, jusqu'à ce que la tarte soit dorée. ", "Laisser refroidir complètement avant de saupoudrer de sucre glace."],
+            "portions": "8 personnes",
+            "advice": "Accompagner d'un verre de vin de Xérès ou d'un café.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 79,
+            "title": "Patatas Bravas",
+            "description": "Pommes de terre frites servies avec une sauce piquante, tapas espagnole classique.",
+            "image": "https://tse1.explicit.bing.net/th?id=OIP.JqJD211ZrHrlGhtlo4sa6gHaHa&pid=Api",
+            "preparation_time": 45,
+            "category": "entree",
+            "type": "espagnol",
+            "ingredients": [
+                {
+                    "ingredient": "Pommes de terre",
+                    "quantity": "500 g"
+                },
+                {
+                    "ingredient": "Huile d'olive",
+                    "quantity": "100 ml"
+                },
+                {
+                    "ingredient": "Ail",
+                    "quantity": "2 gousses"
+                },
+                {
+                    "ingredient": "Piment doux",
+                    "quantity": "1"
+                },
+                {
+                    "ingredient": "Piment de Cayenne",
+                    "quantity": "1 pincée"
+                },
+                {
+                    "ingredient": "Vinaigre de vin blanc",
+                    "quantity": "30 ml"
+                },
+                {
+                    "ingredient": "Pimentón (paprika espagnol)",
+                    "quantity": "1 cuillère à café"
+                },
+                {
+                    "ingredient": "Sel",
+                    "quantity": "1 pincée"
+                }
+            ],
+            "steps": ["Éplucher les pommes de terre et les couper en cubes. ", "Faire chauffer l'huile d'olive dans une poêle à feu moyen-élevé. ", "Faire frire les pommes de terre jusqu'à ce qu'elles soient dorées et croustillantes. ", "Retirer et égoutter sur du papier absorbant. ", "Dans une autre poêle, faire chauffer un peu d'huile d'olive et faire revenir l'ail haché et le piment doux haché jusqu'à ce qu'ils soient tendres. ", "Ajouter le piment de Cayenne, le vinaigre de vin blanc et le pimentón. ", "Cuire pendant quelques minutes jusqu'à ce que la sauce soit réduite et épaissie. ", "Verser la sauce sur les pommes de terre frites."],
+            "portions": "4 personnes",
+            "advice": "Servir chaud comme tapas avec une bière fraîche.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 80,
+            "title": "Arroz con Leche",
+            "description": "Riz au lait crémeux parfumé à la cannelle, dessert traditionnel espagnol.",
+            "image": "https://tse4.mm.bing.net/th?id=OIP.0chhgci0iuvpRNtaZb_oawHaHa&pid=Api",
+            "preparation_time": 60,
+            "category": "dessert",
+            "type": "espagnol",
+            "ingredients": [
+                {
+                    "ingredient": "Riz rond",
+                    "quantity": "150 g"
+                },
+                {
+                    "ingredient": "Lait entier",
+                    "quantity": "1 litre"
+                },
+                {
+                    "ingredient": "Sucre",
+                    "quantity": "100 g"
+                },
+                {
+                    "ingredient": "Zeste de citron",
+                    "quantity": "1"
+                },
+                {
+                    "ingredient": "Bâton de cannelle",
+                    "quantity": "1"
+                },
+                {
+                    "ingredient": "Œuf",
+                    "quantity": "1"
+                }
+            ],
+            "steps": ["Rincer le riz à l'eau froide. ", "Dans une casserole, porter à ébullition le lait avec le zeste de citron et le bâton de cannelle. ", "Ajouter le riz et cuire à feu doux pendant environ 30 minutes, en remuant fréquemment, jusqu'à ce que le riz soit tendre et que le mélange épaississe. ", "Retirer le zeste de citron et le bâton de cannelle. ", "Battre l'œuf avec le sucre dans un bol. ", "Ajouter une petite quantité de riz chaud à l'œuf battu et bien mélanger. ", "Incorporer ce mélange de riz à la casserole avec le reste du riz au lait. ", "Cuire encore quelques minutes jusqu'à ce que le mélange épaississe davantage. ", "Retirer du feu et laisser refroidir."],
+            "portions": "6 personnes",
+            "advice": "Saupoudrer de cannelle avant de servir.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 81,
+            "title": "Samosas",
+            "description": "Petits triangles croustillants farcis aux légumes épicés, snack populaire de l'Inde.",
+            "image": "https://tse3.mm.bing.net/th?id=OIP.XJKPv4lyFnNpFkjNC87PjgHaHa&pid=Api",
+            "preparation_time": 60,
+            "category": "entree",
+            "type": "orientale",
+            "ingredients": [
+                {
+                    "ingredient": "Pommes de terre",
+                    "quantity": "3"
+                },
+                {
+                    "ingredient": "Petits pois",
+                    "quantity": "100 g"
+                },
+                {
+                    "ingredient": "Carottes",
+                    "quantity": "2"
+                },
+                {
+                    "ingredient": "Oignon",
+                    "quantity": "1"
+                },
+                {
+                    "ingredient": "Gingembre frais",
+                    "quantity": "1 pouce"
+                },
+                {
+                    "ingredient": "Gousse d'ail",
+                    "quantity": "2"
+                },
+                {
+                    "ingredient": "Coriandre fraîche",
+                    "quantity": "1 bouquet"
+                },
+                {
+                    "ingredient": "Curcuma",
+                    "quantity": "1 cuillère à café"
+                },
+                {
+                    "ingredient": "Garam masala",
+                    "quantity": "1 cuillère à café"
+                },
+                {
+                    "ingredient": "Piment en poudre",
+                    "quantity": "1/2 cuillère à café"
+                },
+                {
+                    "ingredient": "Feuilles de brick",
+                    "quantity": "10"
+                },
+                {
+                    "ingredient": "Huile végétale",
+                    "quantity": "100 ml"
+                },
+                {
+                    "ingredient": "Sel",
+                    "quantity": "1 pincée"
+                }
+            ],
+            "steps": ["Faire bouillir les pommes de terre, les écraser grossièrement. ", "Faire revenir l'oignon haché, l'ail émincé et le gingembre râpé dans une poêle jusqu'à ce qu'ils soient dorés. ", "Ajouter les légumes (carottes et petits pois) et faire cuire jusqu'à tendreté. ", "Ajouter les pommes de terre écrasées, les épices (curcuma, garam masala, piment en poudre) et la coriandre hachée. ", "Assaisonner avec du sel selon votre goût. ", "Laisser refroidir. ", "Préparer les triangles de brick en les remplissant avec la farce. ", "Faire chauffer l'huile dans une poêle et frire les samosas jusqu'à ce qu'ils soient dorés et croustillants. ", "Égoutter sur du papier absorbant."],
+            "portions": "4 personnes",
+            "advice": "Servir chaud avec du chutney de mangue.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 82,
+            "title": "Poulet Tikka Masala",
+            "description": "Cubes de poulet marinés dans une sauce crémeuse aux épices, plat emblématique de l'Inde.",
+            "image": "https://tse2.mm.bing.net/th?id=OIP.HRnunPKfJ3kp9-uEQqQ7TgHaHa&pid=Api",
+            "preparation_time": 90,
+            "category": "plat",
+            "type": "orientale",
+            "ingredients": [
+                {
+                    "ingredient": "Blancs de poulet",
+                    "quantity": "500 g"
+                },
+                {
+                    "ingredient": "Yaourt nature",
+                    "quantity": "200 g"
+                },
+                {
+                    "ingredient": "Gingembre frais",
+                    "quantity": "1 pouce"
+                },
+                {
+                    "ingredient": "Ail",
+                    "quantity": "4 gousses"
+                },
+                {
+                    "ingredient": "Jus de citron",
+                    "quantity": "2 cuillères à soupe"
+                },
+                {
+                    "ingredient": "Coriandre moulue",
+                    "quantity": "2 cuillères à café"
+                },
+                {
+                    "ingredient": "Cumin moulu",
+                    "quantity": "1 cuillère à café"
+                },
+                {
+                    "ingredient": "Curcuma",
+                    "quantity": "1 cuillère à café"
+                },
+                {
+                    "ingredient": "Piment de Cayenne",
+                    "quantity": "1/2 cuillère à café"
+                },
+                {
+                    "ingredient": "Crème fraîche",
+                    "quantity": "150 ml"
+                },
+                {
+                    "ingredient": "Tomates concassées",
+                    "quantity": "400 g"
+                },
+                {
+                    "ingredient": "Huile végétale",
+                    "quantity": "50 ml"
+                },
+                {
+                    "ingredient": "Sel",
+                    "quantity": "1 pincée"
+                }
+            ],
+            "steps": ["Couper le poulet en cubes. ", "Dans un bol, mélanger le yaourt, le gingembre râpé, l'ail émincé, le jus de citron, les épices (coriandre, cumin, curcuma, piment de Cayenne) et du sel. ", "Ajouter les cubes de poulet et bien enrober. ", "Laisser mariner au réfrigérateur pendant au moins 1 heure. ", "Chauffer l'huile dans une grande poêle et faire revenir le poulet mariné jusqu'à ce qu'il soit doré. ", "Ajouter les tomates concassées et la crème fraîche. ", "Laisser mijoter à feu doux pendant 20-30 minutes jusqu'à ce que la sauce épaississe et que le poulet soit cuit à cœur."],
+            "portions": "4 personnes",
+            "advice": "Servir avec du riz basmati et du pain naan.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 83,
+            "title": "Mango Sticky Rice",
+            "description": "Dessert thaïlandais à base de riz gluant sucré accompagné de mangue fraîche.",
+            "image": "https://tse1.mm.bing.net/th?id=OIP.NV4CYBg7pjXAmuVqwkZCLAHaHa&pid=Api",
+            "preparation_time": 60,
+            "category": "dessert",
+            "type": "orientale",
+            "ingredients": [
+                {
+                    "ingredient": "Riz gluant",
+                    "quantity": "300 g"
+                },
+                {
+                    "ingredient": "Lait de coco",
+                    "quantity": "400 ml"
+                },
+                {
+                    "ingredient": "Sucre de palme",
+                    "quantity": "150 g"
+                },
+                {
+                    "ingredient": "Mangues mûres",
+                    "quantity": "2"
+                },
+                {
+                    "ingredient": "Graines de sésame grillées",
+                    "quantity": "pour saupoudrer"
+                }
+            ],
+            "steps": ["Rincer le riz gluant à l'eau froide jusqu'à ce que l'eau soit claire. ", "Faire tremper le riz dans de l'eau pendant au moins 30 minutes. ", "Égoutter le riz et le cuire à la vapeur pendant 20-25 minutes jusqu'à ce qu'il soit tendre. ", "Pendant ce temps, chauffer le lait de coco avec le sucre de palme jusqu'à ce que le sucre soit dissous. ", "Retirer du feu. ", "Transférer le riz cuit dans un grand bol et verser le mélange lait de coco et sucre de palme sur le riz. ", "Mélanger délicatement jusqu'à ce que tout le liquide soit absorbé et que le riz devienne collant et sucré. ", "Peler et couper les mangues en tranches. ", "Servir le riz gluant sucré avec les tranches de mangue. ", "Saupoudrer de graines de sésame grillées."],
+            "portions": "4 personnes",
+            "advice": "Servir tiède ou à température ambiante.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 84,
+            "title": "Houmous",
+            "description": "Purée crémeuse de pois chiches assaisonnée de tahini et d'ail, mezzé classique du Moyen-Orient.",
+            "image": "https://tse2.mm.bing.net/th?id=OIP.fo3BvJeumjl88YYRp1RZFgHaHa&pid=Api",
+            "preparation_time": 30,
+            "category": "entree",
+            "type": "orientale",
+            "ingredients": [
+                {
+                    "ingredient": "Pois chiches cuits",
+                    "quantity": "400 g"
+                },
+                {
+                    "ingredient": "Tahini (purée de sésame)",
+                    "quantity": "100 g"
+                },
+                {
+                    "ingredient": "Jus de citron",
+                    "quantity": "2 cuillères à soupe"
+                },
+                {
+                    "ingredient": "Ail",
+                    "quantity": "2 gousses"
+                },
+                {
+                    "ingredient": "Cumin moulu",
+                    "quantity": "1 cuillère à café"
+                },
+                {
+                    "ingredient": "Huile d'olive",
+                    "quantity": "50 ml"
+                },
+                {
+                    "ingredient": "Sel",
+                    "quantity": "1 pincée"
+                },
+                {
+                    "ingredient": "Paprika doux",
+                    "quantity": "pour saupoudrer"
+                }
+            ],
+            "steps": ["Égoutter et rincer les pois chiches cuits sous l'eau froide. ", "Dans un robot culinaire, mélanger les pois chiches, le tahini, le jus de citron, l'ail émincé, le cumin et du sel. ", "Mixer jusqu'à obtenir une purée lisse. ", "Ajouter progressivement de l'eau froide si nécessaire pour obtenir la consistance désirée. ", "Verser le houmous dans un plat de service. ", "Faire un puits au centre et y verser de l'huile d'olive. ", "Saupoudrer de paprika doux."],
+            "portions": "4 personnes",
+            "advice": "Servir avec des pains pita grillés et des crudités.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 85,
+            "title": "Biryani de Poulet",
+            "description": "Plat de riz épicé avec des morceaux de poulet mariné, spécialité indienne.",
+            "image": "https://tse2.mm.bing.net/th?id=OIP.wLA8GRUun6pdtobiGEbXkQHaHa&pid=Api",
+            "preparation_time": 90,
+            "category": "plat",
+            "type": "orientale",
+            "ingredients": [
+                {
+                    "ingredient": "Blancs de poulet",
+                    "quantity": "500 g"
+                },
+                {
+                    "ingredient": "Riz basmati",
+                    "quantity": "300 g"
+                },
+                {
+                    "ingredient": "Yaourt nature",
+                    "quantity": "200 g"
+                },
+                {
+                    "ingredient": "Oignon",
+                    "quantity": "2"
+                },
+                {
+                    "ingredient": "Gingembre frais",
+                    "quantity": "1 pouce"
+                },
+                {
+                    "ingredient": "Ail",
+                    "quantity": "4 gousses"
+                },
+                {
+                    "ingredient": "Tomates concassées",
+                    "quantity": "400 g"
+                },
+                {
+                    "ingredient": "Curcuma",
+                    "quantity": "1 cuillère à café"
+                },
+                {
+                    "ingredient": "Cumin moulu",
+                    "quantity": "1 cuillère à café"
+                },
+                {
+                    "ingredient": "Coriandre moulue",
+                    "quantity": "2 cuillères à café"
+                },
+                {
+                    "ingredient": "Piment de Cayenne",
+                    "quantity": "1/2 cuillère à café"
+                },
+                {
+                    "ingredient": "Cardamome",
+                    "quantity": "3 gousses"
+                },
+                {
+                    "ingredient": "Clous de girofle",
+                    "quantity": "3"
+                },
+                {
+                    "ingredient": "Feuilles de laurier",
+                    "quantity": "2"
+                },
+                {
+                    "ingredient": "Huile végétale",
+                    "quantity": "50 ml"
+                },
+                {
+                    "ingredient": "Sel",
+                    "quantity": "1 pincée"
+                }
+            ],
+            "steps": ["Couper le poulet en morceaux et le faire mariner dans le yaourt, le gingembre râpé, l'ail émincé et les épices (curcuma, cumin, coriandre, piment de Cayenne) pendant au moins 1 heure. ", "Faire chauffer l'huile dans une grande poêle et faire revenir les oignons émincés jusqu'à ce qu'ils soient dorés. ", "Ajouter les épices entières (cardamome, clous de girofle, feuilles de laurier) et faire revenir brièvement. ", "Ajouter les tomates concassées et cuire jusqu'à ce qu'elles soient réduites. ", "Ajouter les morceaux de poulet marinés et cuire jusqu'à ce que le poulet soit doré. ", "Entre-temps, cuire le riz basmati à moitié dans de l'eau bouillante salée. ", "Égoutter et ajouter le riz semi-cuit à la préparation de poulet. ", "Couvrir et laisser mijoter à feu doux pendant 20-25 minutes jusqu'à ce que le riz soit cuit à la vapeur et que le poulet soit tendre."],
+            "portions": "4 personnes",
+            "advice": "Servir chaud avec du raïta (yaourt aux légumes) et des naans.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 86,
+            "title": "Baklava",
+            "description": "Feuilletés mielleux aux noix et pistaches, dessert sucré traditionnel du Moyen-Orient.",
+            "image": "https://tse2.mm.bing.net/th?id=OIP.ZquPQ4NGMxRJyWFtyYTWZwHaHa&pid=Api",
+            "preparation_time": 90,
+            "category": "dessert",
+            "type": "orientale",
+            "ingredients": [
+                {
+                    "ingredient": "Noix",
+                    "quantity": "150 g"
+                },
+                {
+                    "ingredient": "Pistaches",
+                    "quantity": "150 g"
+                },
+                {
+                    "ingredient": "Sucre",
+                    "quantity": "150 g"
+                },
+                {
+                    "ingredient": "Eau",
+                    "quantity": "100 ml"
+                },
+                {
+                    "ingredient": "Sirop de miel",
+                    "quantity": "150 ml"
+                },
+                {
+                    "ingredient": "Feuilles de pâte filo",
+                    "quantity": "250 g"
+                },
+                {
+                    "ingredient": "Beurre fondu",
+                    "quantity": "150 g"
+                }
+            ],
+            "steps": ["Préchauffer le four à 180°C (thermostat 6). ", "Concasser grossièrement les noix et les pistaches. ", "Mélanger les noix concassées avec le sucre. ", "Dans une casserole, porter à ébullition l'eau et le sirop de miel. ", "Laisser mijoter pendant 5 minutes. ", "Beurrer un plat à gratin. ", "Déposer une feuille de pâte filo dans le plat et la badigeonner de beurre fondu. ", "Répéter l'opération avec 5 autres feuilles de pâte filo. ", "Étaler une couche de mélange de noix et pistaches. ", "Recouvrir d'une feuille de pâte filo badigeonnée de beurre fondu. ", "Répéter l'opération jusqu'à épuisement des ingrédients, en terminant par une feuille de pâte filo badigeonnée de beurre fondu. ", "Couper le baklava en losanges à l'aide d'un couteau bien aiguisé. ", "Cuire au four pendant 30-35 minutes jusqu'à ce que le baklava soit doré et croustillant. ", "Verser le sirop chaud sur le baklava dès sa sortie du four."],
+            "portions": "8 personnes",
+            "advice": "Laisser refroidir avant de servir pour que le baklava soit bien imprégné du sirop.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 87,
+            "title": "Baklava",
+            "description": "Feuilletés mielleux aux noix et pistaches, dessert sucré traditionnel du Moyen-Orient.",
+            "image": "https://tse3.mm.bing.net/th?id=OIP.N65E7p0p29YIdsoY8qILRwHaHa&pid=Api",
+            "preparation_time": 90,
+            "category": "dessert",
+            "type": "orientale",
+            "ingredients": [
+                {
+                    "ingredient": "Noix",
+                    "quantity": "150 g"
+                },
+                {
+                    "ingredient": "Pistaches",
+                    "quantity": "150 g"
+                },
+                {
+                    "ingredient": "Sucre",
+                    "quantity": "150 g"
+                },
+                {
+                    "ingredient": "Eau",
+                    "quantity": "100 ml"
+                },
+                {
+                    "ingredient": "Sirop de miel",
+                    "quantity": "150 ml"
+                },
+                {
+                    "ingredient": "Feuilles de pâte filo",
+                    "quantity": "250 g"
+                },
+                {
+                    "ingredient": "Beurre fondu",
+                    "quantity": "150 g"
+                }
+            ],
+            "steps": ["Préchauffer le four à 180°C (thermostat 6). ", "Concasser grossièrement les noix et les pistaches. ", "Mélanger les noix concassées avec le sucre. ", "Dans une casserole, porter à ébullition l'eau et le sirop de miel. ", "Laisser mijoter pendant 5 minutes. ", "Beurrer un plat à gratin. ", "Déposer une feuille de pâte filo dans le plat et la badigeonner de beurre fondu. ", "Répéter l'opération avec 5 autres feuilles de pâte filo. ", "Étaler une couche de mélange de noix et pistaches. ", "Recouvrir d'une feuille de pâte filo badigeonnée de beurre fondu. ", "Répéter l'opération jusqu'à épuisement des ingrédients, en terminant par une feuille de pâte filo badigeonnée de beurre fondu. ", "Couper le baklava en losanges à l'aide d'un couteau bien aiguisé. ", "Cuire au four pendant 30-35 minutes jusqu'à ce que le baklava soit doré et croustillant. ", "Verser le sirop chaud sur le baklava dès sa sortie du four."],
+            "portions": "8 personnes",
+            "advice": "Laisser refroidir avant de servir pour que le baklava soit bien imprégné du sirop.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 88,
+            "title": "Mango Sticky Rice",
+            "description": "Dessert thaïlandais à base de riz gluant sucré accompagné de mangue fraîche.",
+            "image": "https://tse3.mm.bing.net/th?id=OIP.SGqf06aUiOPHLuk5hc4NHQHaHa&pid=Api",
+            "preparation_time": 60,
+            "category": "dessert",
+            "type": "orientale",
+            "ingredients": [
+                {
+                    "ingredient": "Riz gluant",
+                    "quantity": "300 g"
+                },
+                {
+                    "ingredient": "Lait de coco",
+                    "quantity": "400 ml"
+                },
+                {
+                    "ingredient": "Sucre de palme",
+                    "quantity": "150 g"
+                },
+                {
+                    "ingredient": "Mangues mûres",
+                    "quantity": "2"
+                },
+                {
+                    "ingredient": "Graines de sésame grillées",
+                    "quantity": "pour saupoudrer"
+                }
+            ],
+            "steps": ["Rincer le riz gluant à l'eau froide jusqu'à ce que l'eau soit claire. ", "Faire tremper le riz dans de l'eau pendant au moins 30 minutes. ", "Égoutter le riz et le cuire à la vapeur pendant 20-25 minutes jusqu'à ce qu'il soit tendre. ", "Pendant ce temps, chauffer le lait de coco avec le sucre de palme jusqu'à ce que le sucre soit dissous. ", "Retirer du feu. ", "Transférer le riz cuit dans un grand bol et verser le mélange lait de coco et sucre de palme sur le riz. ", "Mélanger délicatement jusqu'à ce que tout le liquide soit absorbé et que le riz devienne collant et sucré. ", "Peler et couper les mangues en tranches. ", "Servir le riz gluant sucré avec les tranches de mangue. ", "Saupoudrer de graines de sésame grillées."],
+            "portions": "4 personnes",
+            "advice": "Servir tiède ou à température ambiante.",
+            "CreatedBy": "CEF"
+        },
+        {
+            "id": 89,
+            "title": "Kunafa",
+            "description": "Délicieux dessert arabe à base de pâte filo, fromage et sirop sucré.",
+            "image": "https://tse3.mm.bing.net/th?id=OIP.l2Nygs2FyitmiUfLJYaR_AHaHa&pid=Api",
+            "preparation_time": 75,
+            "category": "dessert",
+            "type": "orientale",
+            "ingredients": [
+                {
+                    "ingredient": "Pâte filo",
+                    "quantity": "250 g"
+                },
+                {
+                    "ingredient": "Beurre fondu",
+                    "quantity": "150 g"
+                },
+                {
+                    "ingredient": "Fromage blanc",
+                    "quantity": "200 g"
+                },
+                {
+                    "ingredient": "Eau de rose",
+                    "quantity": "2 cuillères à soupe"
+                },
+                {
+                    "ingredient": "Sirop de sucre",
+                    "quantity": "300 ml"
+                },
+                {
+                    "ingredient": "Amandes effilées",
+                    "quantity": "pour saupoudrer"
+                }
+            ],
+            "steps": ["Préchauffer le four à 180°C (thermostat 6). ", "Étaler la moitié des feuilles de pâte filo dans un plat à gratin, en badigeonnant chaque feuille de beurre fondu. ", "Mélanger le fromage blanc émietté avec l'eau de rose. ", "Étaler ce mélange sur les feuilles de pâte filo. ", "Recouvrir avec le reste des feuilles de pâte filo, en badigeonnant chacune de beurre fondu. ", "Couper le kunafa en losanges à l'aide d'un couteau bien aiguisé. ", "Cuire au four pendant 30-35 minutes jusqu'à ce que le kunafa soit doré et croustillant. ", "Verser le sirop chaud sur le kunafa dès sa sortie du four. ", "Saupoudrer d'amandes effilées."],
+            "portions": "8 personnes",
+            "advice": "Servir chaud pour profiter de la texture croustillante du kunafa.",
+            "CreatedBy": "CEF"
+        }
+    ],
+    "category": [
+        {
+            "id":1,
+            "name": "Entrées",
+            "slug": "entree"
+        },
+        {
+            "id":2,
+            "name": "Plats",
+            "slug": "plat"
+        },
+        {
+            "id":3,
+            "name": "Desserts",
+            "slug": "dessert"
+        }
+    ],
+    "type" : [
+        {
+            "id":1,
+            "name": "Italienne",
+            "slug":"italienne"
+        },
+        {
+            "id":2,
+            "name": "Asiatique",
+            "slug":"asiatique"
+        },
+        {
+            "id":3,
+            "name": "Française",
+            "slug":"francaise"
+        },
+        {
+            "id":4,
+            "name": "Mexicaine",
+            "slug":"mexicaine"
+        },
+        {
+            "id":5,
+            "name": "Indienne",
+            "slug":"indienne"
+        },
+        {
+            "id":6,
+            "name": "Caribéenne",
+            "slug":"caribeenne"
+        },
+        {
+            "id":7,
+            "name": "Américaine",
+            "slug":"americaine"
+        },
+        {
+            "id":8,
+            "name": "Espagnol",
+            "slug":"espagnol"
+        },
+        {
+            "id":9,
+            "name": "Africaine",
+            "slug":"africaine"
+        },
+        {
+            "id":10,
+            "name": "Orientale",
+            "slug":"orientale"
+        }
+    ]
+}
