@@ -644,6 +644,10 @@ video {
   justify-content: space-between;
 }
 
+.justify-around {
+  justify-content: space-around;
+}
+
 .gap-2 {
   gap: 0.5rem;
 }
@@ -766,6 +770,11 @@ video {
   color: rgb(55 65 81 / var(--tw-text-opacity));
 }
 
+.text-red-700 {
+  --tw-text-opacity: 1;
+  color: rgb(185 28 28 / var(--tw-text-opacity));
+}
+
 .text-slate-400 {
   --tw-text-opacity: 1;
   color: rgb(148 163 184 / var(--tw-text-opacity));
@@ -833,6 +842,9 @@ body{
         text-align: center;
       }
     }
+  }
+  .msg_error{
+    display: inline-block;
   }
 }
 
@@ -1065,7 +1077,7 @@ footer{
     }
   }
   h2{
-    color:#F2BA00
+    color:#F2BA00;
   }
   h2 {
     font-size: 1.5rem;

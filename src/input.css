@@ -50,6 +50,9 @@ body{
             }
         }
     }
+    .msg_error{
+        display: inline-block;
+    }
 }
 
 /* BOUTONS */
@@ -275,8 +278,7 @@ footer{
     }
     h2{
         color:#F2BA00;
-        @apply text-2xl font-bold
-        
+        @apply text-2xl font-bold;
     }
 }
 @media screen and (width >= 768px) {

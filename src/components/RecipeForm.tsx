@@ -2,6 +2,8 @@ import { useState, ChangeEvent, FormEvent, useContext } from 'react';
 import Recette, { Ingredient } from '../interfaces/recette';
 import InputForm from './InputForm';
 import { RecipeContext } from '../context/RecipeContext';
+import { isNumber, isStringValid } from '../function/regex';
+
 
 const RecipeForm = () => {
   const context = useContext(RecipeContext);
@@ -16,18 +18,27 @@ const RecipeForm = () => {
   const [image, setImage] = useState<string>('');
   const [ingredients, setIngredients] = useState<Ingredient[]>([{ ingredient: '', quantity: '' }]);
   const [steps, setSteps] = useState<string[]>(['']);
+  const [titleError, setTitleError] = useState<string>("");
+  const [descError, setDescError] = useState<string>("");
+  const [portionError, setPortionError] = useState<string>("");
+  const [adviceError, setAdviceError] = useState<string>("");
+  const [categoryError, setCategoryError] = useState<string>("");
+  const [prepTimeError, setPrepTimeError] = useState<string>("");
+  const [imageError, setImageError] = useState<string>("");
+  
 
+  
   if (!context) {
     return <div>Loading...</div>;
   }
 
   const { dispatch, state } = context;
-
+  
   const onChange = (event: ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
     const { name, value } = event.target;
     switch (name) {
       case 'title':
-        setTitle(value);
+        setTitle(value)
         break;
       case 'description':
         setDescription(value);
@@ -53,10 +64,49 @@ const RecipeForm = () => {
       default:
         break;
     }
+    
   };
 
   const handleSubmit = (event: FormEvent) => {
     event.preventDefault();
+    
+    if (!isStringValid(title, 3, 30)) {
+      setTitleError('Doit contenir entre 3 et 30 caractères.');
+      return;
+    }
+    if (!isStringValid(description, 3, 100)) {
+      setDescError('Doit contenir entre 3 et 100 caractères.');
+      return;
+    }
+    if (!isStringValid(portions, 3, 30)) {
+      setPortionError('Doit contenir entre 3 et 30 caractères.');
+      return;
+    }
+    if (!isStringValid(advice, 3, 255)) {
+      setAdviceError('Doit contenir entre 3 et 255 caractères.');
+      return;
+    }
+    if (categoryError !== "") {
+      setCategoryError('Merci de choisir une catégorie');
+      return;
+    }
+    if (!isNumber(preparationTime)) {
+      setPrepTimeError('Merci d\'insérer que des nombres');
+      return;
+    }
+    if (!isStringValid(image, 11, 255)) {
+      setImageError('Merci d\'insérer une url valide');
+      return;
+    }
+
+    setTitleError("");
+    setDescError("");
+    setPortionError("");
+    setAdviceError("");
+    setCategoryError("");
+    setPrepTimeError("");
+    setImageError("");
+    
     const user = localStorage.getItem('RGPD');
     const newRecipe: Recette = {
       id: state.recipes.length + 1,
@@ -120,6 +170,7 @@ const RecipeForm = () => {
               type="text" 
               value={title} 
               onChange={onChange} 
+              error={titleError}
             />
             <InputForm 
               name="description" 
@@ -127,6 +178,7 @@ const RecipeForm = () => {
               type="text" 
               value={description} 
               onChange={onChange} 
+              error={descError}
             />
             <InputForm 
               name="portions" 
@@ -134,6 +186,7 @@ const RecipeForm = () => {
               type="text" 
               value={portions} 
               onChange={onChange} 
+              error={portionError}
             />
             <InputForm 
               name="advice" 
@@ -141,6 +194,7 @@ const RecipeForm = () => {
               type="text" 
               value={advice} 
               onChange={onChange} 
+              error={adviceError}
             />
 
             <div>
@@ -157,6 +211,7 @@ const RecipeForm = () => {
                 <option value={"plat"}>Plat</option>
                 <option value={"dessert"}>Dessert</option>
               </select>
+              <span className="text-red-700 msg_error">{categoryError}</span>
             </div>
             
             <InputForm 
@@ -165,6 +220,7 @@ const RecipeForm = () => {
               type="text" 
               value={preparationTime !== null ? preparationTime.toString() : ''} 
               onChange={onChange} 
+              error={prepTimeError}
             />
 
             <div>
@@ -196,6 +252,7 @@ const RecipeForm = () => {
               type="text" 
               value={image} 
               onChange={onChange} 
+              error={imageError}
             />
           </div>
 
@@ -283,3 +340,5 @@ const RecipeForm = () => {
 };
 
 export default RecipeForm;
+
+
