@@ -18,14 +18,23 @@ const RecipeForm = () => {
   const [image, setImage] = useState<string>('');
   const [ingredients, setIngredients] = useState<Ingredient[]>([{ ingredient: '', quantity: '' }]);
   const [steps, setSteps] = useState<string[]>(['']);
-  const [titleError, setTitleError] = useState<string>("");
-  const [descError, setDescError] = useState<string>("");
-  const [portionError, setPortionError] = useState<string>("");
-  const [adviceError, setAdviceError] = useState<string>("");
-  const [categoryError, setCategoryError] = useState<string>("");
-  const [prepTimeError, setPrepTimeError] = useState<string>("");
-  const [imageError, setImageError] = useState<string>("");
-  
+  // const [titleError, setTitleError] = useState<string>("");
+  // const [descError, setDescError] = useState<string>("");
+  // const [portionError, setPortionError] = useState<string>("");
+  // const [adviceError, setAdviceError] = useState<string>("");
+  // const [categoryError, setCategoryError] = useState<string>("");
+  // const [prepTimeError, setPrepTimeError] = useState<string>("");
+  // const [imageError, setImageError] = useState<string>("");
+  const [errors, setErrors] = useState({
+    title: '',
+    description: '',
+    portions: '',
+    advice: '',
+    category: '',
+    prepTime: '',
+    image: '',
+    type: '',
+  });
 
   
   if (!context) {
@@ -64,68 +73,78 @@ const RecipeForm = () => {
       default:
         break;
     }
-    
   };
-
+  
+  
   const handleSubmit = (event: FormEvent) => {
     event.preventDefault();
+
+    // Réinitialiser les erreurs
+    const newErrors = {
+      title: '',
+      description: '',
+      portions: '',
+      advice: '',
+      category: '',
+      prepTime: '',
+      image: '',
+      type: '',
+    };
     
+    // Validation des champs
     if (!isStringValid(title, 3, 30)) {
-      setTitleError('Doit contenir entre 3 et 30 caractères.');
-      return;
+      newErrors.title = 'Doit contenir entre 3 et 30 caractères.';
     }
     if (!isStringValid(description, 3, 100)) {
-      setDescError('Doit contenir entre 3 et 100 caractères.');
-      return;
+      newErrors.description = 'Doit contenir entre 3 et 100 caractères.';
     }
     if (!isStringValid(portions, 3, 30)) {
-      setPortionError('Doit contenir entre 3 et 30 caractères.');
-      return;
+      newErrors.portions = 'Doit contenir entre 3 et 30 caractères.';
     }
     if (!isStringValid(advice, 3, 255)) {
-      setAdviceError('Doit contenir entre 3 et 255 caractères.');
-      return;
+      newErrors.advice = 'Doit contenir entre 3 et 255 caractères.';
     }
-    if (categoryError !== "") {
-      setCategoryError('Merci de choisir une catégorie');
-      return;
+    if (category === '') {
+      newErrors.category = 'Merci de choisir une catégorie';
+    }
+    if (type === '') {
+      newErrors.type = 'Merci de choisir un type de cuisine';
     }
     if (!isNumber(preparationTime)) {
-      setPrepTimeError('Merci d\'insérer que des nombres');
-      return;
+      newErrors.prepTime = 'Merci d\'insérer que des nombres';
     }
     if (!isStringValid(image, 11, 255)) {
-      setImageError('Merci d\'insérer une url valide');
-      return;
+      newErrors.image = 'Merci d\'insérer une URL valide';
     }
 
-    setTitleError("");
-    setDescError("");
-    setPortionError("");
-    setAdviceError("");
-    setCategoryError("");
-    setPrepTimeError("");
-    setImageError("");
-    
-    const user = localStorage.getItem('RGPD');
-    const newRecipe: Recette = {
-      id: state.recipes.length + 1,
-      title,
-      description,
-      portions,
-      advice,
-      preparation_time: Number(preparationTime),
-      category,
-      type,
-      image,
-      ingredients,
-      steps,
-      CreatedBy: user || 'CEF',
-    };
-    console.log('NOUVELLE RECETTE', newRecipe);
-    dispatch({ type: 'ADD_RECIPE', payload: newRecipe });
-    alert('Nouvelle recette enregistrée avec succès');
-    
+    // Mettre à jour l'état des erreurs
+    setErrors(newErrors);
+      
+    // Si aucune erreur, procéder avec la soumission du formulaire
+    const hasErrors = Object.values(newErrors).some(error => error !== '');
+    if (!hasErrors) {
+      
+      console.log('Formulaire soumis avec succès');
+
+      const user = localStorage.getItem('RGPD');
+      const newRecipe: Recette = {
+        id: state.recipes.length + 1,
+        title,
+        description,
+        portions,
+        advice,
+        preparation_time: Number(preparationTime),
+        category,
+        type,
+        image,
+        ingredients,
+        steps,
+        CreatedBy: user || 'CEF',
+      };
+      console.log('NOUVELLE RECETTE', newRecipe);
+      dispatch({ type: 'ADD_RECIPE', payload: newRecipe });
+      alert('Nouvelle recette enregistrée avec succès');
+    }
   };
 
   const handleIngredientChange = (index: number, field: keyof Ingredient, value: string) => {
@@ -170,7 +189,7 @@ const RecipeForm = () => {
               type="text" 
               value={title} 
               onChange={onChange} 
-              error={titleError}
+              error={errors.title}
             />
             <InputForm 
               name="description" 
@@ -178,7 +197,7 @@ const RecipeForm = () => {
               type="text" 
               value={description} 
               onChange={onChange} 
-              error={descError}
+              error={errors.description}
             />
             <InputForm 
               name="portions" 
@@ -186,7 +205,7 @@ const RecipeForm = () => {
               type="text" 
               value={portions} 
               onChange={onChange} 
-              error={portionError}
+              error={errors.portions}
             />
             <InputForm 
               name="advice" 
@@ -194,7 +213,7 @@ const RecipeForm = () => {
               type="text" 
               value={advice} 
               onChange={onChange} 
-              error={adviceError}
+              error={errors.advice}
             />
 
             <div>
@@ -211,7 +230,7 @@ const RecipeForm = () => {
                 <option value={"plat"}>Plat</option>
                 <option value={"dessert"}>Dessert</option>
               </select>
-              <span className="text-red-700 msg_error">{categoryError}</span>
+              <span className="text-red-700 msg_error">{errors.category}</span>
             </div>
             
             <InputForm 
@@ -220,7 +239,7 @@ const RecipeForm = () => {
               type="text" 
               value={preparationTime !== null ? preparationTime.toString() : ''} 
               onChange={onChange} 
-              error={prepTimeError}
+              error={errors.prepTime}
             />
 
             <div>
@@ -244,6 +263,7 @@ const RecipeForm = () => {
                 <option value={"africaine"}>Africaine</option>
                 <option value={"orientale"}>Orientale</option>
               </select>
+              <span className="text-red-700 msg_error">{errors.type}</span>
             </div>
 
             <InputForm 
@@ -252,7 +272,7 @@ const RecipeForm = () => {
               type="text" 
               value={image} 
               onChange={onChange} 
-              error={imageError}
+              error={errors.image}
             />
           </div>
 
