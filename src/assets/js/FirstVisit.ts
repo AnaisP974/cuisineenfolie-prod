@@ -8,7 +8,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     
     // Créer un pop-up
-    
     const div = document.createElement('div');
     div.classList.add('pop-up')
     const content = `<img src="../images/logo_complet.png" alt="Cuisine en Folie logo" />
