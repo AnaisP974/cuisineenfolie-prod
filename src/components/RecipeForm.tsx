@@ -1,27 +1,27 @@
-import React, { useState, ChangeEvent } from 'react';
-import Recette from '../interfaces/recette';
+import { useState, ChangeEvent, FormEvent, useContext } from 'react';
+import Recette, { Ingredient } from '../interfaces/recette';
 import InputForm from './InputForm';
+import { RecipeContext } from '../context/RecipeContext';
 
-interface Ingredient {
-  ingredient: string;
-  quantity: string;
-}
+const RecipeForm = () => {
+  const context = useContext(RecipeContext);
 
-interface FormProps {
-  onSubmit: (recipe: Recette) => void;
-}
-
-const RecipeForm: React.FC<FormProps> = ({ onSubmit }) => {
   const [title, setTitle] = useState<string>('');
   const [description, setDescription] = useState<string>('');
   const [portions, setPortions] = useState<string>('');
   const [advice, setAdvice] = useState<string>('');
   const [category, setCategory] = useState<string>('');
-  const [preparationTime, setPreparationTime] = useState<number|null>(null);
+  const [preparationTime, setPreparationTime] = useState<number>(0);
   const [type, setType] = useState<string>('');
   const [image, setImage] = useState<string>('');
   const [ingredients, setIngredients] = useState<Ingredient[]>([{ ingredient: '', quantity: '' }]);
   const [steps, setSteps] = useState<string[]>(['']);
+
+  if (!context) {
+    return <div>Loading...</div>;
+  }
+
+  const { dispatch, state } = context;
 
   const onChange = (event: ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
     const { name, value } = event.target;
@@ -55,27 +55,28 @@ const RecipeForm: React.FC<FormProps> = ({ onSubmit }) => {
     }
   };
 
-  const handleSubmit = (event: React.FormEvent) => {
+  const handleSubmit = (event: FormEvent) => {
     event.preventDefault();
     const user = localStorage.getItem('RGPD');
     const newRecipe: Recette = {
-        id: Date.now(), // Utilisez Date.now() pour générer un identifiant unique pour la nouvelle recette
-        title,
-        description,
-        portions,
-        advice,
-        preparation_time: preparationTime !== null ? preparationTime : 0, // Assurez-vous que c'est un number
-        category,
-        type,
-        image,
-        ingredients,
-        steps,
-        CreatedBy: user || 'CEF',
+      id: state.recipes.length + 1,
+      title,
+      description,
+      portions,
+      advice,
+      preparation_time: Number(preparationTime),
+      category,
+      type,
+      image,
+      ingredients,
+      steps,
+      CreatedBy: user || 'CEF',
     };
-    onSubmit(newRecipe);
-};
-
-
+    console.log('NOUVELLE RECETTE', newRecipe);
+    dispatch({ type: 'ADD_RECIPE', payload: newRecipe });
+    alert('Nouvelle recette enregistrée avec succès');
+    
+  };
 
   const handleIngredientChange = (index: number, field: keyof Ingredient, value: string) => {
     const newIngredients = [...ingredients];
@@ -92,9 +93,7 @@ const RecipeForm: React.FC<FormProps> = ({ onSubmit }) => {
     setIngredients(newIngredients);
   };
 
-  const handleStepChange = (index: number) => (
-    event: ChangeEvent<HTMLTextAreaElement>
-  ) => {
+  const handleStepChange = (index: number) => (event: ChangeEvent<HTMLTextAreaElement>) => {
     const newSteps = [...steps];
     newSteps[index] = event.target.value;
     setSteps(newSteps);
@@ -269,10 +268,10 @@ const RecipeForm: React.FC<FormProps> = ({ onSubmit }) => {
             </button>
           </div>
 
-          <div className="flex justify-end mt-6">
+          <div className="flex justify-center mt-6">
             <button
               type="submit"
-              className="btnBack btn"
+              className="btnValidate btn"
             >
               Enregistrer
             </button>

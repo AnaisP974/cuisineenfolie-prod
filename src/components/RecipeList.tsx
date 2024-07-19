@@ -1,12 +1,17 @@
-import { useContext, useEffect, useState } from "react";
+import {  useEffect, useState } from "react";
 import { NavLink, useParams } from "react-router-dom";
 import Recette from "../interfaces/recette";
 import FavoriteIcone from "./FavoriteIcone";
-import { RecipeContext } from "../context/RecipeContext";
 
-export default function RecipeList() {
-  // Utiliser useContext pour accéder au contexte RecipeContext
-  const context = useContext(RecipeContext);
+interface State {
+  recipes: Recette[];
+}
+interface StateProps{
+  state: State,
+}
+
+const RecipeList: React.FC<StateProps> = ({state}) => {
+  
 
   // Récupérer le slug depuis les paramètres d'URL
   const { slug } = useParams<{ slug: string }>();
@@ -17,16 +22,12 @@ export default function RecipeList() {
   // État local pour stocker les recettes filtrées
   const [filteredRecipes, setFilteredRecipes] = useState<Recette[]>([]);
 
-  // Extraire l'état du contexte (si le contexte est défini)
-  const state = context?.state;
 
   // Effet pour charger les recettes initiales et gérer les filtres
   useEffect(() => {
-    if (context) {
-      const fetchRecipes = async () => {
-        try {
+    if (slug && state.recipes) {
           // Filtrer les recettes selon le slug (catégorie, type ou titre)
-          if (slug && state) {
+          
             const filterByCategory = state.recipes.filter((recipe: Recette) => recipe.category === slug);
             const filteredByType = state.recipes.filter((recipe: Recette) => recipe.type === slug);
             const filteredByTitle = state.recipes.filter((recipe: Recette) => recipe.title.toLowerCase().includes(slug.toLowerCase()));
@@ -41,25 +42,14 @@ export default function RecipeList() {
             } else {
               setFilteredRecipes([]);
             }
+            setLoading(false)
           } else {
             if(state)
             // Si aucun slug n'est présent, afficher toutes les recettes
             setFilteredRecipes(state.recipes);
           }
 
-          // Mettre à jour l'état de chargement
-          setLoading(false);
-        } catch (error) {
-          console.error("Failed to fetch recipes:", error);
-          setLoading(false);
-          setFilteredRecipes([]);
-        }
-      };
-
-      // Appeler la fonction fetchRecipes au chargement initial et chaque fois que le slug change
-      fetchRecipes();
-    }
-  }, [slug, context, state]); // Dépendance au changement du slug et du contexte
+  }, [slug, state]); // Dépendance au changement du slug et du contexte
 
   // Afficher un message de chargement pendant le chargement des données
   if (loading) {
@@ -87,3 +77,4 @@ export default function RecipeList() {
     </section>
   );
 }
+export default RecipeList
