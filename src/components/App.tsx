@@ -1,7 +1,10 @@
 import { NavLink } from "react-router-dom";
 import FavoriteIcone from "./FavoriteIcone";
-import { State } from "../interfaces/useReducer";
+import Recette from "../interfaces/recette";
 
+interface State {
+  recipes: Recette[];
+}
 interface StateProps{
   state: State,
 }
