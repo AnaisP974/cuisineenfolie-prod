@@ -17,24 +17,65 @@ const RecipeForm: React.FC<FormProps> = ({ onSubmit }) => {
   const [portions, setPortions] = useState<string>('');
   const [advice, setAdvice] = useState<string>('');
   const [category, setCategory] = useState<string>('');
-  const [preparationTime, setPreparationTime] = useState<string>("");
+  const [preparationTime, setPreparationTime] = useState<number|null>(null);
   const [type, setType] = useState<string>('');
-  const [image, setImage] = useState<File | null>(null);
+  const [image, setImage] = useState<string>('');
   const [ingredients, setIngredients] = useState<Ingredient[]>([{ ingredient: '', quantity: '' }]);
   const [steps, setSteps] = useState<string[]>(['']);
 
-const handleInputChange = (setter: React.Dispatch<React.SetStateAction<string>>) => (
-  event: ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>
-) => {
-  setter(event.target.value);
+  const onChange = (event: ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
+    const { name, value } = event.target;
+    switch (name) {
+      case 'title':
+        setTitle(value);
+        break;
+      case 'description':
+        setDescription(value);
+        break;
+      case 'portions':
+        setPortions(value);
+        break;
+      case 'advice':
+        setAdvice(value);
+        break;
+      case 'preparation_time':
+        setPreparationTime(Number(value));
+        break;
+      case 'category':
+        setCategory(value);
+        break;
+      case 'type':
+        setType(value);
+        break;
+      case 'image':
+        setImage(value);
+        break;
+      default:
+        break;
+    }
+  };
+
+  const handleSubmit = (event: React.FormEvent) => {
+    event.preventDefault();
+    const user = localStorage.getItem('RGPD');
+    const newRecipe: Recette = {
+        id: Date.now(), // Utilisez Date.now() pour générer un identifiant unique pour la nouvelle recette
+        title,
+        description,
+        portions,
+        advice,
+        preparation_time: preparationTime !== null ? preparationTime : 0, // Assurez-vous que c'est un number
+        category,
+        type,
+        image,
+        ingredients,
+        steps,
+        CreatedBy: user || 'CEF',
+    };
+    onSubmit(newRecipe);
 };
 
 
-  const handleImageChange = (event: ChangeEvent<HTMLInputElement>) => {
-    if (event.target.files && event.target.files[0]) {
-      setImage(event.target.files[0]);
-    }
-  };
 
   const handleIngredientChange = (index: number, field: keyof Ingredient, value: string) => {
     const newIngredients = [...ingredients];
@@ -51,13 +92,13 @@ const handleInputChange = (setter: React.Dispatch<React.SetStateAction<string>>)
     setIngredients(newIngredients);
   };
 
-const handleStepChange = (index: number) => (
-  event: ChangeEvent<HTMLTextAreaElement>
-) => {
-  const newSteps = [...steps];
-  newSteps[index] = event.target.value;
-  setSteps(newSteps);
-};
+  const handleStepChange = (index: number) => (
+    event: ChangeEvent<HTMLTextAreaElement>
+  ) => {
+    const newSteps = [...steps];
+    newSteps[index] = event.target.value;
+    setSteps(newSteps);
+  };
 
   const addStep = () => {
     setSteps([...steps, '']);
@@ -66,26 +107,6 @@ const handleStepChange = (index: number) => (
   const removeStep = (index: number) => {
     const newSteps = steps.filter((_, i) => i !== index);
     setSteps(newSteps);
-  };
-
-  const handleSubmit = (event: React.FormEvent) => {
-    event.preventDefault();
-    const user = localStorage.getItem('RGPD');
-    const newRecipe: Recette = {
-      id: Date.now(),
-      title,
-      description,
-      image: image ? URL.createObjectURL(image) : '',
-      preparation_time: Number(preparationTime),
-      category,
-      type,
-      ingredients,
-      steps,
-      portions,
-      advice,
-      CreatedBy: (user||'CEF'),
-    };
-    onSubmit(newRecipe);
   };
 
   return (
@@ -99,28 +120,28 @@ const handleStepChange = (index: number) => (
               label="Titre" 
               type="text" 
               value={title} 
-              onChange={handleInputChange(setTitle)} 
+              onChange={onChange} 
             />
             <InputForm 
               name="description" 
               label="Description" 
               type="text" 
               value={description} 
-              onChange={handleInputChange(setDescription)} 
+              onChange={onChange} 
             />
             <InputForm 
               name="portions" 
               label="Portions" 
               type="text" 
               value={portions} 
-              onChange={handleInputChange(setPortions)} 
+              onChange={onChange} 
             />
             <InputForm 
               name="advice" 
               label="Conseils" 
               type="text" 
               value={advice} 
-              onChange={handleInputChange(setAdvice)} 
+              onChange={onChange} 
             />
 
             <div>
@@ -129,7 +150,7 @@ const handleStepChange = (index: number) => (
                 name="category"
                 id="category"
                 value={category}
-                onChange={handleInputChange(setCategory)}
+                onChange={onChange}
                 className="block w-full px-4 py-2 mt-2 text-gray-700 bg-white border border-gray-300 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-slate-500 dark:focus:border-slate-500 focus:outline-none focus:ring"
               >
                 <option value={""}>--- choisir ---</option>
@@ -143,8 +164,8 @@ const handleStepChange = (index: number) => (
               name="preparation_time" 
               label="Temps de préparation en minutes" 
               type="text" 
-              value={preparationTime} 
-              onChange={handleInputChange(setPreparationTime)} 
+              value={preparationTime !== null ? preparationTime.toString() : ''} 
+              onChange={onChange} 
             />
 
             <div>
@@ -153,7 +174,7 @@ const handleStepChange = (index: number) => (
                 name="type"
                 id="type"
                 value={type}
-                onChange={handleInputChange(setType)}
+                onChange={onChange}
                 className="block w-full px-4 py-2 mt-2 text-gray-700 bg-white border border-gray-300 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-slate-500 dark:focus:border-slate-500 focus:outline-none focus:ring"
               >
                 <option value={""}>--- choisir ---</option>
@@ -170,44 +191,13 @@ const handleStepChange = (index: number) => (
               </select>
             </div>
 
-            <div>
-              <label className="block text-sm font-medium">Image</label>
-              <div className="flex justify-center px-6 pt-5 pb-6 mt-1 border-2 border-gray-300 border-dashed rounded-md">
-                <div className="space-y-1 text-center">
-                  <svg
-                    className="w-12 h-12 mx-auto"
-                    stroke="currentColor"
-                    fill="none"
-                    viewBox="0 0 48 48"
-                    aria-hidden="true"
-                  >
-                    <path
-                      d="M28 8H12a4 4 0 00-4 4v20m32-12v8m0 0v8a4 4 0 01-4 4H12a4 4 0 01-4-4v-4m32-4l-3.172-3.172a4 4 0 00-5.656 0L28 28M8 32l9.172-9.172a4 4 0 015.656 0L28 28m0 0l4 4m4-24h8m-4-4v8m-12 4h.02"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                  </svg>
-                  <div className="flex text-sm text-gray-600">
-                    <label
-                      htmlFor="image"
-                      className="relative font-medium text-indigo-600 bg-white rounded-md cursor-pointer hover:text-indigo-500 focus-within:outline-none focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500"
-                    >
-                      <span>Upload a file</span>
-                      <input
-                        id="image"
-                        name="image"
-                        type="file"
-                        className="sr-only"
-                        onChange={handleImageChange}
-                      />
-                    </label>
-                    <p className="pl-1">or drag and drop</p>
-                  </div>
-                  <p className="text-xs">PNG ou JPG</p>
-                </div>
-              </div>
-            </div>
+            <InputForm 
+              name="image" 
+              label="Image URL" 
+              type="text" 
+              value={image} 
+              onChange={onChange} 
+            />
           </div>
 
           {/* Ingrédients */}
@@ -282,7 +272,7 @@ const handleStepChange = (index: number) => (
           <div className="flex justify-end mt-6">
             <button
               type="submit"
-              className="px-4 py-2 leading-5 transition-colors duration-200 transform bg-green-500 rounded-md x-6 hover:bg-green-700 focus:outline-none focus:bg-gray-600 text-slate-100"
+              className="btnBack btn"
             >
               Enregistrer
             </button>
@@ -291,6 +281,6 @@ const handleStepChange = (index: number) => (
       </section>
     </section>
   );
-}
+};
 
 export default RecipeForm;

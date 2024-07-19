@@ -1,78 +1,89 @@
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { NavLink, useParams } from "react-router-dom";
 import Recette from "../interfaces/recette";
-import { getAllRecipes } from "../function/getAll";
 import FavoriteIcone from "./FavoriteIcone";
+import { RecipeContext } from "../context/RecipeContext";
 
 export default function RecipeList() {
+  // Utiliser useContext pour accéder au contexte RecipeContext
+  const context = useContext(RecipeContext);
 
-  const [loading, setLoading] = useState(true); // État pour gérer le chargement des données
-  const [filteredRecipes, setFilteredRecipes] = useState<Recette[]>([]); // État pour stocker les recettes filtrées
-  const { slug } = useParams<{ slug: string }>(); // Récupérer le slug depuis les paramètres d'URL
-    
+  // Récupérer le slug depuis les paramètres d'URL
+  const { slug } = useParams<{ slug: string }>();
+
+  // État local pour gérer le chargement des données
+  const [loading, setLoading] = useState(true);
+
+  // État local pour stocker les recettes filtrées
+  const [filteredRecipes, setFilteredRecipes] = useState<Recette[]>([]);
+
+  // Extraire l'état du contexte (si le contexte est défini)
+  const state = context?.state;
+
+  // Effet pour charger les recettes initiales et gérer les filtres
   useEffect(() => {
-    // Effet pour charger les recettes initiales et gérer les filtres
-    const fetchRecipes = async () => {
-      try {
-        // Récupérer toutes les recettes
-        const data = await getAllRecipes();
-        
-        setLoading(false); // Mettre à jour l'état de chargement une fois que les données sont récupérées
-
-        // Filtrer les recettes selon le slug (catégorie ou type ou si inclus dans un titre)
-        if (slug) {
-          const filterByCategory = data.filter((recipe: Recette) => recipe.category === slug);
-          const filteredByType = data.filter((recipe: Recette) => recipe.type === slug);
-          const filteredByTitle = data.filter((recipe: Recette) => recipe.title.toLowerCase().includes(slug))
-          
-            console.log(filteredByTitle);
+    if (context) {
+      const fetchRecipes = async () => {
+        try {
+          // Filtrer les recettes selon le slug (catégorie, type ou titre)
+          if (slug && state) {
+            const filterByCategory = state.recipes.filter((recipe: Recette) => recipe.category === slug);
+            const filteredByType = state.recipes.filter((recipe: Recette) => recipe.type === slug);
+            const filteredByTitle = state.recipes.filter((recipe: Recette) => recipe.title.toLowerCase().includes(slug.toLowerCase()));
             
-          if (filterByCategory.length > 0) {
-            setFilteredRecipes(filterByCategory); // Mettre à jour les recettes filtrées si elles correspondent à la catégorie
-          } else if (filteredByType.length > 0) {
-            setFilteredRecipes(filteredByType); // Mettre à jour les recettes filtrées si elles correspondent au type
-          } else if (filteredByTitle.length > 0) {
-            setFilteredRecipes(filteredByTitle); // Mettre à jour les recettes filtrées si elles correspondent au type
+            // Mettre à jour les recettes filtrées selon la correspondance trouvée
+            if (filterByCategory.length > 0) {
+              setFilteredRecipes(filterByCategory);
+            } else if (filteredByType.length > 0) {
+              setFilteredRecipes(filteredByType);
+            } else if (filteredByTitle.length > 0) {
+              setFilteredRecipes(filteredByTitle);
+            } else {
+              setFilteredRecipes([]);
+            }
           } else {
-            setFilteredRecipes([]); // Aucune correspondance trouvée, mettre à jour les recettes filtrées à vide
+            if(state)
+            // Si aucun slug n'est présent, afficher toutes les recettes
+            setFilteredRecipes(state.recipes);
           }
-        } else {
-          // Si aucun slug n'est présent, afficher toutes les recettes
-          setFilteredRecipes(data);
+
+          // Mettre à jour l'état de chargement
+          setLoading(false);
+        } catch (error) {
+          console.error("Failed to fetch recipes:", error);
+          setLoading(false);
+          setFilteredRecipes([]);
         }
-      } catch (error) {
-        console.error("Failed to fetch recipes:", error);
-        setLoading(false); // Mettre à jour l'état de chargement en cas d'erreur
-        setFilteredRecipes([]); // Mettre à jour les recettes filtrées à vide en cas d'erreur
-      }
-    };
+      };
 
-    fetchRecipes(); // Appeler la fonction fetchRecipes au chargement initial et chaque fois que le slug change
-  }, [slug]); // Dépendance au changement du slug pour recharger les recettes filtrées
+      // Appeler la fonction fetchRecipes au chargement initial et chaque fois que le slug change
+      fetchRecipes();
+    }
+  }, [slug, context, state]); // Dépendance au changement du slug et du contexte
 
+  // Afficher un message de chargement pendant le chargement des données
   if (loading) {
-    return <div>Loading...</div>; // Afficher un message de chargement pendant le chargement des données
+    return <div>Loading...</div>;
   }
-
   return (
     <section id="content">
-        <h1 className="mt-3 text-3xl">Résultat de votre recherche : "<span>{slug}</span>"</h1>
-        <div className="flex flex-wrap justify-center w-full">
-            {filteredRecipes.map((recipe) => (
-                <div className="card">
-                  <FavoriteIcone recipe={recipe} />
-                  <NavLink to={"/show/" + recipe.id} key={recipe.id}>
-                      <figure>
-                          <img src={recipe.image} alt={recipe.title} />
-                      </figure>
-                      <div className="body-card">
-                          <h5>{recipe.title}</h5>
-                          <p>{recipe.preparation_time} min.</p>
-                      </div>
-                  </NavLink>
-                </div>
-            ))}
-        </div>
+      <h1 className="mt-3 text-3xl">Résultat de votre recherche : "<span>{slug}</span>"</h1>
+      <div className="flex flex-wrap justify-center w-full">
+        {filteredRecipes.map((recipe) => (
+          <div className="card" key={recipe.id}>
+            <FavoriteIcone recipe={recipe} />
+            <NavLink to={"/show/" + recipe.id}>
+              <figure>
+                <img src={recipe.image} alt={recipe.title} />
+              </figure>
+              <div className="body-card">
+                <h5>{recipe.title}</h5>
+                <p>{recipe.preparation_time} min.</p>
+              </div>
+            </NavLink>
+          </div>
+        ))}
+      </div>
     </section>
   );
 }

@@ -1,36 +1,20 @@
-import { useState, useEffect } from "react";
-import Recette from '../interfaces/recette';
-import { getAllRecipes } from "../function/getAll";
 import { NavLink } from "react-router-dom";
 import FavoriteIcone from "./FavoriteIcone";
+import Recette from "../interfaces/recette";
 
-export default function App() {
-  const [recipes, setRecipes] = useState<Recette[]>([]);
-  const [loading, setLoading] = useState(true);
+interface State {
+  recipes: Recette[];
+}
+interface StateProps{
+  state: State,
+}
 
-
-  /**
-   * Récupération de toutes les recettes de 'db.json'
-   */
-  useEffect(() => {
-    const fetchRecipes = async () => {
-      const data = await getAllRecipes();
-      setRecipes(data);
-      setLoading(false);
-    };
-    fetchRecipes();
-  }, []); // Le tableau vide [] signifie que l'effet s'exécute une seule fois après le premier rendu
-
-  // Si les recettes ne sont pas récupérées
-  if (loading) {
-    return <div>Loading...</div>;
-  }
-
+const App: React.FC<StateProps> = ({state}) =>{
   return (
     <section id="content">
       <h1 className="mt-3 mb-3 text-4xl text-center">Toutes les recettes de Cuisine En Folie</h1>
       <div className="flex flex-wrap justify-center w-full">
-        {recipes.map((recipe) => (
+        {state.recipes.map((recipe) => (
           <div className="card" key={recipe.id}>
             <FavoriteIcone recipe={recipe} />
             
@@ -49,3 +33,4 @@ export default function App() {
     </section>
   );
 }
+export default App
