@@ -1,47 +1,35 @@
+import React, { useContext } from 'react';
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import RecipeForm from "../components/RecipeForm";
 import Recette from "../interfaces/recette";
+import { RecipeContext } from '../context/RecipeContext';
 
-export default function CreateRecipe() {
-    const onSubmit = async (recipe: Recette) => {
-        try {
-            // Récupérer les recettes actuelles depuis db.json
-            const response = await fetch('/db.json');
-            if (!response.ok) {
-                throw new Error('Erreur lors de la récupération des recettes');
-            }
-            const data = await response.json();
+const CreateRecipe: React.FC = () => {
+    const context = useContext(RecipeContext);
 
-            // Ajouter la nouvelle recette à la liste existante
-            const newRecipeList = [...data.recettes, recipe];
+    if (!context) {
+        return <div>Loading...</div>;
+    }
 
-            // Mettre à jour db.json avec la nouvelle liste de recettes
-            const updateResponse = await fetch('/db.json', {
-                method: 'PUT',
-                headers: {
-                'Content-Type': 'application/json',
-                },
-                body: JSON.stringify({ ...data, recettes: newRecipeList }),
-            });
+    const { dispatch } = context;
 
-            if (!updateResponse.ok) {
-                throw new Error('Erreur lors de l\'enregistrement de la nouvelle recette');
-            }
-
-            alert('Nouvelle recette enregistrée avec succès');
-        } catch (error) {
-            console.error('Erreur :', error);
-            alert('Une erreur est survenue lors de l\'enregistrement de la recette');
-        }
+    const onSubmit = (recipe: Recette) => {
+        dispatch({ type: 'ADD_RECIPE', payload: recipe });
+        alert('Nouvelle recette enregistrée avec succès');
+        // Rediriger l'utilisateur vers la page d'accueil après la suppression
+        window.location.href = '/';
     };
-    return(
+
+    return (
         <>
-        <Header />
-        <main>
-        <RecipeForm onSubmit={onSubmit} />
-        </main>
-        <Footer />
+            <Header />
+            <main>
+                <RecipeForm onSubmit={onSubmit} />
+            </main>
+            <Footer />
         </>
-    )
-}
+    );
+};
+
+export default CreateRecipe;
