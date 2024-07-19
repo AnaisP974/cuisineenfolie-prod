@@ -20,3 +20,14 @@ export const isNumber = (number: number): boolean => {
     const regex = /^\d+$/;
     return regex.test(number.toString());
 };
+
+/**
+ * Vérifie si la chaîne passée en paramètre est une URL valide.
+ * @param url - La chaîne à vérifier.
+ * @returns true si la chaîne est une URL valide, sinon false.
+ */
+export const isValidUrl = (url: string): boolean => {
+    // Expression régulière pour valider une URL
+    const regex = /^(https?:\/\/)?([a-zA-Z0-9.-]+)\.([a-zA-Z]{2,})(\/[^\s]*)?$/;
+    return regex.test(url);
+};

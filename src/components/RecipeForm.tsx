@@ -2,7 +2,7 @@ import { useState, ChangeEvent, FormEvent, useContext } from 'react';
 import Recette, { Ingredient } from '../interfaces/recette';
 import InputForm from './InputForm';
 import { RecipeContext } from '../context/RecipeContext';
-import { isNumber, isStringValid } from '../function/regex';
+import { isNumber, isStringValid, isValidUrl } from '../function/regex';
 
 
 const RecipeForm = () => {
@@ -113,7 +113,7 @@ const RecipeForm = () => {
     if (!isNumber(preparationTime)) {
       newErrors.prepTime = 'Merci d\'insérer que des nombres';
     }
-    if (!isStringValid(image, 11, 255)) {
+    if (!isValidUrl(image)) {
       newErrors.image = 'Merci d\'insérer une URL valide';
     }
 
