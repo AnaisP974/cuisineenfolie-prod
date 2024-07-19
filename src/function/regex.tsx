@@ -17,7 +17,7 @@ export const isStringValid = (text: string, min: number, max: number): boolean =
  * @returns true si la chaîne contient uniquement des chiffres, sinon false.
  */
 export const isNumber = (number: number): boolean => {
-    const regex = /^\d+$/;
+    const regex = /^(?!0+$)\d+$/;
     return regex.test(number.toString());
 };
 
