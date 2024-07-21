@@ -18,7 +18,7 @@ git clone https://github.com/AnaisP974/cuisineenfolie-prod.git
 - Installer les dépendances avec:
 
 ```git
-npm installe
+npm install
 ```
 
 - Lancer tailwindCSS:
@@ -33,7 +33,7 @@ npm run tailwind
 npm run start
 ```
 
-## Organisation du projet et des composants
+## Fonctionnalités et composants
 
 ## Architecture du projet  
 
