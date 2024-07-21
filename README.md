@@ -1,6 +1,6 @@
 # Application de recettes de cuisine
 
-![Cuisine en folie](./images/cuisine_en_folie.png)
+![Cuisine en folie](./public/images/cuisine_en_folie.png)
 Application de recettes de cuisine en ReactJS pour l'interface utilisateur, TypeScript pour la gestion des types et états.
 Maquette réalisée sur Figma, design et mise en page avec css et TailwindCSS.
 
@@ -9,22 +9,29 @@ Maquette réalisée sur Figma, design et mise en page avec css et TailwindCSS.
 ## Instructions d'installation du projet
 
 - Vérifier que vous aillez une version à jour de node.js (version 20)
-- Cloner le dépôt GitHub
-'''
-git clone <https://github.com/AnaisP974/cuisineenfolie-prod.git>
-'''
+- Cloner le dépôt GitHub  
+
+```git
+git clone https://github.com/AnaisP974/cuisineenfolie-prod.git
+```
+
 - Installer les dépendances avec:
-'''
+
+```git
 npm installe
-'''
+```
+
 - Lancer tailwindCSS:
-'''
+
+```git
 npm run tailwind
-'''
+```
+
 - Lancer l'application en mode développement:
-'''
+
+```git
 npm run start
-'''
+```
 
 ## Organisation du projet et des composants
 
