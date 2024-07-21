@@ -1,6 +1,6 @@
 # Application de recettes de cuisine
 
-![Cuisine en folie](/images/cuisine_en_folie.png)
+![Cuisine en folie](./images/cuisine_en_folie.png)
 Application de recettes de cuisine en ReactJS pour l'interface utilisateur, TypeScript pour la gestion des types et états.
 Maquette réalisée sur Figma, design et mise en page avec css et TailwindCSS.
 
