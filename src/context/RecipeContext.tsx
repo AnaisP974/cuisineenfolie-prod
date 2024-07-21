@@ -1,5 +1,5 @@
 import { createContext, useReducer, ReactNode, Dispatch, useEffect } from 'react';
-import { AddRecipeAction, LoadRecipesAction, RemoveRecipeAction, UpdateRecipeAction } from '../interfaces/useReducer';
+import { AddRecipeAction, LoadRecipesAction, RemoveRecipeAction } from '../interfaces/useReducer';
 import { getAllRecipes } from '../function/getAll';
 import Recette from '../interfaces/recette';
 
@@ -9,7 +9,7 @@ interface State {
 }
 
 // Définition des types d'action
-type Action = AddRecipeAction | RemoveRecipeAction | UpdateRecipeAction | LoadRecipesAction;
+type Action = AddRecipeAction | RemoveRecipeAction | LoadRecipesAction;
 
 // Réducteur pour gérer les actions
 const reducer = (state: State, action: Action): State => {
@@ -23,13 +23,6 @@ const reducer = (state: State, action: Action): State => {
       return {
         ...state,
         recipes: state.recipes.filter(recipe => recipe.id !== action.payload),
-      };
-    case 'UPDATE_RECIPE':
-      return {
-        ...state,
-        recipes: state.recipes.map(recipe =>
-          recipe.id === action.payload.id ? action.payload : recipe
-        ),
       };
     case 'LOAD_RECIPES':
       return {
@@ -68,6 +61,7 @@ const RecipeProvider = ({ children }: { children: ReactNode }) => {
     fetchRecipes();
   }, []);
 
+  // Retourne le fournisseur de contexte avec l'état et le dispatch, enveloppant les enfants.
   return (
     <RecipeContext.Provider value={{ state, dispatch }}>
       {children}

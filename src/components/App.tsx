@@ -1,15 +1,21 @@
 import { NavLink } from "react-router-dom";
 import FavoriteIcone from "./FavoriteIcone";
-import Recette from "../interfaces/recette";
+import React, { useContext } from 'react';
+import { RecipeContext } from '../context/RecipeContext';
 
-interface State {
-  recipes: Recette[];
-}
-interface StateProps{
-  state: State,
-}
 
-const App: React.FC<StateProps> = ({state}) =>{
+const App: React.FC = () => {
+  // accéder aux données du contexte RecipeContext
+  const context = useContext(RecipeContext);
+
+  // Si pas de context returner null
+  if (!context) {
+    return null;
+  }
+
+  // Récupérer l'état du context
+  const { state } = context;
+  
   return (
     <section id="content">
       <h1 className="mt-3 mb-3 text-4xl text-center">Toutes les recettes de Cuisine En Folie</h1>
