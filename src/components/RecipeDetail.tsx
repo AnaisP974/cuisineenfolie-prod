@@ -64,7 +64,7 @@ export default function RecipeDetail() {
             }
 
             // Rediriger l'utilisateur vers la page d'accueil après la suppression
-            window.location.href = '/';
+            // window.location.href = '/';
         }
     };
     

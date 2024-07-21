@@ -16,6 +16,7 @@ export default function Header() {
             console.log("Input not found");
         }
     }
+    
     return (
         <header className="p-8">
             <nav>
@@ -28,6 +29,7 @@ export default function Header() {
                     <input className="input_header" type="text" name="search" id="search" placeholder="Rechercher une recette" />
                     <button className="btn-submit_header" type="submit"><img className="icone-w-30" src="../images/icone_search.png" alt="lancer la recherche" /></button>
                 </form>
+                
                 <div className="flex gap-6">
                     <NavLink to={"/new"}>
                         <button className="flex items-center btn"><img className="icone-w-30" src="../images/icone_more.png" alt="lancer la recherche" /> Créer</button>

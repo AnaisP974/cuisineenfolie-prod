@@ -23,6 +23,7 @@ const getAllRecipes = async () => {
         return alert("Échec du fetch");
     }
 };
+
 /**
 * Récupère et renvoi tous les types de 'db.json'
 */
@@ -35,4 +36,5 @@ const getAllTypes = async () => {
         return alert("Échec du fetch");
     }
 };
+
 export {getAllRecipes, getAllCategories, getAllTypes}

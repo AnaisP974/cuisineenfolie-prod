@@ -11,50 +11,39 @@ interface StateProps{
 }
 
 const RecipeList: React.FC<StateProps> = ({state}) => {
-  
-
-  // Récupérer le slug depuis les paramètres d'URL
   const { slug } = useParams<{ slug: string }>();
-
-  // État local pour gérer le chargement des données
   const [loading, setLoading] = useState(true);
-
-  // État local pour stocker les recettes filtrées
   const [filteredRecipes, setFilteredRecipes] = useState<Recette[]>([]);
 
 
-  // Effet pour charger les recettes initiales et gérer les filtres
+  // Récupérer les recettes filtrées par le slug
   useEffect(() => {
     if (slug && state.recipes) {
-          // Filtrer les recettes selon le slug (catégorie, type ou titre)
-          
-            const filterByCategory = state.recipes.filter((recipe: Recette) => recipe.category === slug);
-            const filteredByType = state.recipes.filter((recipe: Recette) => recipe.type === slug);
-            const filteredByTitle = state.recipes.filter((recipe: Recette) => recipe.title.toLowerCase().includes(slug.toLowerCase()));
-            
-            // Mettre à jour les recettes filtrées selon la correspondance trouvée
-            if (filterByCategory.length > 0) {
-              setFilteredRecipes(filterByCategory);
-            } else if (filteredByType.length > 0) {
-              setFilteredRecipes(filteredByType);
-            } else if (filteredByTitle.length > 0) {
-              setFilteredRecipes(filteredByTitle);
-            } else {
-              setFilteredRecipes([]);
-            }
-            setLoading(false)
-          } else {
-            if(state)
-            // Si aucun slug n'est présent, afficher toutes les recettes
-            setFilteredRecipes(state.recipes);
-          }
-
+      // Filtrer les recettes selon le slug (catégorie, type ou titre)
+      const filterByCategory = state.recipes.filter((recipe: Recette) => recipe.category === slug);
+      const filteredByType = state.recipes.filter((recipe: Recette) => recipe.type === slug);
+      const filteredByTitle = state.recipes.filter((recipe: Recette) => recipe.title.toLowerCase().includes(slug.toLowerCase()));
+      
+      // Mettre à jour les recettes filtrées selon la correspondance trouvée
+      if (filterByCategory.length > 0) {
+        setFilteredRecipes(filterByCategory);
+      } else if (filteredByType.length > 0) {
+        setFilteredRecipes(filteredByType);
+      } else if (filteredByTitle.length > 0) {
+        setFilteredRecipes(filteredByTitle);
+      } else {
+        setFilteredRecipes([]);
+      }
+      setLoading(false)
+      
+    } 
   }, [slug, state]); // Dépendance au changement du slug et du contexte
 
   // Afficher un message de chargement pendant le chargement des données
   if (loading) {
     return <div>Loading...</div>;
   }
+  
   return (
     <section id="content">
       <h1 className="mt-3 text-3xl">Résultat de votre recherche : "<span>{slug}</span>"</h1>

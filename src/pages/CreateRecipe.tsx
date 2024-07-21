@@ -4,7 +4,6 @@ import RecipeForm from "../components/RecipeForm";
 
 const CreateRecipe = () => {
 
-
     return (
         <>
             <Header />

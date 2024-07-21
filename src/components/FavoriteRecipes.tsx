@@ -10,14 +10,16 @@ export default function FavoriteRecipes() {
      * Récupération du tableau d'objet de favoris dans le localStorage 
      */
     useEffect(() => {
-        const favoritesFromStorage = localStorage.getItem("favorites");
-        if (favoritesFromStorage) {
-        setFavorites(JSON.parse(favoritesFromStorage));
+        const favoritesStorage = localStorage.getItem("favorites");
+        if (favoritesStorage) {
+        setFavorites(JSON.parse(favoritesStorage));
         }
     }, []);
+
     return (
         <section id="content">
         <h1 className="mt-3 mb-3 text-3xl">Mes favoris :</h1>
+        {/* Message d'erreur si aucune recette trouvée en favoris */}
         {favorites.length==0 && "Aucune recette selectionnée pour le moment"}
         <div className="flex flex-wrap justify-center w-full">
             {favorites.map((recipe) => (

@@ -18,13 +18,7 @@ const RecipeForm = () => {
   const [image, setImage] = useState<string>('');
   const [ingredients, setIngredients] = useState<Ingredient[]>([{ ingredient: '', quantity: '' }]);
   const [steps, setSteps] = useState<string[]>(['']);
-  // const [titleError, setTitleError] = useState<string>("");
-  // const [descError, setDescError] = useState<string>("");
-  // const [portionError, setPortionError] = useState<string>("");
-  // const [adviceError, setAdviceError] = useState<string>("");
-  // const [categoryError, setCategoryError] = useState<string>("");
-  // const [prepTimeError, setPrepTimeError] = useState<string>("");
-  // const [imageError, setImageError] = useState<string>("");
+  
   const [errors, setErrors] = useState({
     title: '',
     description: '',
@@ -146,7 +140,8 @@ const RecipeForm = () => {
       alert('Nouvelle recette enregistrée avec succès');
     }
   };
-
+  
+  //-----------    INGREDIENTS    -------------
   const handleIngredientChange = (index: number, field: keyof Ingredient, value: string) => {
     const newIngredients = [...ingredients];
     newIngredients[index][field] = value;
@@ -162,6 +157,7 @@ const RecipeForm = () => {
     setIngredients(newIngredients);
   };
 
+  //-----------    Etapes    -------------
   const handleStepChange = (index: number) => (event: ChangeEvent<HTMLTextAreaElement>) => {
     const newSteps = [...steps];
     newSteps[index] = event.target.value;

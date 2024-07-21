@@ -4,7 +4,6 @@ import RecipeDetail from "../components/RecipeDetail";
 
 function Detail() {
   
-
   return (
     <>
     <Header />

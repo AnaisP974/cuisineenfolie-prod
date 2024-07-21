@@ -3,10 +3,7 @@ import Footer from "../components/Footer";
 import FavoriteRecipes from "../components/FavoriteRecipes";
 
 
-
 function Favorite() {
-
-
   return (
     <>
     <Header />

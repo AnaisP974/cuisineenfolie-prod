@@ -1,20 +1,21 @@
 import { useEffect, useState } from 'react';
 import { NavLink, useParams } from 'react-router-dom';
-import { Filter } from '../interfaces/FilterButton';
 import { getAllCategories, getAllTypes } from '../function/getAll';
 
+interface Filter{
+    id: number;
+    name: string;
+    slug: string;
+}
 
 export default function Aside() {
   const [allCategories, setAllCategories] = useState<Filter[]>([]);
   const [allTypes, setAllTypes] = useState<Filter[]>([])
-  const {slug} = useParams<{ slug: string }>();
   const [loading, setLoading] = useState(true);
-
-
-
+  const {slug} = useParams<{ slug: string }>();
 
   /**
-   * Lancer la récupération de toutes les catégories et de toutes les recettes
+   * Lancer la récupération de toutes les catégories et de tous les types
    */
   useEffect(() => {
     const fetchFilters = async () => {
@@ -23,8 +24,7 @@ export default function Aside() {
         setAllTypes(await getAllTypes());
         setLoading(false);
       }catch (error) {
-        console.error("Failed to fetch recipes:", error);
-        setLoading(false);
+        console.error("Echec d'accès aux données catégories et types: ", error);
       }
     }
     fetchFilters();
