@@ -8,7 +8,12 @@ Maquette réalisée sur Figma, design et mise en page avec css et TailwindCSS.
 
 ## Instructions d'installation du projet
 
-- Vérifier que vous aillez une version à jour de node.js (version 20)
+- Vérifier que vous aillez une version à jour de node.js (version 20)  
+
+```git
+node -v
+```  
+
 - Cloner le dépôt GitHub  
 
 ```git
@@ -68,7 +73,5 @@ npm run start
     - Vérifié si la recette supprimée fait partie des favoris de l'utilisateur.
 
 ![Organisation des composants](./public/images/organisation_composants.png)  
-
-## Explication des choix techniques  
 
 ![Organisation des fichiers](./public/images/organisation_fichiers.png)  
