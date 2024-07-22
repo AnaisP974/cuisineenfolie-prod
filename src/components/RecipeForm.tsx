@@ -135,7 +135,7 @@ const RecipeForm = () => {
         steps,
         CreatedBy: user || 'CEF',
       };
-      console.log('NOUVELLE RECETTE', newRecipe);
+      // console.log('NOUVELLE RECETTE', newRecipe);
       dispatch({ type: 'ADD_RECIPE', payload: newRecipe });
       alert('Nouvelle recette enregistrée avec succès');
     }

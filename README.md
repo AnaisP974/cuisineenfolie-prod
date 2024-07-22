@@ -35,6 +35,9 @@ npm run start
 
 ## Fonctionnalités et composants
 
+![Organisation des composants](./public/images/organisation_composants.png)  
+![Organisation des fichiers](./public/images/organisation_fichiers.png)  
+
 ## Architecture du projet  
 
 ## Explication des choix techniques  
